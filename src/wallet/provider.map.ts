@@ -1,0 +1,4 @@
+export const providerMap = {
+  TRANSACTION_REPO: 'TRANSACTION_REPOSITORY',
+  WALLET_REPO: 'WALLET_REPOSITORY',
+};
