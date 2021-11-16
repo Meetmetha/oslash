@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+import { MeiliSearchModule } from 'nestjs-meilisearch';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { IntroModule } from './Intro'
 import config from '@config/index';

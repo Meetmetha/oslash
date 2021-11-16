@@ -9,6 +9,8 @@ import { removeShortcut } from '../Validator/removeShortcut';
 import { BaseValidator } from '@libs/core/validator';
 import { ValidationFailed } from '@libs/core/exceptions'
 import { HttpAdapterHost } from '@nestjs/core';
+import { Meili } from '../utils'
+require('dotenv').config();
 
 @Injectable()
 export class ShortcutService {
@@ -20,22 +22,35 @@ export class ShortcutService {
   ) {}
 
   async getUserShortcut(user: Record<string, any>, inputs: Record<string, any>): Promise<Record<string, any>> {
-    const usershortcuts = await this.Shortcuts.getWhere({ user: user._id}, false);
-    if(!usershortcuts){
-      throw new BadRequestException("User haven't created any shortcuts yet");
+    if (inputs.search == '' || inputs.search == undefined) {
+      const usershortcuts = await this.Shortcuts.getWhere({ user: user._id }, false);
+      if (!usershortcuts) {
+        throw new BadRequestException("User haven't created any shortcuts yet");
+      }
+      return usershortcuts;
+    }else{
+      const search = await Meili.searchShortcut(inputs.search, user._id);
+      if(search == '' || search == undefined){
+        return []
+      }
+      return search.hits;
     }
-    return usershortcuts;
   }
 
   async addShortcut(user,inputs: Record<string, any>): Promise<any> {
     await this.validator.fire(inputs, addShortcut);
-    return await this.Shortcuts.create({
+    const shortcutData = await this.Shortcuts.create({
       user: user._id,
       shortlink: inputs.shortlink,
       url: inputs.url,
       description: inputs.description,
       tags: inputs.tags,
     });
+    const newShortcutArray = [];
+    newShortcutArray.push(shortcutData);
+    await Meili.addShortcut(newShortcutArray);
+    
+
   }
 
   async removeShortcut(user,inputs: Record<string, any>): Promise<any> {
@@ -45,6 +60,7 @@ export class ShortcutService {
       throw new BadRequestException("No shortcut Exists with this ID");
     }
     const Shortcutremoval = await this.Shortcuts.deleteWhere({_id: inputs.shortcutid});
+    await Meili.deleteShortcut(inputs.shortcutid);
     return Shortcutremoval
   }
 }

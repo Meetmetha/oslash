@@ -1,2 +1,7 @@
-declare const _default: (() => {}) & import("@nestjs/config").ConfigFactoryKeyHost;
+declare const _default: (() => {
+    meilisearch: {
+        host: string;
+        apiKey: string;
+    };
+}) & import("@nestjs/config").ConfigFactoryKeyHost;
 export default _default;

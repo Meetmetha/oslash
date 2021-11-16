@@ -3472,8 +3472,8 @@
         "affectsGlobalScope": false
       },
       "../config/services.ts": {
-        "version": "8810c7865d84acb7fe04a1840d6a427b52fbc6454da9aed42a4be797c94fc813",
-        "signature": "d976f4b17c731c43f4a2ea93f638c793729af50fa700440a85a3611171d18730",
+        "version": "38d0197e0cb5165fcabe2210e3ba908505d7eec1950a03c9e45e62ed4dd784d0",
+        "signature": "88f2ba41edeb1b5bd2ac07ee9f08a97ddb6e989382336ff06d6f2e3ac1bd3829",
         "affectsGlobalScope": false
       },
       "../config/index.ts": {
@@ -3484,6 +3484,131 @@
       "../libs/core/src/db/repositories/index.ts": {
         "version": "3418314372b8fa9862f2a8d20a39e039f2b136ab9c0d9708d6036c89ba639f46",
         "signature": "fe9f9ef600fff86f7c710b9dbd4fa65eb032f2033d34b1de7c586d706f34af86",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/constants/index.d.ts": {
+        "version": "dd927928eee250fb13f52a80e6932c21e79cffd5eed673391e65705deb3913a7",
+        "signature": "dd927928eee250fb13f52a80e6932c21e79cffd5eed673391e65705deb3913a7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/types/types.d.ts": {
+        "version": "76d3596648433e80d7973df2dc7df2119d80dba949f0a3c727a0b166a85604a2",
+        "signature": "76d3596648433e80d7973df2dc7df2119d80dba949f0a3c727a0b166a85604a2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/types/index.d.ts": {
+        "version": "c9ddd6c395ca5d4ef412b2f3827ef58cabe89086a28ba4a64508eb38c9755ca7",
+        "signature": "c9ddd6c395ca5d4ef412b2f3827ef58cabe89086a28ba4a64508eb38c9755ca7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/errors/http-error-handler.d.ts": {
+        "version": "32b31dd6bfe9a1e7602eaca5de17ffdae076b6b3209c429a0f4ff754fcf23dce",
+        "signature": "32b31dd6bfe9a1e7602eaca5de17ffdae076b6b3209c429a0f4ff754fcf23dce",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-api-error.d.ts": {
+        "version": "cbe60a8e68102ab36e7c606c56dc61cd658c258a9ce98ed540ae550803f2fbc4",
+        "signature": "cbe60a8e68102ab36e7c606c56dc61cd658c258a9ce98ed540ae550803f2fbc4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-communication-error.d.ts": {
+        "version": "172db572f46986a71ad3583fc441cd170676901c0d63537035743ce4eb57b45b",
+        "signature": "172db572f46986a71ad3583fc441cd170676901c0d63537035743ce4eb57b45b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-error.d.ts": {
+        "version": "7a0030e3155e394d56d46620d457acad39f406c856a2847d76b7f65300738353",
+        "signature": "7a0030e3155e394d56d46620d457acad39f406c856a2847d76b7f65300738353",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-timeout-error.d.ts": {
+        "version": "f796768d77dc9edd06345ed33d0cf6292fbeaeafc5994717801f6d6b24ee1297",
+        "signature": "f796768d77dc9edd06345ed33d0cf6292fbeaeafc5994717801f6d6b24ee1297",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/errors/index.d.ts": {
+        "version": "7dfa8b7af4d9ce5ad253cb64413531d56d2b2642a517d908d4f0f344d549bf43",
+        "signature": "7dfa8b7af4d9ce5ad253cb64413531d56d2b2642a517d908d4f0f344d549bf43",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts": {
+        "version": "59b35aeee5b578e80dc32deb62b73be7174a4b4fbd3b2391ac58157a66d37921",
+        "signature": "59b35aeee5b578e80dc32deb62b73be7174a4b4fbd3b2391ac58157a66d37921",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/lib/indexes.d.ts": {
+        "version": "556e12a1699afbe3f0715ce847502954ed21929dcc35a7b2176e0f8f1a45e1ee",
+        "signature": "556e12a1699afbe3f0715ce847502954ed21929dcc35a7b2176e0f8f1a45e1ee",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/lib/meilisearch.d.ts": {
+        "version": "bb57449ab202aeb2e9cb454fafe6aee090ffde195b0d0cb25bb3affd7a7ebe3b",
+        "signature": "bb57449ab202aeb2e9cb454fafe6aee090ffde195b0d0cb25bb3affd7a7ebe3b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/lib/utils.d.ts": {
+        "version": "493faa7bf384a76e64b11d3915b947c590e0d82e3084d753cdf69d828a1027fc",
+        "signature": "493faa7bf384a76e64b11d3915b947c590e0d82e3084d753cdf69d828a1027fc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/lib/index.d.ts": {
+        "version": "0ca684da9f745f83af7e40e2428a77d86d33df29f09115b070a86fd7243b5323",
+        "signature": "0ca684da9f745f83af7e40e2428a77d86d33df29f09115b070a86fd7243b5323",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/meilisearch/dist/types/index.d.ts": {
+        "version": "644398f11f50e3c8cd4b61953d934de7c07b48c2b8e9df94c596518ebecac823",
+        "signature": "644398f11f50e3c8cd4b61953d934de7c07b48c2b8e9df94c596518ebecac823",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/interfaces/meili-module-options.interface.d.ts": {
+        "version": "210923c2507a4e6257bc0a6a4710d6d8ed2977471776f2371d74564cc4572d00",
+        "signature": "210923c2507a4e6257bc0a6a4710d6d8ed2977471776f2371d74564cc4572d00",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts": {
+        "version": "affffd0c7ecdd69de3a438343a63a657e1e018a1b2ba77f1a2e30456ba8b2093",
+        "signature": "affffd0c7ecdd69de3a438343a63a657e1e018a1b2ba77f1a2e30456ba8b2093",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/decorators/inject-meilisearch.decorator.d.ts": {
+        "version": "5a0189deebfa0feeccac831a1b00c720e8d73dd7b72fc11cce36eae2a0acbbe8",
+        "signature": "5a0189deebfa0feeccac831a1b00c720e8d73dd7b72fc11cce36eae2a0acbbe8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/decorators/index.d.ts": {
+        "version": "9389e52148860b5e8c5ce377562b0bcc2564aed4c13765849226f8d8a1755336",
+        "signature": "9389e52148860b5e8c5ce377562b0bcc2564aed4c13765849226f8d8a1755336",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/providers/create-meilisearch.provider.d.ts": {
+        "version": "46b82a29648a92ad01514623ef903a37a9fc6ad30f41cc8678cf6ad962820f6b",
+        "signature": "46b82a29648a92ad01514623ef903a37a9fc6ad30f41cc8678cf6ad962820f6b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/providers/index.d.ts": {
+        "version": "40bd30945c9e3245196ac23dc49c9f77f1dbe8eebf5658d97583088bf46d467f",
+        "signature": "40bd30945c9e3245196ac23dc49c9f77f1dbe8eebf5658d97583088bf46d467f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/services/meilisearch.service.d.ts": {
+        "version": "03f5c4b6f80e0a4401213d2dd32b810f3f0429ebd3f6223f99a71d9ba5b795f3",
+        "signature": "03f5c4b6f80e0a4401213d2dd32b810f3f0429ebd3f6223f99a71d9ba5b795f3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/services/index.d.ts": {
+        "version": "3138c66d910b57f268aa73ddcd3ef37eaeed067f9af55f622d427e4c98494fa6",
+        "signature": "3138c66d910b57f268aa73ddcd3ef37eaeed067f9af55f622d427e4c98494fa6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/meilisearch.module.d.ts": {
+        "version": "b31a0674cf20179b4a7c0fe22d5f6afc4c9f0c9b35c502b9ed3587bfea900781",
+        "signature": "b31a0674cf20179b4a7c0fe22d5f6afc4c9f0c9b35c502b9ed3587bfea900781",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/nestjs-meilisearch/lib/index.d.ts": {
+        "version": "33cd42e4cd7064859732fed04a180c77eeaec93fa7d4467863b302cb09ad54fb",
+        "signature": "33cd42e4cd7064859732fed04a180c77eeaec93fa7d4467863b302cb09ad54fb",
         "affectsGlobalScope": false
       },
       "../src/intro/controllers/introcontroller.ts": {
@@ -3561,8 +3686,18 @@
         "signature": "41d708d1a82c36071ca7f3b8e5975a4955d1a81eb0245b13b933a353bc2b2522",
         "affectsGlobalScope": false
       },
+      "../src/shortcut/utils/meili.ts": {
+        "version": "efb8290d9e1ebd6f49f674a4baeed2d92f00ebaca533a85f9498d9b34c2704a1",
+        "signature": "d6834edf9f6b2e3b9e22e59add3002dac45747e7ff5ecfda3a94e520ddfd5e66",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/utils/index.ts": {
+        "version": "45b74e8043f9b90a54fe3f17faf30d9acee9df7de0dd9e89745fe5953a60b1e4",
+        "signature": "4f715808c3c2390f4128aa2ccba08b751805dea04db365004ce08a3be1c5d5b7",
+        "affectsGlobalScope": false
+      },
       "../src/shortcut/services/service.ts": {
-        "version": "7004abcb953d67b40062a1db56548eaebeb12dfd794a99efae186c6bcb365bb2",
+        "version": "9497e6616d8fddb41ad4590b52fd67770f95b530ec137e00d17c98fc40fc73f8",
         "signature": "0f3a2e3e1df212101d55516fc4e118db0488816959ad7f0ad5bc36d16ab7a14a",
         "affectsGlobalScope": false
       },
@@ -3867,7 +4002,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.ts": {
-        "version": "88f0cbfa93e2288018b2f73620faf6bb579f025d826d953eaae79ae99b3042c4",
+        "version": "e39c04cd30b9a4863e576ad4cc97d9669abe972d9fe784ba3adcd2dfc97dcff4",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -6215,6 +6350,85 @@
         "../node_modules/knex/types/tables.d.ts",
         "../node_modules/tarn/dist/tarn.d.ts"
       ],
+      "../node_modules/meilisearch/dist/types/errors/http-error-handler.d.ts": [
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/errors/index.d.ts": [
+        "../node_modules/meilisearch/dist/types/errors/http-error-handler.d.ts",
+        "../node_modules/meilisearch/dist/types/errors/meilisearch-api-error.d.ts",
+        "../node_modules/meilisearch/dist/types/errors/meilisearch-communication-error.d.ts",
+        "../node_modules/meilisearch/dist/types/errors/meilisearch-error.d.ts",
+        "../node_modules/meilisearch/dist/types/errors/meilisearch-timeout-error.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-api-error.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-communication-error.d.ts": [
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/index.d.ts": [
+        "../node_modules/meilisearch/dist/types/errors/index.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/index.d.ts",
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts": [
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/lib/index.d.ts": [
+        "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/indexes.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/meilisearch.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/utils.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/lib/indexes.d.ts": [
+        "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts",
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/lib/meilisearch.d.ts": [
+        "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/indexes.d.ts",
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/types/index.d.ts": [
+        "../node_modules/meilisearch/dist/types/types/types.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/decorators/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/decorators/inject-meilisearch.decorator.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/constants/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/decorators/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/meilisearch.module.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/providers/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/services/index.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/interfaces/meili-module-options.interface.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/interfaces/meili-module-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/meilisearch/dist/types/index.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/meilisearch.module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/providers/create-meilisearch.provider.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/meilisearch/dist/types/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/providers/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/providers/create-meilisearch.provider.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/services/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/services/meilisearch.service.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/services/meilisearch.service.d.ts": [
+        "../node_modules/meilisearch/dist/types/index.d.ts"
+      ],
       "../node_modules/objection/typings/objection/index.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/ajv/lib/ajv.d.ts",
@@ -7023,6 +7237,7 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/index.d.ts",
         "../src/auth/index.ts",
         "../src/intro/index.ts",
         "../src/shortcut/index.ts"
@@ -7189,6 +7404,7 @@
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/shortcut/provider.map.ts",
         "../src/shortcut/repositories/contracts/index.ts",
+        "../src/shortcut/utils/index.ts",
         "../src/shortcut/validator/addshortcut.ts",
         "../src/shortcut/validator/removeshortcut.ts"
       ],
@@ -7197,6 +7413,12 @@
       ],
       "../src/shortcut/transformer/index.ts": [
         "../src/shortcut/transformer/detail.ts"
+      ],
+      "../src/shortcut/utils/index.ts": [
+        "../src/shortcut/utils/meili.ts"
+      ],
+      "../src/shortcut/utils/meili.ts": [
+        "../node_modules/meilisearch/dist/types/index.d.ts"
       ],
       "../src/shortcut/validator/addshortcut.ts": [
         "../libs/core/src/validator/index.ts"
@@ -9221,6 +9443,85 @@
         "../node_modules/knex/types/tables.d.ts",
         "../node_modules/tarn/dist/tarn.d.ts"
       ],
+      "../node_modules/meilisearch/dist/types/errors/http-error-handler.d.ts": [
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/errors/index.d.ts": [
+        "../node_modules/meilisearch/dist/types/errors/http-error-handler.d.ts",
+        "../node_modules/meilisearch/dist/types/errors/meilisearch-api-error.d.ts",
+        "../node_modules/meilisearch/dist/types/errors/meilisearch-communication-error.d.ts",
+        "../node_modules/meilisearch/dist/types/errors/meilisearch-error.d.ts",
+        "../node_modules/meilisearch/dist/types/errors/meilisearch-timeout-error.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-api-error.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-communication-error.d.ts": [
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/index.d.ts": [
+        "../node_modules/meilisearch/dist/types/errors/index.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/index.d.ts",
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts": [
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/lib/index.d.ts": [
+        "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/indexes.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/meilisearch.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/utils.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/lib/indexes.d.ts": [
+        "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts",
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/lib/meilisearch.d.ts": [
+        "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts",
+        "../node_modules/meilisearch/dist/types/lib/indexes.d.ts",
+        "../node_modules/meilisearch/dist/types/types/index.d.ts"
+      ],
+      "../node_modules/meilisearch/dist/types/types/index.d.ts": [
+        "../node_modules/meilisearch/dist/types/types/types.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/decorators/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/decorators/inject-meilisearch.decorator.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/constants/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/decorators/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/meilisearch.module.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/providers/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/services/index.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/interfaces/meili-module-options.interface.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/interfaces/meili-module-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/meilisearch/dist/types/index.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/meilisearch.module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/providers/create-meilisearch.provider.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/meilisearch/dist/types/index.d.ts",
+        "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/providers/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/providers/create-meilisearch.provider.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/services/index.d.ts": [
+        "../node_modules/nestjs-meilisearch/lib/services/meilisearch.service.d.ts"
+      ],
+      "../node_modules/nestjs-meilisearch/lib/services/meilisearch.service.d.ts": [
+        "../node_modules/meilisearch/dist/types/index.d.ts"
+      ],
       "../node_modules/objection/typings/objection/index.d.ts": [
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/ajv/lib/ajv.d.ts",
@@ -10719,7 +11020,32 @@
       "../node_modules/knex/types/index.d.ts",
       "../node_modules/knex/types/result.d.ts",
       "../node_modules/knex/types/tables.d.ts",
+      "../node_modules/meilisearch/dist/types/errors/http-error-handler.d.ts",
+      "../node_modules/meilisearch/dist/types/errors/index.d.ts",
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-api-error.d.ts",
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-communication-error.d.ts",
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-error.d.ts",
+      "../node_modules/meilisearch/dist/types/errors/meilisearch-timeout-error.d.ts",
+      "../node_modules/meilisearch/dist/types/index.d.ts",
+      "../node_modules/meilisearch/dist/types/lib/http-requests.d.ts",
+      "../node_modules/meilisearch/dist/types/lib/index.d.ts",
+      "../node_modules/meilisearch/dist/types/lib/indexes.d.ts",
+      "../node_modules/meilisearch/dist/types/lib/meilisearch.d.ts",
+      "../node_modules/meilisearch/dist/types/lib/utils.d.ts",
+      "../node_modules/meilisearch/dist/types/types/index.d.ts",
+      "../node_modules/meilisearch/dist/types/types/types.d.ts",
       "../node_modules/moment/ts3.1-typings/moment.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/constants/index.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/decorators/index.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/decorators/inject-meilisearch.decorator.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/index.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/interfaces/index.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/interfaces/meili-module-options.interface.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/meilisearch.module.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/providers/create-meilisearch.provider.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/providers/index.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/services/index.d.ts",
+      "../node_modules/nestjs-meilisearch/lib/services/meilisearch.service.d.ts",
       "../node_modules/objection/typings/objection/index.d.ts",
       "../node_modules/pretty-format/build/index.d.ts",
       "../node_modules/pretty-format/build/types.d.ts",
@@ -10971,6 +11297,8 @@
       "../src/shortcut/services/service.ts",
       "../src/shortcut/transformer/detail.ts",
       "../src/shortcut/transformer/index.ts",
+      "../src/shortcut/utils/index.ts",
+      "../src/shortcut/utils/meili.ts",
       "../src/shortcut/validator/addshortcut.ts",
       "../src/shortcut/validator/index.ts",
       "../src/shortcut/validator/removeshortcut.ts",

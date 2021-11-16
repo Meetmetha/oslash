@@ -19,27 +19,41 @@ const addShortcut_1 = require("../Validator/addShortcut");
 const removeShortcut_1 = require("../Validator/removeShortcut");
 const validator_1 = require("../../../libs/core/src/validator");
 const exceptions_1 = require("../../../libs/core/src/exceptions");
+const utils_1 = require("../utils");
+require('dotenv').config();
 let ShortcutService = class ShortcutService {
     constructor(validator, Shortcuts) {
         this.validator = validator;
         this.Shortcuts = Shortcuts;
     }
     async getUserShortcut(user, inputs) {
-        const usershortcuts = await this.Shortcuts.getWhere({ user: user._id }, false);
-        if (!usershortcuts) {
-            throw new common_1.BadRequestException("User haven't created any shortcuts yet");
+        if (inputs.search == '' || inputs.search == undefined) {
+            const usershortcuts = await this.Shortcuts.getWhere({ user: user._id }, false);
+            if (!usershortcuts) {
+                throw new common_1.BadRequestException("User haven't created any shortcuts yet");
+            }
+            return usershortcuts;
         }
-        return usershortcuts;
+        else {
+            const search = await utils_1.Meili.searchShortcut(inputs.search, user._id);
+            if (search == '' || search == undefined) {
+                return [];
+            }
+            return search.hits;
+        }
     }
     async addShortcut(user, inputs) {
         await this.validator.fire(inputs, addShortcut_1.addShortcut);
-        return await this.Shortcuts.create({
+        const shortcutData = await this.Shortcuts.create({
             user: user._id,
             shortlink: inputs.shortlink,
             url: inputs.url,
             description: inputs.description,
             tags: inputs.tags,
         });
+        const newShortcutArray = [];
+        newShortcutArray.push(shortcutData);
+        await utils_1.Meili.addShortcut(newShortcutArray);
     }
     async removeShortcut(user, inputs) {
         await this.validator.fire(inputs, removeShortcut_1.removeShortcut);
@@ -48,6 +62,7 @@ let ShortcutService = class ShortcutService {
             throw new common_1.BadRequestException("No shortcut Exists with this ID");
         }
         const Shortcutremoval = await this.Shortcuts.deleteWhere({ _id: inputs.shortcutid });
+        await utils_1.Meili.deleteShortcut(inputs.shortcutid);
         return Shortcutremoval;
     }
 };
