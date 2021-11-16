@@ -3462,8 +3462,8 @@
         "affectsGlobalScope": false
       },
       "../config/database.ts": {
-        "version": "784b4867816b169c5addb2638d1a48fc7cf13e5f45e84daf1dc52e2a42e80ae7",
-        "signature": "f9ff8d33868539ea75108636e5e4ba307a5875b8fe1a806e42b92a34577c7ed3",
+        "version": "530547c75e27764b2598008f5dd30ddaf992bedf9b91934185f6c58b0ce4a311",
+        "signature": "c8474a2a15922bcaebe4ec93adf950822f20a657b3ee269bc8caa7b6479779ed",
         "affectsGlobalScope": false
       },
       "../config/settings.ts": {

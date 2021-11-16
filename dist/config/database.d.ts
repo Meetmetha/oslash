@@ -1,7 +1,7 @@
 declare const _default: (() => {
     type: string;
     host: string;
-    port: string | number;
+    port: string;
     uri: string;
     username: string;
     password: string;
