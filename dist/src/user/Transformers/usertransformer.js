@@ -6,7 +6,6 @@ const lodash_1 = require("lodash");
 class DetailTransformer extends transformers_1.Transformer {
     constructor() {
         super(...arguments);
-        this.availableIncludes = ['wallet'];
         this.defaultIncludes = [];
     }
     async transform(user) {
@@ -18,10 +17,6 @@ class DetailTransformer extends transformers_1.Transformer {
             token: user.token,
             username: user.username
         };
-    }
-    async includeWallet(user) {
-        const wallet = await user.rel('wallet');
-        return this.primitive({ balance: wallet.balance });
     }
 }
 exports.DetailTransformer = DetailTransformer;

@@ -17,7 +17,6 @@ const common_1 = require("@nestjs/common");
 const auth_service_1 = require("./auth.service");
 const controllers_1 = require("../../libs/core/src/controllers");
 const Transformers_1 = require("../user/Transformers");
-const guards_1 = require("./guards");
 let AuthController = class AuthController extends controllers_1.ApiController {
     constructor(auth) {
         super();
@@ -31,8 +30,8 @@ let AuthController = class AuthController extends controllers_1.ApiController {
         const user = await this.auth.consumerRegistration(req.all());
         return res.success(await this.transform(user, new Transformers_1.DetailTransformer(), { req }));
     }
-    async changePassword(req, res) {
-        await this.auth.changePassword(req.user, req.all());
+    async logout(req, res) {
+        const user = await this.auth.consumerLogout(req.all());
         return res.noContent();
     }
 };
@@ -51,13 +50,12 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], AuthController.prototype, "register", null);
 __decorate([
-    common_1.UseGuards(guards_1.MustBeAuthenticated),
-    common_1.Post('/change-password'),
+    common_1.Get('/logout'),
     __param(0, common_1.Req()), __param(1, common_1.Res()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", Promise)
-], AuthController.prototype, "changePassword", null);
+], AuthController.prototype, "logout", null);
 AuthController = __decorate([
     common_1.Controller(''),
     __metadata("design:paramtypes", [auth_service_1.AuthService])

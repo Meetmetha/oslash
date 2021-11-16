@@ -5,5 +5,5 @@ export declare class AuthController extends ApiController {
     constructor(auth: AuthService);
     login(req: any, res: any): Promise<any>;
     register(req: any, res: any): Promise<any>;
-    changePassword(req: any, res: any): Promise<any>;
+    logout(req: any, res: any): Promise<any>;
 }

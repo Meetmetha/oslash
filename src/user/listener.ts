@@ -11,13 +11,6 @@ export class UserListener {
     return await this.service.get(inputs, false);
   }
 
-  async changePassword(
-    user: Record<string, any>,
-    inputs: Record<string, any>,
-  ): Promise<Record<string, any>> {
-    return await this.service.changePassword(user, inputs);
-  }
-
   async getWhere(inputs: Record<string, any>): Promise<Record<string, any>[]> {
     return await this.service.getWhere(inputs);
   }

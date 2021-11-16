@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { UserService } from '@app/user/services/user.service';
+import { UserService } from '../user/services/user.service';
 
 @Injectable()
 export class Listener {
@@ -16,16 +16,5 @@ export class Listener {
 
   async createUser(inputs: Record<string, any>): Promise<any> {
     return await this.users.createConsumer(inputs);
-  }
-
-  async changePassword(user, inputs: Record<string, any>): Promise<any> {
-    return await this.users.changePassword(user, inputs);
-  }
-
-  async updateUser(
-    conditions: Record<string, any>,
-    inputs: Record<string, any>,
-  ): Promise<any> {
-    return await this.users.update(conditions, inputs);
   }
 }

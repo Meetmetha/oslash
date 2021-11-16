@@ -31,26 +31,4 @@ export class UserController extends ApiController {
       await this.transform(req.user, new DetailTransformer, { req }),
     );
   }
-
-  @Post('/delete-profile')
-  @UseGuards(MustBeAuthenticated)
-  async deleteProfile(
-    @Req() req: any,
-    @Res() res: any,
-  ): Promise<Record<string, any>> {
-    const user = await this.users.deleteProfile(req.user, req.all());
-    return res.success('Account Deleted! Thanks for testing reach me here https://miteshmetha.com');
-  }
-
-  @Put('/profile')
-  @UseGuards(MustBeAuthenticated)
-  async updateProfile(
-    @Req() req: any,
-    @Res() res: any,
-  ): Promise<Record<string, any>> {
-    const user = await this.users.updateProfile(req.user, req.all());
-    return res.success(
-      await this.transform(user, new DetailTransformer, { req }),
-    );
-  }
 }

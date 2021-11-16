@@ -11,12 +11,12 @@ import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs';
 import * as path from 'path';
 import { basePath } from '@libs/core/helpers';
-import { WalletModule } from '@app/wallet';
+import { ShortcutModule } from '@app/shortcut';
 
 @Module({
   imports: [
     HttpModule,
-    WalletModule,
+    ShortcutModule,
     MongooseModule.forFeature(getModels(), 'database')
   ],
   controllers: [UserController],

@@ -11,7 +11,7 @@ export declare class AuthService {
     private jwtService;
     constructor(http: HttpService, listener: Listener, config: ConfigService, validator: BaseValidator, jwtService: JwtService);
     consumerRegistration(inputs: Record<string, any>): Promise<any>;
-    changePassword(user: Record<string, any>, inputs: Record<string, any>): Promise<any>;
+    consumerLogout(inputs: Record<string, any>): Promise<any>;
     consumerLogin(inputs: Record<string, any>): Promise<any>;
     private getToken;
     getUserById(_id: string): Promise<any>;

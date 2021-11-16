@@ -35,16 +35,8 @@ let AuthService = class AuthService {
         user.token = this.getToken(user);
         return user;
     }
-    async changePassword(user, inputs) {
-        await this.validator.fire(inputs, validators_1.ChangePassword);
-        if (!(await utils_1.Hash.match(inputs.oldPassword, user.password))) {
-            throw new exceptions_1.ValidationFailed({
-                oldPassword: ['Wrong password entered.'],
-            });
-        }
-        inputs.password = await utils_1.Hash.make(inputs.newPassword);
-        await this.listener.changePassword(user, inputs);
-        return true;
+    async consumerLogout(inputs) {
+        return "ok";
     }
     async consumerLogin(inputs) {
         await this.validator.fire(inputs, validators_1.ConsumerLogin);

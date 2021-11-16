@@ -1242,12 +1242,12 @@
         "affectsGlobalScope": false
       },
       "../config/app.ts": {
-        "version": "19d71e8e77c53be2d9e1f70dc37c0fb28c8fa679ddd37080f0d2286ba6c00ecd",
+        "version": "d665bbd62f23f5de5d3ca051c03301364d6115a1f77c2e5d8bff6faf58122f44",
         "signature": "e2b27d8afa8359c9f3ac7fd882a2e74c4aa094650e80c3a29fad1e128f8907c5",
         "affectsGlobalScope": false
       },
       "../config/auth.config.ts": {
-        "version": "96dd6c91632b2c5d3388b0b963966c4febea4f9b393b14f38ff951536e2c2256",
+        "version": "867f791d56cdb2e2a876b41ddab9ed72847e003a61801425d6e12f99a90c6fa8",
         "signature": "93eedb9de7e0dda15542ee5939c75c20c6030d7f6d9d30b9d6ce704fbf681bf6",
         "affectsGlobalScope": false
       },
@@ -2002,32 +2002,32 @@
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/modelalreadyexists.ts": {
-        "version": "0382e55a0fd42065a895483239968dea8a5bb12f20b9c22865751407642297de",
+        "version": "074543c2deb7bd56174c2daa72e5528b953076a11bfd5c0b5675184f6717befd",
         "signature": "c2e26baddcdfe528f1140842d3e86b989b129ed7bfc1ceb8afd76c253c1696bd",
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/modelnotfound.ts": {
-        "version": "af2d5f62fa6cbc53b220ab4a50aed77d02f68874e1e7d98000ac79aaea1bdc0d",
+        "version": "15207e307aa384380cfcdae1b757cd1e3a53a61ed5b4ea7fefce72b16f25f172",
         "signature": "2a93c9adc72151920e953d1faccdefd147bb2cf6871ebc03d126f102b13405b9",
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/unauthorized.ts": {
-        "version": "5327f7fc287ac585906a28f39e207f8477790e2844093109947673cb6b8f227b",
+        "version": "908a9b8d9c84574856bdb8b1180ce92fb93675e610ce8ba97900197cf9255c51",
         "signature": "3a8b65310e70be69173f35306238a87bdd0843dca53e2bbfe4aedcf2dd312aa9",
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/invalidcredentials.ts": {
-        "version": "942ea116016591b03e12382f6139ed7a8f517d0018eb570871b702231068f00a",
+        "version": "61207cd42c14c642e95345e5d17076a6dbea1f4740a427fc2b9dcc0c23cab20f",
         "signature": "a5ae316b8fbbb117e93ba6ae0501ecb3be0880569afb0686fe629774fe863c0e",
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/validationfailed.ts": {
-        "version": "fed47f9a8d3756b914890f128ba6cc7a0cef1384cb020815d772b759d2c4b4da",
+        "version": "ac405921b5f8266ce0f3dbeb4816d088944c94d998bf4249447546f86d919e8d",
         "signature": "34410a9a5153f38ef89020237803cb4ca55ad681fe201a1cc6323cf0ca682f5a",
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/genericexception.ts": {
-        "version": "8c8d0815cbbd81430b18712b439aac305dfabb3ec209461cf49a80e97768aea4",
+        "version": "86ae51dd302651f6a6bf0887d09bf44d0d3873f046b2a663ebb39e12c627793f",
         "signature": "661c1c0f0d341a87719a998c083a59004a3b87c103d70f6118ed8b254af7e183",
         "affectsGlobalScope": false
       },
@@ -2212,17 +2212,17 @@
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/filter.ts": {
-        "version": "7a13d26f9b9d69b9e2be0a55ab6757208308b9726225d473524ff248152a6bfa",
+        "version": "94f40670a02af11779cc6d0dd4df7b7ad96a24141967791e4e4dddd5dfdd1003",
         "signature": "e68f1fd4b5f339da1606d0a279cf80af2ffe3b8efbef64747d3f713bb52a8b77",
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/index.ts": {
-        "version": "d4ba026e3485cbdaba19175cccb715cf822657fb0d053c2a0883f692fd10c897",
+        "version": "9ec66f6b488a999fdd180b38855e9fe818559d88074575c69a223e494c635ba9",
         "signature": "d4ba026e3485cbdaba19175cccb715cf822657fb0d053c2a0883f692fd10c897",
         "affectsGlobalScope": false
       },
       "../libs/core/src/validator/basevalidator.ts": {
-        "version": "697a46f747082df775784ab51ec3eac3fbc1dd6a65bc60401f665c07e0e59043",
+        "version": "7dc8e3d237e480d6bf824b869178b3d7c36416632a8c310e847cf97be160120a",
         "signature": "9ee84a63830ad0af538dc6b45ee532ad79dd3202251edab3ad8f40bf68bd28d3",
         "affectsGlobalScope": false
       },
@@ -2607,27 +2607,27 @@
         "affectsGlobalScope": false
       },
       "../libs/core/src/http/request.ts": {
-        "version": "05b66eaf0e3d0f63ca098daddddc0144fc4c349b0aa67738002f72649cccf7c3",
+        "version": "05a508ffd7385dc7b6e798ad04bb339dedeabeaec9552a19f91751e8ea7c143a",
         "signature": "69074f622a6b8f4bcdd0fdd76ce8fc2a9bc4a01a20e7c2cf427bd40e4c463fe1",
         "affectsGlobalScope": false
       },
       "../libs/core/src/http/response.ts": {
-        "version": "f5b8cb121d9922d1128782c33191740d7d1b7196e32f1cfd9cc83b97f8629e41",
+        "version": "57dfaa77c56a5eee898f4c9cc0c7bccff2466d9e4abb4e0843365ab75a69e540",
         "signature": "06aecda16e6fa669fc79c0352dc0d621e96516f59f570c3594dd58059f4c9d5d",
         "affectsGlobalScope": false
       },
       "../libs/core/src/http/metadata.ts": {
-        "version": "7336ea8def516f1a269d56b348b878578ee86dd26f7e7d1940f8f5f353de0978",
+        "version": "ac28ed9e98496877bee5b58aa1e6d26b8323d2701b499468e7e569b4e55ddc2b",
         "signature": "3323ac171adb2fbe2bfd18f3f8e6c0465c636343c634f3843fd74c938a6bdf82",
         "affectsGlobalScope": false
       },
       "../libs/core/src/http/constants.ts": {
-        "version": "855fd1bf87c1274ff1dbaf4c8bf5863655a9f51734152cf5841dd64193a85fe9",
+        "version": "5f34db9f4fa51a9d512936ef6ca12b52368ec9e94d3fa6abc137dfc60cc6ad7d",
         "signature": "6aa655288718d9032a688601aa1d870eccf1cc0952ad4b13398b422dbc661310",
         "affectsGlobalScope": false
       },
       "../libs/core/src/http/decorator.ts": {
-        "version": "9494394fea9f342a15051caaae1cfe90f94fb45e8e85ec270fb01ca6f9bdddfa",
+        "version": "cfd7fe4e6ad7b87f21e37e69bf871a6638ccf7dfabc591bbc8812f28ec346364",
         "signature": "31d48dbdb54dd65734ae97d152a04cf8c526965e76574fb1482ef8d7d342dc8a",
         "affectsGlobalScope": false
       },
@@ -2637,52 +2637,52 @@
         "affectsGlobalScope": false
       },
       "../libs/core/src/http/explorer.ts": {
-        "version": "d1b498942e8f6dcba966a5f51f2368a63575da7e3cd9809912a0b5cd42766a96",
+        "version": "92afc507b123eff7d708023bfccc005f4aec51dd6c38e743a4b98638055c9bb8",
         "signature": "11ae0526ff9dd643eac36f204f970b53d8ca07e72058feb63d62cfda0b99313b",
         "affectsGlobalScope": false
       },
       "../libs/core/src/http/index.ts": {
-        "version": "e196f958745672654b6a0177aaf73d57227e0eceb433c63836c3aba3c7e21a1f",
+        "version": "ba0c8cb5e492f67cd4d9266accb18a45367d84d4006ebd17ebc820fcadd2dd88",
         "signature": "e196f958745672654b6a0177aaf73d57227e0eceb433c63836c3aba3c7e21a1f",
         "affectsGlobalScope": false
       },
       "../libs/core/src/helpers/helpers.ts": {
-        "version": "16184d859a72dd7d595576cb4e1a5af99c57665551cfea336f6492996f3700b2",
+        "version": "c0f163b4fade71e137757f4896fa5eb45f5edf4b078a7e5ebe7dca73f715bc08",
         "signature": "087d1bf950b885bf62a4ff501e1df0c716293ced03615c9d40153fcf8d7c2901",
         "affectsGlobalScope": false
       },
       "../libs/core/src/helpers/array.ts": {
-        "version": "dde3957130c56271b44e748286fa56c80b9873b961fd78f921d40e5c6929b126",
+        "version": "1f0ee633bf83000a21320d2f5a8d2a3b899d07cb47123de0d13b2cb1e1f5383e",
         "signature": "4c2361bded4a262e7a5e35011b26e7e3eb7cfddaea12f95fd6523a3b24d91e78",
         "affectsGlobalScope": true
       },
       "../libs/core/src/helpers/string.ts": {
-        "version": "01120e46ce81b170624e4fe9972f622875179eb41ddf8b90aeb9c0077e5d278f",
+        "version": "c2975bb9519983982ce09b2b21a4ccfaefa1bb2b6d2cbe1254391ae38d4106b9",
         "signature": "d914222f806896e2a82cc4c5a82d812d16ceca3d823261c53fcfb08c510a38ee",
         "affectsGlobalScope": true
       },
       "../libs/core/src/helpers/index.ts": {
-        "version": "de3c4570f473fec360ce0cfb0bbae1942eff7b00dc9c84279f7bdd11860051f3",
+        "version": "ff16b90fcbff2d0db22248257e13d7496b026fb0180240e6e15213c259a6c9df",
         "signature": "de3c4570f473fec360ce0cfb0bbae1942eff7b00dc9c84279f7bdd11860051f3",
         "affectsGlobalScope": false
       },
       "../libs/core/src/validator/decorators/isunique.ts": {
-        "version": "7892a5bcedc22e35de9ac7e470b6cad317a713bc604c0e7af3d45cd45c4c3408",
+        "version": "3052c27a5a3ac3927cd00a3e96c86b22bdaf3113145c6cd3142772120162fd60",
         "signature": "9e15f3e825186b5ba915b4b4cc3b02ea604357dc1a188b2c34a2342365bc7e3c",
         "affectsGlobalScope": false
       },
       "../libs/core/src/validator/decorators/isequaltoprop.ts": {
-        "version": "1ce20e0ad9c96840e5a7c21a8f8dca1a4d3cbba9784bdcfdee972ea62e4cc450",
+        "version": "f9e18d3478f351c2c6ca8fd62387d942865995fccd571bef7f2184cab28d6009",
         "signature": "ea548c04eb24bcb91cf04616968657e299677ecc57c6420c9cfd34f2c5593e7e",
         "affectsGlobalScope": false
       },
       "../libs/core/src/validator/decorators/isvaluefromconfig.ts": {
-        "version": "bfd448bcb46ebfb4e6beb2ef4e90af1d785d9ef0cd8542f2821be29e81100920",
+        "version": "be080ab156d9da9a044cad33f2b89f672a7ccde5534e78f8f90668ca07ec679d",
         "signature": "1f356b106fc8d5aac20f7aefff6cdfb5481346a1b6f89d964cb875d330d6bf66",
         "affectsGlobalScope": false
       },
       "../libs/core/src/validator/decorators/valuein.ts": {
-        "version": "5dc772c637d4f72daf1aef43a450373ee57c21f7eb9bd6b6a96a9b0298410e6d",
+        "version": "42b3635e24149d8d94d1cb87916af121c46bdbd36ded8822c6cd3e4817be9bda",
         "signature": "18ef453747f44b2d4532064f6f15abac9f30267fc1ed6b16ec358120fd1c4ded",
         "affectsGlobalScope": false
       },
@@ -2692,12 +2692,12 @@
         "affectsGlobalScope": false
       },
       "../libs/core/src/validator/decorators/isdateinformat.ts": {
-        "version": "994320bfdf6d2be6198ca93b679a4c4ccdcf21d1c20485b70a3dd5615f545c9e",
+        "version": "171af6408e6e23c924af3759b433673be972bc3fb118d0a16b279677159365c8",
         "signature": "05a7a5f8738a9daecafc0e92eae5902d65cbe0d5dcf42cf83d31f45cb194baf3",
         "affectsGlobalScope": false
       },
       "../libs/core/src/constants.ts": {
-        "version": "59671cb0320f2eb6df45288ecf8224ebd79a3644a8ab9820151e3d0c5836031f",
+        "version": "f1234f7978a217f6711d0b327bf17ec54fd98757270f586a9cb390f9f569fede",
         "signature": "a36f7b26774dcd6a62f93168fdc0b89997139662dc9248890df4feca667a9f23",
         "affectsGlobalScope": false
       },
@@ -2752,22 +2752,22 @@
         "affectsGlobalScope": false
       },
       "../libs/core/src/validator/decorators/exists.ts": {
-        "version": "c77322aa90e8eac018848c1cdb5eafb4475be071ba5fce4e3669e2eef03d9e81",
+        "version": "e492c03567d2f89eec175add9693f06ebac6283e4e98999197876707b06d3139",
         "signature": "38d9358296b8e6308fc2cce6fbbc6f11016b9a171d2896e314b3398557269c00",
         "affectsGlobalScope": false
       },
       "../libs/core/src/validator/decorators/index.ts": {
-        "version": "2904ab4000ec8ecadd18bac0f062389456dbbf5d27725755c2425d337b685a98",
+        "version": "1f18f782a99605f609e7984e77eebbe89bcda14750c0b7cea377cd7edcb47b5c",
         "signature": "dee50ec6d553c8c36cc6448da42518fc75bc15fcc07c37f4b1c64da3867f4f4f",
         "affectsGlobalScope": false
       },
       "../libs/core/src/validator/index.ts": {
-        "version": "8259dbdefecf2836e19db12505a3860537d3b7d3894d2219b3be88bc232513d0",
+        "version": "11d1cd70c7a8e4b99a36a6172bb660f3b217b32bd051b51e340f71b3056598c6",
         "signature": "e0460504e57ba6995f90165b6913f6d879f6ae1d09ec3b3fc1098a6c7c75502d",
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/inquirer.ts": {
-        "version": "31bb4739ee318e83d995bb564c2fc8f90dd88a3585fb4833ebd4645b0fac07a4",
+        "version": "d90e80bebdcb587521b82ba5c267cf75fdbecafcf2656cd37db54c21833b8918",
         "signature": "e2eacf04eb47d03348a6dd3bb0ccc9481cb7f4d91c4c429fbf80ee7506ded318",
         "affectsGlobalScope": false
       },
@@ -2782,52 +2782,52 @@
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/logger.ts": {
-        "version": "bcfc7440878eef2aa512acaf7536705b5cdc6f3c93df94ffe23d1b79c428ff6e",
+        "version": "4cc16c915c2b0ad8da6c94fdfd2c17464425219d9f8f675262d67df534b29f72",
         "signature": "4d623d3fed495b93df653385b5095514b3733d1fa7371743d7d1ae4851c87fc4",
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/basecommand.ts": {
-        "version": "145234739df0123057982ef6dc5f84a7a35b56021c8219c11215280078dc661f",
+        "version": "e92f35eaf55109b6d261d68b210a1ade9e1b2648894615d137a035c26c9a7de4",
         "signature": "144fe8fa4ac82dfb408f513a2c9ec7c2bf7c5ccdb6aa335f3ef315317fe89ed3",
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/constants.ts": {
-        "version": "201ac41a0be86bc8edcb802eacd85e12976c890c1f0473aaaf4f6694206572f6",
+        "version": "e035d51ea7d82a08528f3a2e5703b25b356e1b9411b7d7a9854d085fd761e1ac",
         "signature": "132e90cf8f94c7b86b94a521d9aa0a791b33443ceaf011ec1eb718007063e8fa",
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/decorators.ts": {
-        "version": "1930666261e8b28d1bda688c311078b3bb49f5f3fd9c6ad989c0ec1c8488d487",
+        "version": "f84013883baf342cf1f34cb5cc8f3c5b7a14a55127c6cb76e5e6cdc4c56a3475",
         "signature": "99c353da9304f4295f6036564ab674f0aca793f49f9498d7827854a54386464b",
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/commandmeta.ts": {
-        "version": "22b1aa47e7218cc9c5083029745f776e03ecb4ef1c8431d6f83a329320f4d3b5",
+        "version": "653f71113cd4ae342cd5aff32bc4ddb21c0d989f5a8627bcf7d8a8f57fee75ec",
         "signature": "56cde8eea8326852eed7fa3e8e3f4cb1db6168e786116e1fa9c0baa7b05faef9",
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/commands/listcommands.ts": {
-        "version": "032c761dc51c88c58d073eb780beea47e72e365ac8d96e1dd322b6bec08ba90d",
+        "version": "73cf3aee9bbe9b13acb01f2e262d803147ac37adf5db66e92d755da72884a458",
         "signature": "7100a5f91f1c0761bd8f663880594dd08465e25b63a2e717160aa7ccda07cfc0",
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/commands/initapplicationsetup.ts": {
-        "version": "fe69173a8c9db770a446c534569ef559d2d3f0b696159a09eee727fd53331d28",
+        "version": "01fa1a1b08f8dbb9de26063d2be64a45cf56717bb43c75a5eefa42743a460a0d",
         "signature": "d4808a3fcdcfd1446e5e96e3d1df479ef968cb36b450041dd9972cc5af02d7a2",
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/commands/index.ts": {
-        "version": "221069df26b531d41b1a5c43a439cfd1e22daa4919a1df31bfb22be2792d25ae",
+        "version": "d9643175928c035c7c7f74783dc755c38af49d1654c943040c6a111f10756d04",
         "signature": "221069df26b531d41b1a5c43a439cfd1e22daa4919a1df31bfb22be2792d25ae",
         "affectsGlobalScope": false
       },
       "../libs/core/src/console/index.ts": {
-        "version": "a92825be4d9e8b1bec8adcb6a21de9c67759b1b4c16f0f29d5da058474c3a6ae",
+        "version": "88aabc62d68ea1b37b148750b86cbccf13e312aa63fac23b40b50b86820927ea",
         "signature": "a92825be4d9e8b1bec8adcb6a21de9c67759b1b4c16f0f29d5da058474c3a6ae",
         "affectsGlobalScope": false
       },
       "../libs/core/src/providers.ts": {
-        "version": "5df8a3a9fc9886831ab91c08e2e40702cad8449ee7bc2743e1b1a661d8bbdcca",
+        "version": "d96eb9b752f420fb0503e6ff285611c236e4057b406656abe26fd54ac1bc43ef",
         "signature": "0a185a159afe3ec689bef64b625a8a93b4fa14b82aeccece1dd60d9126ae8069",
         "affectsGlobalScope": false
       },
@@ -2857,47 +2857,47 @@
         "affectsGlobalScope": false
       },
       "../libs/core/src/db/querybuilder.ts": {
-        "version": "f3736a6c36dddbeebf1f345b3abb2e516085f5bd9d5cb8c46f3bb920134b0d30",
+        "version": "75aa7964b1779614fd3a2c727ea3740f61f17fe9a93496acbcdeea9cfc0dca46",
         "signature": "0028df73b64f21a6786874878675161fb71a0ea2863b424c9bba2cfec3c97465",
         "affectsGlobalScope": false
       },
       "../libs/core/src/db/basemodel.ts": {
-        "version": "2815f7bb17d935867c5616fc6944077d057aee9d32063d1f425ebd7aaf3c22a6",
+        "version": "d09c615da2cb04676eb766fbbc742a8630b366448475e868a3987324161acca8",
         "signature": "8de45c0e79dbefcb2a547255a92e7bbdf7e1b31f0527e92a1c351798c40918bf",
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/core/dbrepositoryexception.ts": {
-        "version": "3d96471cffdd45b5215ec8b2d8e23e77b38ef13ba8ec9952ee2000f69e94f573",
+        "version": "4394f3aba9e4a02c00e3a8c0b0f1f7a47446e5af2b41faa7d9d7157b6c50a041",
         "signature": "a610a00c50b4491aa90e45a4d3a4ea5f4ed81c055b1392c3688d062c7ae637ac",
         "affectsGlobalScope": false
       },
       "../libs/core/src/exceptions/core/index.ts": {
-        "version": "f6e464bc9ab3331964f87e653341fe94ec097b78c2a2414c0b6534c1d18bd2ad",
+        "version": "3c02c2025bf2198f0bdfbe1d3905bc89739924fb4a5fb85ac4c54dee6547aafe",
         "signature": "f6e464bc9ab3331964f87e653341fe94ec097b78c2a2414c0b6534c1d18bd2ad",
         "affectsGlobalScope": false
       },
       "../libs/core/src/db/helpers.ts": {
-        "version": "ea0edd6beaa4173abe7bd1ab7f7ec2286fcd00dcd31c05627c787f9f6cd6bfbf",
+        "version": "d582a93046d918f3c7e565ad52759ff31a4ae74c0962c48d910b8eefd746c621",
         "signature": "957532a1f10c3d20c4647f1995a544e3707d7148cd011c0d9959b92a0a8732e9",
         "affectsGlobalScope": false
       },
       "../libs/core/src/db/index.ts": {
-        "version": "5a401fb3d5f8a379f7365eac369575339b16624568492920e8d46ec404ea650f",
+        "version": "9ec70c7dab52e75d388b0037ca5d82109b6443995ae30b6f5162b15fe2acadfd",
         "signature": "5a401fb3d5f8a379f7365eac369575339b16624568492920e8d46ec404ea650f",
         "affectsGlobalScope": false
       },
       "../libs/core/src/module.ts": {
-        "version": "5d11f59530abe14eb2f6c5a1ead2425cacfc7d83cf8b90e9dafac215f9c719a4",
+        "version": "c9031d12311f158c868bc2060a938cf46b8b76a09b384e0cad472f0447b89da1",
         "signature": "994c9d7b726bd25178469ef71fa4cb0789a11c968d0398146d88fc92ec40f9b1",
         "affectsGlobalScope": false
       },
       "../libs/core/src/guards/request.ts": {
-        "version": "9149b11184bfab5b4d912b8a39422a12163ffe9d059de9b0b9b67082190f8687",
+        "version": "091dd28bcc23971e6b71e5c78766ddc79eaee625afabf264f2619eaaa014ad9f",
         "signature": "620087577aaaf43f0db70f493621fae00b50848cb655c21bdd69f1c920a8abb2",
         "affectsGlobalScope": false
       },
       "../libs/core/src/guards/index.ts": {
-        "version": "9b562bddd79a17580f581e5ce1b8fe892f90e9390a9d5c8ca527f10deac8a547",
+        "version": "c6d07008f2a83d1294adf9fb18b9fe6c0e01964a66263c5a827d7ff0d0cd7abd",
         "signature": "9b562bddd79a17580f581e5ce1b8fe892f90e9390a9d5c8ca527f10deac8a547",
         "affectsGlobalScope": false
       },
@@ -3422,68 +3422,88 @@
         "affectsGlobalScope": false
       },
       "../libs/core/src/interceptors/timeout.ts": {
-        "version": "ba2318105444cc99cd2f92e2dcf51adb34a925a8997ee3c8a543ce4485a00efe",
+        "version": "ccf9f8ad85f16c8575d3401fadf5d3768dbc1571768e8c0019ab3aa5f7306b5f",
         "signature": "77bc2663cdc2a316b87a1c78739202be23501d3cb80e36b36c41e35f7f868812",
         "affectsGlobalScope": false
       },
       "../libs/core/src/interceptors/index.ts": {
-        "version": "612067683ca61872b7f932909cb8eff7b4f46ae8eedbec708f1f5c96715c0b0e",
+        "version": "4c956c9ee0338ce2f0626ca0f263496bfb3ce6ac7b2b1fb138c4b2e1bcc1e07e",
         "signature": "612067683ca61872b7f932909cb8eff7b4f46ae8eedbec708f1f5c96715c0b0e",
         "affectsGlobalScope": false
       },
       "../libs/core/src/utils/context.ts": {
-        "version": "985f6a748f661d8c6095edf035f4db4a38cdd6310bc70d1eb72391346179af0c",
+        "version": "20e99b25fb8dbfdbaa2bf3a915d2619d8ae542268252f53cd64bb269f4f26282",
         "signature": "5df5f3decf15534785586c009a5974846bf42dcd5e808dc8b2bfbc9c161123ac",
         "affectsGlobalScope": false
       },
       "../libs/core/src/transformers/transformer.ts": {
-        "version": "7f2008437b42ba6ade9f2b97a8f10492b9803f43a91c3f94cd281f9735608f50",
+        "version": "256dcb55838ff6fc5923c46cba492c1c7b31efc03638c5d05a4ca7cfac19f485",
         "signature": "acb5dd5929500c8207dd96262dfdb42be73c19d9decf5e8fb4c73324597df0af",
         "affectsGlobalScope": false
       },
       "../libs/core/src/transformers/index.ts": {
-        "version": "77d254518a927b67a90c6ca3acdce46196d3eb5e62835e6188117fd295e40e76",
+        "version": "4a6ba085cce2a9e7d2f6c4522b4938bd15b48e4e9140cd7fbb68da5d3bebfbd4",
         "signature": "77d254518a927b67a90c6ca3acdce46196d3eb5e62835e6188117fd295e40e76",
         "affectsGlobalScope": false
       },
       "../libs/core/src/controllers/apicontroller.ts": {
-        "version": "c1a3a5b5d42125fde0495bf483f04c3fe9a598621b169c63b08cfc9a1a8ba880",
+        "version": "cb0c12423bff7de99705fe936f55beca9da8612297313802046b81efeb9f9b48",
         "signature": "a80dd305d588d0a4fe36bd3d037c5b95997621742bb8c977095e7457e983d79f",
         "affectsGlobalScope": false
       },
       "../libs/core/src/controllers/index.ts": {
-        "version": "8288caf0d28d41adbc7dd46043111baa311b589963d200c547dbfbc4d9a28c38",
+        "version": "873f087874c39c300331277f07bf7f7d136e435a5dcd9c5e9593d3e5a4204ec6",
         "signature": "90e5d08efd8292cc202d5b879cf10fe8aaee0b271576c52f2d3fec1fc4291a1d",
         "affectsGlobalScope": false
       },
       "../libs/core/src/index.ts": {
-        "version": "bda86fefbf03bc3ebd0f0bc8a0444132dd02e032d486260fef54f3944f6d5f39",
+        "version": "c023ed04dd9e272e81d74719a91dc46fece1a14144cc30c95d79d7040fc1e562",
         "signature": "bda86fefbf03bc3ebd0f0bc8a0444132dd02e032d486260fef54f3944f6d5f39",
         "affectsGlobalScope": false
       },
       "../config/database.ts": {
-        "version": "cceaf1eb1b1d63d7c25af6ec4094edc28256b65808e15cf52c755de475216471",
+        "version": "784b4867816b169c5addb2638d1a48fc7cf13e5f45e84daf1dc52e2a42e80ae7",
         "signature": "f9ff8d33868539ea75108636e5e4ba307a5875b8fe1a806e42b92a34577c7ed3",
         "affectsGlobalScope": false
       },
       "../config/settings.ts": {
-        "version": "3e0429a9a02ab95de6c07fbc8cf99e39d1a045f61bcfb0453df16a4686e06696",
+        "version": "2ac0181e2706df5a33ff63818dd449cbd79851bb4a75346ce9e25ede89c1261d",
         "signature": "d976f4b17c731c43f4a2ea93f638c793729af50fa700440a85a3611171d18730",
         "affectsGlobalScope": false
       },
       "../config/services.ts": {
-        "version": "978547f0607645bed44800c12261dcb801f801fc06c960fc8cb2f517476b8db7",
+        "version": "8810c7865d84acb7fe04a1840d6a427b52fbc6454da9aed42a4be797c94fc813",
         "signature": "d976f4b17c731c43f4a2ea93f638c793729af50fa700440a85a3611171d18730",
         "affectsGlobalScope": false
       },
       "../config/index.ts": {
-        "version": "315df735eb7437d800d695eaec068535f1d419375134de07a1896e69e72af20b",
+        "version": "d61348375036710d5849cfe9d063327fe3cbaddcb7c49eec9c77678fb25c77fb",
         "signature": "0fa68aeef940843196b67c2a28654ba36b3b08b2d08340c6c8f184d8b62ecec1",
         "affectsGlobalScope": false
       },
       "../libs/core/src/db/repositories/index.ts": {
         "version": "3418314372b8fa9862f2a8d20a39e039f2b136ab9c0d9708d6036c89ba639f46",
         "signature": "fe9f9ef600fff86f7c710b9dbd4fa65eb032f2033d34b1de7c586d706f34af86",
+        "affectsGlobalScope": false
+      },
+      "../src/intro/controllers/introcontroller.ts": {
+        "version": "4d7f0ff10b4cccd12917cefdfdccedf1a4e56f4e383517c37f19df9eb5381880",
+        "signature": "4a6b321b891d2c87d5f543c7ece5bb79585e305d58f9c6ed3685a2f24cc5d27a",
+        "affectsGlobalScope": false
+      },
+      "../src/intro/controllers/index.ts": {
+        "version": "d65f00d6ed65faf907b02c600039e7bb7a6d20b7a8940d104db671043f3454e1",
+        "signature": "ab6131c89d23c957678484216149380078ab0f0139b611adfe629835f910040a",
+        "affectsGlobalScope": false
+      },
+      "../src/intro/module.ts": {
+        "version": "3d96e5eef9e8ac43f9dcca6228edad661f5490e6a5d7ab4fac0907273a6a9d25",
+        "signature": "763de59178a16d93f3a5d78bcb15e75d77e3100591dbd57dd5063dd6334a57ce",
+        "affectsGlobalScope": false
+      },
+      "../src/intro/index.ts": {
+        "version": "ee627a800d543ef3d7b6068519f1318c5c513231b9d2f7ffe71a6ea00021a27f",
+        "signature": "0fdabcaa6cff65e2905c4ecfc81ae01126bf39a7e3b62fef56a21cfce2f0b5e6",
         "affectsGlobalScope": false
       },
       "../src/user/container.ts": {
@@ -3501,19 +3521,9 @@
         "signature": "f1def9ab5ae17ff6d28b79ed329ca5a7fdeff967573791a625e5e6c3786e7493",
         "affectsGlobalScope": false
       },
-      "../src/user/validator/updateprofile.ts": {
-        "version": "c8f9b6596d3d170fd2c0fd067750e1601e0ae7d1aa28d8cd1ea8ea80f5b4e1bd",
-        "signature": "c35eecf4410758a45d493148db877cc3a144856fa22f2f56762ab14c51dc57e4",
-        "affectsGlobalScope": false
-      },
-      "../src/user/validator/deleteprofile.ts": {
-        "version": "09aa4bfb224fd9f661f5c268132134cce50c9dfe760ad668dbbfaaf70b5a1ac9",
-        "signature": "b3887f5e7487b3c743b17f5bf5a98c77d909545bdee7cb244d131a5d4e7a408a",
-        "affectsGlobalScope": false
-      },
       "../src/user/validator/index.ts": {
-        "version": "82f4786a56fa96905bb53be410faff49cc8323dd354c5bd39ebd3ffd3df20feb",
-        "signature": "372cfe5597c87d58663babaaa398c748e7489a52079c84d4c3f5edcf7c6d0189",
+        "version": "0015d66efb7b24de46b99460fe8b77fd3245aaf8ec1776e7909746e3e73e12e0",
+        "signature": "4fa0c8c788d1af58f94cf295e0a71aea7d09a0b219a459aa159f13c34e0b4697",
         "affectsGlobalScope": false
       },
       "../src/auth/utils/hash.ts": {
@@ -3526,54 +3536,44 @@
         "signature": "5ce6ef9346557be7855e6df274c035491549bcad1392a24d130b73cc5d0f1bd0",
         "affectsGlobalScope": false
       },
-      "../src/wallet/provider.map.ts": {
-        "version": "c98ff3180fb1102aeaf341abf2733632f25511129da7f4caab77b462ba9b7502",
-        "signature": "ac2cac05f37620a7a55fbc453d5bd5821cb231289c9670af89e6abfd7fc49f67",
+      "../src/shortcut/provider.map.ts": {
+        "version": "6e2898da534869e1db73e39b02af462311b6e276fe1fd66b2847c3167d5ec458",
+        "signature": "f7bef53c742a6b68a251f5307f8291c8fa7ddad78b8881e809bbee0f98143756",
         "affectsGlobalScope": false
       },
-      "../src/wallet/repositories/contracts/transaction.ts": {
-        "version": "b4ef569507f9efd10696315de3e75f6f4d3bc920672c9c362bb2f42e61556c3a",
-        "signature": "c8e30d53fa16a5d987b1aaf04aa531062e3620824cf5b7cee011dba9afa3e36f",
+      "../src/shortcut/repositories/contracts/shortcut.ts": {
+        "version": "3f02d88399dc983e475acfeeb1ac20878354a0c611f3e131f4f03e94cc16a50f",
+        "signature": "eac465285e0d057ccbe51c0d30c428402bdadb71d8bc09050db6afc922e7c4c9",
         "affectsGlobalScope": false
       },
-      "../src/wallet/repositories/contracts/wallet.ts": {
-        "version": "b4e12d3328c758c2f4416a07db7f2a00539397521a7eeef63e338e4e7c7ea3f2",
-        "signature": "9fcaba700457469449df02b90e4471275f674792d9cd5817cb3b660a03a5c30d",
+      "../src/shortcut/repositories/contracts/index.ts": {
+        "version": "4fcf0f6cdaf3f45d1591b546ae951bade889240274583a397428195899bdb38f",
+        "signature": "b0af1950c3d4b8d69d569b066c3254a2564ed3f25b192d066cbd02b3b74a5c4d",
         "affectsGlobalScope": false
       },
-      "../src/wallet/repositories/contracts/index.ts": {
-        "version": "eb27eec750188caf58b5165e381d50b085deb97d464865e022127e497da01a9d",
-        "signature": "00ad8d21b1aa6b9660e69fd906eef6d4d28164721c1146173a3b063b29ebffdf",
+      "../src/shortcut/validator/addshortcut.ts": {
+        "version": "c4b42380f463225dcd33e7d84d7e11e5fa499f58084b60ca1da220a097bffeb8",
+        "signature": "96d3c3083e37c8a9f24f4f796f46bdaf441bb0aac924038530918e52cca2efb9",
         "affectsGlobalScope": false
       },
-      "../src/wallet/validator/addcredit.ts": {
-        "version": "deb9829e9e61359a4b32529a66e2d6b90768f61a91196e8e13b1e1ea1005490c",
-        "signature": "06922a22b477b6a499645ba59949dc69a1c2fc546f1e4fa83d640e0ba40e03cc",
+      "../src/shortcut/validator/removeshortcut.ts": {
+        "version": "801b3f0c0062f273db76fb645baca619b642722f323db157ce96573d8ed8227e",
+        "signature": "41d708d1a82c36071ca7f3b8e5975a4955d1a81eb0245b13b933a353bc2b2522",
         "affectsGlobalScope": false
       },
-      "../src/wallet/validator/removecredit.ts": {
-        "version": "dae9296a832fef787aa190ce4c33488ede8f893d3b16ea84fdbfe0661977da98",
-        "signature": "46e1629a7b1f4fa99ddfa4b0eebf9acd9c048990f8d1e66eb315ffadaab7ab63",
-        "affectsGlobalScope": false
-      },
-      "../src/wallet/validator/index.ts": {
-        "version": "82a646d127823ae07e470462bae9120b4453230c6bea84060544f18466e396a8",
-        "signature": "5ebd8b386c793f1ffce5b896410e967402b322a1e63c2bb3b6df725bedf56f03",
-        "affectsGlobalScope": false
-      },
-      "../src/wallet/services/service.ts": {
-        "version": "f9a3cf7843bcd30fa5cf2a42c2f54b3db53b32d302290c7e0b63b19c9b796daa",
-        "signature": "5c7e5966a47e6252f43cecb9fc159ec098802b0f55eca201dc02985b3c643cdd",
+      "../src/shortcut/services/service.ts": {
+        "version": "7004abcb953d67b40062a1db56548eaebeb12dfd794a99efae186c6bcb365bb2",
+        "signature": "0f3a2e3e1df212101d55516fc4e118db0488816959ad7f0ad5bc36d16ab7a14a",
         "affectsGlobalScope": false
       },
       "../src/user/services/user.service.ts": {
-        "version": "15981a66fed132670b03a2bb26d694895645b5f9826c83c503d57a395a9a4529",
-        "signature": "89ffdf7e6140097a71093af7f0975d77f83c095ef6d2567e0bb6087b09f5dac7",
+        "version": "c3d6fe6e121ea842f15b3b36f46765e58cd59f4806ae8fdcf6d89a03a0d073f2",
+        "signature": "34a3b4da22302351df6aa768fea62e3aa5bfe496b551d665ef5f9e83e09c40cf",
         "affectsGlobalScope": false
       },
       "../src/user/listener.ts": {
-        "version": "7fecc69197d10b3551df67ecddf8657e08a0fdb957f7ff5b2324de109339cc0b",
-        "signature": "a75db7c3525447f2f8c0b73d075b5e67aa7b0fc2e1246dfd59bdf880821ddf0e",
+        "version": "c4905f542e6e483c2901ba289098385822d5c0f96a9902ad4cad036a99eade73",
+        "signature": "913f135cd915405faa3ecebfceb4ce7efcb8433a17e85862724dcf05636d81d6",
         "affectsGlobalScope": false
       },
       "../src/user/repositories/database/user.ts": {
@@ -3612,7 +3612,7 @@
         "affectsGlobalScope": false
       },
       "../src/user/models/user/index.ts": {
-        "version": "c7cde18101113e442ff7b7cab0642de28f40519f6edd749a8a23e416f5f9914f",
+        "version": "e149f52f8bed5cedac748edd9e7e9cf1842860a059c3152769d341537c445535",
         "signature": "13ad119869b231046a44d38a6479458dd8d6f25e4919d75d57df4ef9d79de758",
         "affectsGlobalScope": false
       },
@@ -3692,8 +3692,8 @@
         "affectsGlobalScope": false
       },
       "../src/user/transformers/usertransformer.ts": {
-        "version": "c33d6cfabf40388a3624497c7dcf3de7695fa7d72960d940b6daebe53584ff88",
-        "signature": "b43fc42e4bceb5d09bf3fcf91827cf5dda9ba3aa6e7768df54f609f5a82f9467",
+        "version": "1743c206f638f6c5788e3ca7367004cc50dd51ff06e8c10e863381e9721bcc82",
+        "signature": "e89f6e327d50393a98b80ab329a06b6878d7902c003e5ff8e9dae08f95bb57ae",
         "affectsGlobalScope": false
       },
       "../src/user/transformers/index.ts": {
@@ -3702,97 +3702,82 @@
         "affectsGlobalScope": false
       },
       "../src/user/controllers/user.controller.ts": {
-        "version": "ef930cb8e0a18099d668202974afcb108de5b80b213fff3f9c43e4ba33920416",
-        "signature": "127e26916af495d86f3736a15b1299dfdee1622cee502333645e358fac9ac845",
+        "version": "61adc77e5946518faf5ba965d8b0bfb7dd6bdf7fb5e5de95800ad2706e3e616c",
+        "signature": "7c6ed088c3a72130606f088887fd630388d55f724a9d6efb56394fb50442166b",
         "affectsGlobalScope": false
       },
-      "../src/wallet/repositories/database/transaction.ts": {
-        "version": "af1b0ce742c1e37435a9f86caa2827ce4190817c517f015b47f66052c3b11b18",
-        "signature": "b39d72cff59dd3649ee61293bd4a6c2f0090cffb7078182f52e2c952a9fe68c1",
+      "../src/shortcut/repositories/database/shortcut.ts": {
+        "version": "dd6570488ddf27d5a0a158094a8de184bf6498bca8e929c50ec4aeae9c58ad90",
+        "signature": "2dd67010e992da4e5a665cb9af86fa8c10c1ea08ce493654c5fb350e8da4ce25",
         "affectsGlobalScope": false
       },
-      "../src/wallet/repositories/database/wallet.ts": {
-        "version": "08705c3ded8ef79bcdf49c75ccf8d568880f9630928cdb817ed867114a7884c8",
-        "signature": "24fa98d0d1de417350284fa0e60622f1c9770e2cc4b515263828bee2bb5a6051",
+      "../src/shortcut/repositories/database/index.ts": {
+        "version": "4fcf0f6cdaf3f45d1591b546ae951bade889240274583a397428195899bdb38f",
+        "signature": "b0af1950c3d4b8d69d569b066c3254a2564ed3f25b192d066cbd02b3b74a5c4d",
         "affectsGlobalScope": false
       },
-      "../src/wallet/repositories/database/index.ts": {
-        "version": "eb27eec750188caf58b5165e381d50b085deb97d464865e022127e497da01a9d",
-        "signature": "00ad8d21b1aa6b9660e69fd906eef6d4d28164721c1146173a3b063b29ebffdf",
-        "affectsGlobalScope": false
-      },
-      "../src/wallet/provider.ts": {
-        "version": "603460d1aa23454ce5208858d77b675dfb0e1d5f942b5e20ef6f0954ad692d72",
+      "../src/shortcut/provider.ts": {
+        "version": "e56bef1e913dbdcf900aedd85a7180d6faf0793e7c7b2e294834b55837ca2297",
         "signature": "0a185a159afe3ec689bef64b625a8a93b4fa14b82aeccece1dd60d9126ae8069",
         "affectsGlobalScope": false
       },
-      "../src/wallet/transformer/detail.ts": {
-        "version": "51e833fd59c61c49fe6fe156f1e2c30dd1d6a67731f2d62cc9c905abbe57b7a1",
-        "signature": "f850a6f3336af619d6eb99379507abe41269f641b666b943593ae3d7f72249d9",
+      "../src/shortcut/transformer/detail.ts": {
+        "version": "c23cb7e6f5a7d43249224d1eeca8c910ca300b6dda043dd436d9e957ae8909e4",
+        "signature": "25b04725db2867d25a53317bb58d3ae42c9d334d41b8d4d5e3bc6ca93107ed64",
         "affectsGlobalScope": false
       },
-      "../src/wallet/transformer/transaction.ts": {
-        "version": "e4e57743a3e711ff8df7c8600b28b425d2fb32d995cb919e8f013bb64b19f822",
-        "signature": "7aaadb052db71cbb1b123d83ff6b31d27e93263182cc7f90c920d9d4d8684fee",
+      "../src/shortcut/transformer/index.ts": {
+        "version": "2143ca5ff4be61cc27b3c179cb8bab4b3bd70552b2ff51659c8a00a0a2b18c11",
+        "signature": "4231575fd0669a6c280aced0f33dba67a90193577a07e8d0e26de79285b96326",
         "affectsGlobalScope": false
       },
-      "../src/wallet/transformer/index.ts": {
-        "version": "0510c8b6a3fc09220d0aa3eb88a9fc92142098b8e5bd85b7e208ef5fc9513e8e",
-        "signature": "fde6810c51e2a572df7859353defaf7597a8cf6549ead5ac9de11d85ef0a78d0",
+      "../src/shortcut/validator/index.ts": {
+        "version": "021dd95f2bdef2eda4f8c853f815350ebdb3632549228c341f4975be04a0fd01",
+        "signature": "536e762015e427c5abfa5a52cf763342bb7c3f25fdc8adbabef7539fa757a134",
         "affectsGlobalScope": false
       },
-      "../src/wallet/controller/controller.ts": {
-        "version": "9ee0fa4ebb403b50f78e7a7bb9864a52d80accfafa93e2dd03f6880a7e263eb6",
-        "signature": "f3d133538dbe00d92de0a7eba8f2f3a35827d3a57f00f1aa5fdb51693d8cabc7",
+      "../src/shortcut/controller/controller.ts": {
+        "version": "894e6eb52d6aa85ae23f550e758b8adddb6cde4bfc268d3d872472ff9731db0b",
+        "signature": "e30e0b24e69852813ae58726313b863d78341f28466aca6317a11046bbde043d",
         "affectsGlobalScope": false
       },
-      "../src/wallet/models/wallet/schema.ts": {
-        "version": "4e31bb143a10e5a95f40fb87f572ba5c0915514d597c8f5df9cd51a29c2bd230",
-        "signature": "594b93cc072dcc7a7c329d83edb00ffc4cc6ae9da547c24e13bdb444dee6c215",
+      "../src/shortcut/models/shortcut/schema.ts": {
+        "version": "6f7d1f4de39ddd13d95e08680ee8535648899b21cba91323d1609446a96c8b31",
+        "signature": "9012acf6dea957cacd6fdf7613077f80f3eea439eff6f8d66328f0bcbca158d6",
         "affectsGlobalScope": false
       },
-      "../src/wallet/models/plugins/relations.ts": {
+      "../src/shortcut/models/plugins/relations.ts": {
         "version": "c3ff2411a2731a138dde7ad8e5013b14294270865f59bd343d38c440380beeeb",
         "signature": "ceb1d90316040974c9dc03217a053071cc1d8e46560643f309a27dc78f1a7b81",
         "affectsGlobalScope": false
       },
-      "../src/wallet/models/plugins/queries.ts": {
+      "../src/shortcut/models/plugins/queries.ts": {
         "version": "252bceb5a4b0c397cf9986e8e399f9a82975c4043ee2eb8f4b9118982c3b7f8e",
         "signature": "0a17002bbe0ab53582775768f2ec538a5b7b7a4925fb0b66692f2a893cb3cd6f",
         "affectsGlobalScope": false
       },
-      "../src/wallet/models/plugins/index.ts": {
+      "../src/shortcut/models/plugins/index.ts": {
         "version": "3ca698548d1204666655538461bdfc6ebf7c8c079cdf14b632b1c6e367f617c0",
         "signature": "948bebe181ac7b4d699c36f445dc44d625c427020d36b3b9d24ba09b384393a2",
         "affectsGlobalScope": false
       },
-      "../src/wallet/models/wallet/index.ts": {
-        "version": "e0ff380896ed794050add3294ced8a63763ea990c913e6d9ed32e1ac26cf9d7a",
+      "../src/shortcut/models/shortcut/index.ts": {
+        "version": "cf4effeaddb1af9279e684f0d8e2139b23c6655f7811ce62629f733ad49a8795",
         "signature": "13ad119869b231046a44d38a6479458dd8d6f25e4919d75d57df4ef9d79de758",
         "affectsGlobalScope": false
       },
-      "../src/wallet/models/transaction/schema.ts": {
-        "version": "fe3e21e43c4e3760f56d3ee838af7622b9c3393057a78df979c1b6a28d30c53a",
-        "signature": "bd5225d88f85f6c3345042c6524ec95a59104e85f1ef77b522cdd9dd32e91b44",
-        "affectsGlobalScope": false
-      },
-      "../src/wallet/models/transaction/index.ts": {
-        "version": "1f8ca4d32a2a08084035472d970c3a69bfa00d2fdab52016128c5d77001d03a9",
-        "signature": "13ad119869b231046a44d38a6479458dd8d6f25e4919d75d57df4ef9d79de758",
-        "affectsGlobalScope": false
-      },
-      "../src/wallet/models/index.ts": {
-        "version": "5da110625086fb57a1f24eb178a37d4295fd280001a492cf53c310212425f394",
+      "../src/shortcut/models/index.ts": {
+        "version": "c75348eb785a69fbb0dfe3ca8a5c39363d5cbea0730637eb4bddd57054a43b9d",
         "signature": "13b79e9f10b1adfc810d8478343db2e916c5285c326f6cf2297032b715266de0",
         "affectsGlobalScope": false
       },
-      "../src/wallet/index.ts": {
-        "version": "87b0c211edca78677c6fef7c7aeb27a12ec50ebf58b67a97741bc03946c19842",
-        "signature": "a04fd37dbf7492462dd98735abd9cfa6c4d5511abceb5ca30f34afd13de0970d",
+      "../src/shortcut/index.ts": {
+        "version": "69da007449fddac79a78ab7bd944089bd9278d5c61358051cb6818d09310c6c7",
+        "signature": "e1c854474a71fe1ff05e2e5b5c4ffe9d7d764578e6d3610e325e0d5653768414",
         "affectsGlobalScope": false
       },
       "../src/user/module.ts": {
-        "version": "048fefe06d471087110b266f02b30f66716b70f41caef379f64cc7c6b4b6d891",
+        "version": "d1506ddfa78cba9d9694accc44f113bd23c3e8b3444ccb0a8c6f322dc1f69845",
         "signature": "9e36626cb39f17790cf2403e2e54d8a74542da63e2a49aba7061133a1af26dcd",
         "affectsGlobalScope": false
       },
@@ -3801,29 +3786,9 @@
         "signature": "df963a928894bab7fc7b63b824dffb2110cf7e3a377a7cdb775f7f5941e44944",
         "affectsGlobalScope": false
       },
-      "../src/intro/controllers/introcontroller.ts": {
-        "version": "29a60cd4c17e448d27188fe805bc5bb5d427bed86524d51bd868720de3423a29",
-        "signature": "4a6b321b891d2c87d5f543c7ece5bb79585e305d58f9c6ed3685a2f24cc5d27a",
-        "affectsGlobalScope": false
-      },
-      "../src/intro/controllers/index.ts": {
-        "version": "ab6131c89d23c957678484216149380078ab0f0139b611adfe629835f910040a",
-        "signature": "ab6131c89d23c957678484216149380078ab0f0139b611adfe629835f910040a",
-        "affectsGlobalScope": false
-      },
-      "../src/intro/module.ts": {
-        "version": "dd6b941424e1f35b860c15a7291ebc384b430a4add12151d706239fcef9aca90",
-        "signature": "763de59178a16d93f3a5d78bcb15e75d77e3100591dbd57dd5063dd6334a57ce",
-        "affectsGlobalScope": false
-      },
-      "../src/intro/index.ts": {
-        "version": "ee627a800d543ef3d7b6068519f1318c5c513231b9d2f7ffe71a6ea00021a27f",
-        "signature": "0fdabcaa6cff65e2905c4ecfc81ae01126bf39a7e3b62fef56a21cfce2f0b5e6",
-        "affectsGlobalScope": false
-      },
       "../src/auth/auth.listener.ts": {
-        "version": "2477e78c07802cd67ac879461e5bda1cc59ef9a69a421d6d8c09fc81fa899a36",
-        "signature": "b742e5cc97db9740d84686f6fcd49f1ef5430f4978fc5b149a13625f3cf02752",
+        "version": "17cf82c823ac67531e36c20afc13161798580dfb762e471b6e8ee9d88206151b",
+        "signature": "75ce04fa642adf57c986e81a4ed0154f81511810cbbe8654365d66be46d9c4ae",
         "affectsGlobalScope": false
       },
       "../src/auth/validators/consumerregistration.ts": {
@@ -3836,14 +3801,9 @@
         "signature": "1f4ce361dc5c61055ecd3dd3b6ebb9e19e19164bd45bbc6a8eacb05940766938",
         "affectsGlobalScope": false
       },
-      "../src/auth/validators/changepassword.ts": {
-        "version": "6a4f957ee88bb9ffae9022b0be60d3fd3e593fe8d7a9135b60fbba5c01b621be",
-        "signature": "b2e1a3174f3d4134f5d2b990ab2e7aba9c8e041bbcea1bd8ead83bc6a6fb36fd",
-        "affectsGlobalScope": false
-      },
       "../src/auth/validators/index.ts": {
-        "version": "8e5fc6f6baf0097e60e67c58a0cc8c9e793a38844621f06a5159aa639301e6e3",
-        "signature": "12bbdbacaa25bda85e79a348a83c98030f316656d13b969a6e0dbd0f6ed873d4",
+        "version": "4a42a0cdd9e94a2c328ff41e1b4760105089d2925d9c7c4429ba54ae715e773a",
+        "signature": "9f876f001a884629662d03b753fd83df4b23853510f22c9108cb0ebfe09dbfdf",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -3882,13 +3842,13 @@
         "affectsGlobalScope": false
       },
       "../src/auth/auth.service.ts": {
-        "version": "7ae84751c9232461ad94ffc455889ce981d5affeabadb636950899e43e772731",
-        "signature": "04a4e78342570ba200e8706314dd86f1d696a788579509203a21f2ccc0ff7dd6",
+        "version": "19ae776a1d625032802517a86dccb34a7137eec5bd6b8e5cff6418580d97eaed",
+        "signature": "04248b7186a4286913de6ecc17000cf48733cfc5a072b5950aa44f80264da6cf",
         "affectsGlobalScope": false
       },
       "../src/auth/auth.controller.ts": {
-        "version": "d4bec98c620a8800945fe6717ef3ad6071afe2ceda4c2856a5ff75542b959dbb",
-        "signature": "df090d12068908ee7057f16798667a18c9bae24895629c6f9f1fa159de2b2899",
+        "version": "e5a0cd48b2bbc50f754ee46b105dbd00940562a3092a57661476a78dfa89ecd5",
+        "signature": "08ea47ccfd1e9635c23139c7170959f9f9324c6eabbee6a06e371b04ea92625c",
         "affectsGlobalScope": false
       },
       "../src/auth/strategies/jwt.ts": {
@@ -3907,7 +3867,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.ts": {
-        "version": "5cb7fcf5bf924e8aa455fe7006485e5dae4bffa6f34e90acea656afa8e695de9",
+        "version": "88f0cbfa93e2288018b2f73620faf6bb579f025d826d953eaae79ae99b3042c4",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -3922,7 +3882,7 @@
         "affectsGlobalScope": false
       },
       "../src/cli.ts": {
-        "version": "e02d8c2700b6e422fea7939c33521226e104422058306609a5fc3bf97efafd80",
+        "version": "5a2882552d5766a455e450548080a278d13e9346d98a2ee56c2f089beeb12098",
         "signature": "62f7e13204b7caa68a4c44c410b1c11db231ef463a14b831657f9841cafa35f2",
         "affectsGlobalScope": false
       },
@@ -3992,7 +3952,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "34c9b095dca029cdc9fc617517e6df1444e19d441f762c96609968b158fd7984",
+        "version": "3772c2e89037dc9f4022fdf8dea916b1dafe4e54a3df37562be1356039f9322f",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
@@ -4211,7 +4171,7 @@
         "signature": "6a11a44c28aeb36e551aad316a3c30e5edd9244396378f664dea164c4ce49fe0",
         "affectsGlobalScope": false
       },
-      "../../node_modules/@types/color-name/index.d.ts": {
+      "../../../node_modules/@types/color-name/index.d.ts": {
         "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
         "signature": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
         "affectsGlobalScope": false
@@ -4242,7 +4202,7 @@
           "libs/core/src/*"
         ]
       },
-      "pathsBasePath": "C:/Users/Meet/miteshmethaapi",
+      "pathsBasePath": "C:/Users/Meet/Desktop/oslashtask",
       "configFilePath": "../tsconfig.build.json"
     },
     "referencedMap": {
@@ -7065,8 +7025,7 @@
         "../node_modules/@nestjs/mongoose/index.d.ts",
         "../src/auth/index.ts",
         "../src/intro/index.ts",
-        "../src/user/index.ts",
-        "../src/wallet/index.ts"
+        "../src/shortcut/index.ts"
       ],
       "../src/auth/auth.controller.ts": [
         "../libs/core/src/controllers/index.ts",
@@ -7133,9 +7092,6 @@
       "../src/auth/utils/index.ts": [
         "../src/auth/utils/hash.ts"
       ],
-      "../src/auth/validators/changepassword.ts": [
-        "../libs/core/src/validator/index.ts"
-      ],
       "../src/auth/validators/consumerlogin.ts": [
         "../libs/core/src/validator/index.ts"
       ],
@@ -7143,7 +7099,6 @@
         "../libs/core/src/validator/index.ts"
       ],
       "../src/auth/validators/index.ts": [
-        "../src/auth/validators/changepassword.ts",
         "../src/auth/validators/consumerlogin.ts",
         "../src/auth/validators/consumerregistration.ts"
       ],
@@ -7175,6 +7130,83 @@
         "../node_modules/class-validator/types/index.d.ts",
         "../node_modules/helmet/dist/index.d.ts",
         "../src/app.ts"
+      ],
+      "../src/shortcut/controller/controller.ts": [
+        "../libs/core/src/index.ts",
+        "../libs/core/src/validator/index.ts",
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/auth/guards/index.ts",
+        "../src/shortcut/services/service.ts",
+        "../src/shortcut/transformer/index.ts",
+        "../src/shortcut/validator/index.ts"
+      ],
+      "../src/shortcut/index.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../src/shortcut/controller/controller.ts",
+        "../src/shortcut/models/index.ts",
+        "../src/shortcut/provider.map.ts",
+        "../src/shortcut/provider.ts",
+        "../src/shortcut/repositories/database/index.ts",
+        "../src/shortcut/services/service.ts"
+      ],
+      "../src/shortcut/models/index.ts": [
+        "../src/shortcut/models/shortcut/index.ts"
+      ],
+      "../src/shortcut/models/plugins/index.ts": [
+        "../src/shortcut/models/plugins/queries.ts",
+        "../src/shortcut/models/plugins/relations.ts"
+      ],
+      "../src/shortcut/models/shortcut/index.ts": [
+        "../src/shortcut/models/plugins/index.ts",
+        "../src/shortcut/models/shortcut/schema.ts"
+      ],
+      "../src/shortcut/provider.ts": [
+        "../src/shortcut/provider.map.ts",
+        "../src/shortcut/repositories/database/index.ts",
+        "../src/shortcut/services/service.ts"
+      ],
+      "../src/shortcut/repositories/contracts/index.ts": [
+        "../src/shortcut/repositories/contracts/shortcut.ts"
+      ],
+      "../src/shortcut/repositories/contracts/shortcut.ts": [
+        "../libs/core/src/index.ts"
+      ],
+      "../src/shortcut/repositories/database/index.ts": [
+        "../src/shortcut/repositories/database/shortcut.ts"
+      ],
+      "../src/shortcut/repositories/database/shortcut.ts": [
+        "../libs/core/src/helpers/index.ts",
+        "../libs/core/src/index.ts",
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../src/shortcut/repositories/contracts/index.ts"
+      ],
+      "../src/shortcut/services/service.ts": [
+        "../libs/core/src/exceptions/index.ts",
+        "../libs/core/src/validator/index.ts",
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../src/shortcut/provider.map.ts",
+        "../src/shortcut/repositories/contracts/index.ts",
+        "../src/shortcut/validator/addshortcut.ts",
+        "../src/shortcut/validator/removeshortcut.ts"
+      ],
+      "../src/shortcut/transformer/detail.ts": [
+        "../libs/core/src/index.ts"
+      ],
+      "../src/shortcut/transformer/index.ts": [
+        "../src/shortcut/transformer/detail.ts"
+      ],
+      "../src/shortcut/validator/addshortcut.ts": [
+        "../libs/core/src/validator/index.ts"
+      ],
+      "../src/shortcut/validator/index.ts": [
+        "../src/shortcut/validator/addshortcut.ts",
+        "../src/shortcut/validator/removeshortcut.ts"
+      ],
+      "../src/shortcut/validator/removeshortcut.ts": [
+        "../libs/core/src/validator/index.ts"
       ],
       "../src/user/controllers/user.controller.ts": [
         "../libs/core/src/controllers/index.ts",
@@ -7209,14 +7241,14 @@
         "../node_modules/@nestjs/mongoose/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/path.d.ts",
+        "../src/shortcut/index.ts",
         "../src/user/container.ts",
         "../src/user/controllers/user.controller.ts",
         "../src/user/listener.ts",
         "../src/user/models/index.ts",
         "../src/user/provider.ts",
         "../src/user/repositories/database/index.ts",
-        "../src/user/services/user.service.ts",
-        "../src/wallet/index.ts"
+        "../src/user/services/user.service.ts"
       ],
       "../src/user/provider.ts": [
         "../src/user/container.ts",
@@ -7245,10 +7277,10 @@
         "../libs/core/src/validator/index.ts",
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/auth/utils/index.ts",
+        "../src/shortcut/services/service.ts",
         "../src/user/container.ts",
         "../src/user/repositories/contracts/user.ts",
-        "../src/user/validator/index.ts",
-        "../src/wallet/services/service.ts"
+        "../src/user/validator/index.ts"
       ],
       "../src/user/transformers/index.ts": [
         "../src/user/transformers/usertransformer.ts"
@@ -7259,110 +7291,8 @@
       "../src/user/validator/createuser.ts": [
         "../libs/core/src/validator/index.ts"
       ],
-      "../src/user/validator/deleteprofile.ts": [
-        "../libs/core/src/validator/index.ts"
-      ],
       "../src/user/validator/index.ts": [
-        "../src/user/validator/createuser.ts",
-        "../src/user/validator/deleteprofile.ts",
-        "../src/user/validator/updateprofile.ts"
-      ],
-      "../src/user/validator/updateprofile.ts": [
-        "../libs/core/src/validator/index.ts"
-      ],
-      "../src/wallet/controller/controller.ts": [
-        "../libs/core/src/index.ts",
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../src/auth/guards/index.ts",
-        "../src/wallet/services/service.ts",
-        "../src/wallet/transformer/index.ts"
-      ],
-      "../src/wallet/index.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/wallet/controller/controller.ts",
-        "../src/wallet/models/index.ts",
-        "../src/wallet/provider.map.ts",
-        "../src/wallet/provider.ts",
-        "../src/wallet/repositories/database/index.ts",
-        "../src/wallet/services/service.ts"
-      ],
-      "../src/wallet/models/index.ts": [
-        "../src/wallet/models/transaction/index.ts",
-        "../src/wallet/models/wallet/index.ts"
-      ],
-      "../src/wallet/models/plugins/index.ts": [
-        "../src/wallet/models/plugins/queries.ts",
-        "../src/wallet/models/plugins/relations.ts"
-      ],
-      "../src/wallet/models/transaction/index.ts": [
-        "../src/wallet/models/plugins/index.ts",
-        "../src/wallet/models/transaction/schema.ts"
-      ],
-      "../src/wallet/models/wallet/index.ts": [
-        "../src/wallet/models/plugins/index.ts",
-        "../src/wallet/models/wallet/schema.ts"
-      ],
-      "../src/wallet/provider.ts": [
-        "../src/wallet/provider.map.ts",
-        "../src/wallet/repositories/database/index.ts",
-        "../src/wallet/services/service.ts"
-      ],
-      "../src/wallet/repositories/contracts/index.ts": [
-        "../src/wallet/repositories/contracts/transaction.ts",
-        "../src/wallet/repositories/contracts/wallet.ts"
-      ],
-      "../src/wallet/repositories/contracts/transaction.ts": [
-        "../libs/core/src/index.ts"
-      ],
-      "../src/wallet/repositories/contracts/wallet.ts": [
-        "../libs/core/src/index.ts"
-      ],
-      "../src/wallet/repositories/database/index.ts": [
-        "../src/wallet/repositories/database/transaction.ts",
-        "../src/wallet/repositories/database/wallet.ts"
-      ],
-      "../src/wallet/repositories/database/transaction.ts": [
-        "../libs/core/src/index.ts",
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/wallet/repositories/contracts/index.ts"
-      ],
-      "../src/wallet/repositories/database/wallet.ts": [
-        "../libs/core/src/index.ts",
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/wallet/repositories/contracts/index.ts"
-      ],
-      "../src/wallet/services/service.ts": [
-        "../libs/core/src/exceptions/index.ts",
-        "../libs/core/src/validator/index.ts",
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/core/index.d.ts",
-        "../src/wallet/provider.map.ts",
-        "../src/wallet/repositories/contracts/index.ts",
-        "../src/wallet/validator/index.ts"
-      ],
-      "../src/wallet/transformer/detail.ts": [
-        "../libs/core/src/index.ts"
-      ],
-      "../src/wallet/transformer/index.ts": [
-        "../src/wallet/transformer/detail.ts",
-        "../src/wallet/transformer/transaction.ts"
-      ],
-      "../src/wallet/transformer/transaction.ts": [
-        "../libs/core/src/index.ts",
-        "../node_modules/moment/ts3.1-typings/moment.d.ts"
-      ],
-      "../src/wallet/validator/addcredit.ts": [
-        "../libs/core/src/validator/index.ts"
-      ],
-      "../src/wallet/validator/index.ts": [
-        "../src/wallet/validator/addcredit.ts",
-        "../src/wallet/validator/removecredit.ts"
-      ],
-      "../src/wallet/validator/removecredit.ts": [
-        "../libs/core/src/validator/index.ts"
+        "../src/user/validator/createuser.ts"
       ]
     },
     "exportedModulesMap": {
@@ -10136,7 +10066,6 @@
         "../src/auth/utils/hash.ts"
       ],
       "../src/auth/validators/index.ts": [
-        "../src/auth/validators/changepassword.ts",
         "../src/auth/validators/consumerlogin.ts",
         "../src/auth/validators/consumerregistration.ts"
       ],
@@ -10148,6 +10077,42 @@
       ],
       "../src/intro/index.ts": [
         "../src/intro/module.ts"
+      ],
+      "../src/shortcut/controller/controller.ts": [
+        "../libs/core/src/index.ts",
+        "../libs/core/src/validator/index.ts",
+        "../src/shortcut/services/service.ts"
+      ],
+      "../src/shortcut/models/plugins/index.ts": [
+        "../src/shortcut/models/plugins/queries.ts",
+        "../src/shortcut/models/plugins/relations.ts"
+      ],
+      "../src/shortcut/repositories/contracts/index.ts": [
+        "../src/shortcut/repositories/contracts/shortcut.ts"
+      ],
+      "../src/shortcut/repositories/contracts/shortcut.ts": [
+        "../libs/core/src/index.ts"
+      ],
+      "../src/shortcut/repositories/database/index.ts": [
+        "../src/shortcut/repositories/database/shortcut.ts"
+      ],
+      "../src/shortcut/repositories/database/shortcut.ts": [
+        "../libs/core/src/index.ts",
+        "../src/shortcut/repositories/contracts/index.ts"
+      ],
+      "../src/shortcut/services/service.ts": [
+        "../libs/core/src/validator/index.ts",
+        "../src/shortcut/repositories/contracts/index.ts"
+      ],
+      "../src/shortcut/transformer/detail.ts": [
+        "../libs/core/src/index.ts"
+      ],
+      "../src/shortcut/transformer/index.ts": [
+        "../src/shortcut/transformer/detail.ts"
+      ],
+      "../src/shortcut/validator/index.ts": [
+        "../src/shortcut/validator/addshortcut.ts",
+        "../src/shortcut/validator/removeshortcut.ts"
       ],
       "../src/user/controllers/user.controller.ts": [
         "../libs/core/src/controllers/index.ts",
@@ -10182,8 +10147,8 @@
       ],
       "../src/user/services/user.service.ts": [
         "../libs/core/src/validator/index.ts",
-        "../src/user/repositories/contracts/user.ts",
-        "../src/wallet/services/service.ts"
+        "../src/shortcut/services/service.ts",
+        "../src/user/repositories/contracts/user.ts"
       ],
       "../src/user/transformers/index.ts": [
         "../src/user/transformers/usertransformer.ts"
@@ -10192,60 +10157,846 @@
         "../libs/core/src/transformers/index.ts"
       ],
       "../src/user/validator/index.ts": [
-        "../src/user/validator/createuser.ts",
-        "../src/user/validator/deleteprofile.ts",
-        "../src/user/validator/updateprofile.ts"
-      ],
-      "../src/wallet/controller/controller.ts": [
-        "../libs/core/src/index.ts",
-        "../src/wallet/services/service.ts"
-      ],
-      "../src/wallet/models/plugins/index.ts": [
-        "../src/wallet/models/plugins/queries.ts",
-        "../src/wallet/models/plugins/relations.ts"
-      ],
-      "../src/wallet/repositories/contracts/index.ts": [
-        "../src/wallet/repositories/contracts/transaction.ts",
-        "../src/wallet/repositories/contracts/wallet.ts"
-      ],
-      "../src/wallet/repositories/contracts/transaction.ts": [
-        "../libs/core/src/index.ts"
-      ],
-      "../src/wallet/repositories/contracts/wallet.ts": [
-        "../libs/core/src/index.ts"
-      ],
-      "../src/wallet/repositories/database/index.ts": [
-        "../src/wallet/repositories/database/transaction.ts",
-        "../src/wallet/repositories/database/wallet.ts"
-      ],
-      "../src/wallet/repositories/database/transaction.ts": [
-        "../libs/core/src/index.ts",
-        "../src/wallet/repositories/contracts/index.ts"
-      ],
-      "../src/wallet/repositories/database/wallet.ts": [
-        "../libs/core/src/index.ts",
-        "../src/wallet/repositories/contracts/index.ts"
-      ],
-      "../src/wallet/services/service.ts": [
-        "../libs/core/src/validator/index.ts",
-        "../src/wallet/repositories/contracts/index.ts"
-      ],
-      "../src/wallet/transformer/detail.ts": [
-        "../libs/core/src/index.ts"
-      ],
-      "../src/wallet/transformer/index.ts": [
-        "../src/wallet/transformer/detail.ts",
-        "../src/wallet/transformer/transaction.ts"
-      ],
-      "../src/wallet/transformer/transaction.ts": [
-        "../libs/core/src/index.ts"
-      ],
-      "../src/wallet/validator/index.ts": [
-        "../src/wallet/validator/addcredit.ts",
-        "../src/wallet/validator/removecredit.ts"
+        "../src/user/validator/createuser.ts"
       ]
     },
-    "semanticDiagnosticsPerFile": []
+    "semanticDiagnosticsPerFile": [
+      "../config/app.ts",
+      "../config/auth.config.ts",
+      "../config/database.ts",
+      "../config/index.ts",
+      "../config/services.ts",
+      "../config/settings.ts",
+      "../libs/core/src/console/basecommand.ts",
+      "../libs/core/src/console/commandmeta.ts",
+      "../libs/core/src/console/commands/index.ts",
+      "../libs/core/src/console/commands/initapplicationsetup.ts",
+      "../libs/core/src/console/commands/listcommands.ts",
+      "../libs/core/src/console/constants.ts",
+      "../libs/core/src/console/decorators.ts",
+      "../libs/core/src/console/index.ts",
+      "../libs/core/src/console/inquirer.ts",
+      "../libs/core/src/console/logger.ts",
+      "../libs/core/src/constants.ts",
+      "../libs/core/src/controllers/apicontroller.ts",
+      "../libs/core/src/controllers/index.ts",
+      "../libs/core/src/db/basemodel.ts",
+      "../libs/core/src/db/helpers.ts",
+      "../libs/core/src/db/index.ts",
+      "../libs/core/src/db/querybuilder.ts",
+      "../libs/core/src/db/repositories/contract.ts",
+      "../libs/core/src/db/repositories/database.ts",
+      "../libs/core/src/db/repositories/index.ts",
+      "../libs/core/src/exceptions/core/dbrepositoryexception.ts",
+      "../libs/core/src/exceptions/core/index.ts",
+      "../libs/core/src/exceptions/filter.ts",
+      "../libs/core/src/exceptions/genericexception.ts",
+      "../libs/core/src/exceptions/index.ts",
+      "../libs/core/src/exceptions/invalidcredentials.ts",
+      "../libs/core/src/exceptions/modelalreadyexists.ts",
+      "../libs/core/src/exceptions/modelnotfound.ts",
+      "../libs/core/src/exceptions/unauthorized.ts",
+      "../libs/core/src/exceptions/validationfailed.ts",
+      "../libs/core/src/guards/index.ts",
+      "../libs/core/src/guards/request.ts",
+      "../libs/core/src/helpers/array.ts",
+      "../libs/core/src/helpers/helpers.ts",
+      "../libs/core/src/helpers/index.ts",
+      "../libs/core/src/helpers/string.ts",
+      "../libs/core/src/http/constants.ts",
+      "../libs/core/src/http/decorator.ts",
+      "../libs/core/src/http/explorer.ts",
+      "../libs/core/src/http/index.ts",
+      "../libs/core/src/http/metadata.ts",
+      "../libs/core/src/http/request.ts",
+      "../libs/core/src/http/response.ts",
+      "../libs/core/src/index.ts",
+      "../libs/core/src/interceptors/index.ts",
+      "../libs/core/src/interceptors/timeout.ts",
+      "../libs/core/src/module.ts",
+      "../libs/core/src/providers.ts",
+      "../libs/core/src/transformers/index.ts",
+      "../libs/core/src/transformers/transformer.ts",
+      "../libs/core/src/utils/context.ts",
+      "../libs/core/src/validator/basevalidator.ts",
+      "../libs/core/src/validator/decorators/exists.ts",
+      "../libs/core/src/validator/decorators/index.ts",
+      "../libs/core/src/validator/decorators/isdateinformat.ts",
+      "../libs/core/src/validator/decorators/isequaltoprop.ts",
+      "../libs/core/src/validator/decorators/isunique.ts",
+      "../libs/core/src/validator/decorators/isvaluefromconfig.ts",
+      "../libs/core/src/validator/decorators/valuein.ts",
+      "../libs/core/src/validator/index.ts",
+      "../node_modules/@nestjs/common/cache/cache.constants.d.ts",
+      "../node_modules/@nestjs/common/cache/cache.module.d.ts",
+      "../node_modules/@nestjs/common/cache/decorators/cache-key.decorator.d.ts",
+      "../node_modules/@nestjs/common/cache/decorators/cache-ttl.decorator.d.ts",
+      "../node_modules/@nestjs/common/cache/decorators/index.d.ts",
+      "../node_modules/@nestjs/common/cache/index.d.ts",
+      "../node_modules/@nestjs/common/cache/interceptors/cache.interceptor.d.ts",
+      "../node_modules/@nestjs/common/cache/interceptors/index.d.ts",
+      "../node_modules/@nestjs/common/cache/interfaces/cache-manager.interface.d.ts",
+      "../node_modules/@nestjs/common/cache/interfaces/cache-module.interface.d.ts",
+      "../node_modules/@nestjs/common/cache/interfaces/index.d.ts",
+      "../node_modules/@nestjs/common/constants.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/apply-decorators.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/bind.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/catch.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/controller.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/dependencies.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/exception-filters.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/index.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/inject.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/injectable.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/optional.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/set-metadata.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/use-guards.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/use-interceptors.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/use-pipes.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/create-route-param-metadata.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/header.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/http-code.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/index.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/redirect.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/render.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/request-mapping.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/route-params.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/sse.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/index.d.ts",
+      "../node_modules/@nestjs/common/decorators/modules/global.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/modules/index.d.ts",
+      "../node_modules/@nestjs/common/decorators/modules/module.decorator.d.ts",
+      "../node_modules/@nestjs/common/enums/http-status.enum.d.ts",
+      "../node_modules/@nestjs/common/enums/index.d.ts",
+      "../node_modules/@nestjs/common/enums/request-method.enum.d.ts",
+      "../node_modules/@nestjs/common/enums/shutdown-signal.enum.d.ts",
+      "../node_modules/@nestjs/common/exceptions/bad-gateway.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/bad-request.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/conflict.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/forbidden.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/gateway-timeout.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/gone.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/http-version-not-supported.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/http.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/im-a-teapot.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/index.d.ts",
+      "../node_modules/@nestjs/common/exceptions/internal-server-error.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/method-not-allowed.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/misdirected.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/not-acceptable.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/not-found.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/not-implemented.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/payload-too-large.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/precondition-failed.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/request-timeout.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/service-unavailable.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/unauthorized.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/unprocessable-entity.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/unsupported-media-type.exception.d.ts",
+      "../node_modules/@nestjs/common/http/http.module.d.ts",
+      "../node_modules/@nestjs/common/http/http.service.d.ts",
+      "../node_modules/@nestjs/common/http/index.d.ts",
+      "../node_modules/@nestjs/common/http/interfaces/http-module.interface.d.ts",
+      "../node_modules/@nestjs/common/http/interfaces/index.d.ts",
+      "../node_modules/@nestjs/common/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/abstract.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/controllers/controller-metadata.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/controllers/controller.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/exceptions/exception-filter.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/exceptions/rpc-exception-filter.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/exceptions/ws-exception-filter.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/class-transform-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/https-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/validation-error.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/validator-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/arguments-host.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/can-activate.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/custom-route-param-factory.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/execution-context.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/nest-interceptor.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/paramtype.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/pipe-transform.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/before-application-shutdown.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/on-application-bootstrap.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/on-application-shutdown.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/on-destroy.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/on-init.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/http/http-server.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/http/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/http/message-event.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-hybrid-application-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/middleware-config-proxy.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/middleware-configuration.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/middleware-consumer.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/nest-middleware.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/dynamic-module.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/forward-reference.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/introspection-result.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/nest-module.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/provider.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-application-context.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-application.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-microservice.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/scope-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/websockets/web-socket-adapter.interface.d.ts",
+      "../node_modules/@nestjs/common/pipes/default-value.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/index.d.ts",
+      "../node_modules/@nestjs/common/pipes/parse-array.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/parse-bool.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/parse-int.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/parse-uuid.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/validation.pipe.d.ts",
+      "../node_modules/@nestjs/common/serializer/class-serializer.interceptor.d.ts",
+      "../node_modules/@nestjs/common/serializer/decorators/index.d.ts",
+      "../node_modules/@nestjs/common/serializer/decorators/serialize-options.decorator.d.ts",
+      "../node_modules/@nestjs/common/serializer/index.d.ts",
+      "../node_modules/@nestjs/common/services/index.d.ts",
+      "../node_modules/@nestjs/common/services/logger.service.d.ts",
+      "../node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
+      "../node_modules/@nestjs/common/utils/http-error-by-code.util.d.ts",
+      "../node_modules/@nestjs/common/utils/index.d.ts",
+      "../node_modules/@nestjs/config/dist/config.module.d.ts",
+      "../node_modules/@nestjs/config/dist/config.service.d.ts",
+      "../node_modules/@nestjs/config/dist/index.d.ts",
+      "../node_modules/@nestjs/config/dist/interfaces/config-factory.interface.d.ts",
+      "../node_modules/@nestjs/config/dist/interfaces/config-module-options.interface.d.ts",
+      "../node_modules/@nestjs/config/dist/interfaces/index.d.ts",
+      "../node_modules/@nestjs/config/dist/types/config.type.d.ts",
+      "../node_modules/@nestjs/config/dist/types/index.d.ts",
+      "../node_modules/@nestjs/config/dist/types/no-infer.type.d.ts",
+      "../node_modules/@nestjs/config/dist/utils/get-config-token.util.d.ts",
+      "../node_modules/@nestjs/config/dist/utils/index.d.ts",
+      "../node_modules/@nestjs/config/dist/utils/register-as.util.d.ts",
+      "../node_modules/@nestjs/config/index.d.ts",
+      "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
+      "../node_modules/@nestjs/core/adapters/index.d.ts",
+      "../node_modules/@nestjs/core/application-config.d.ts",
+      "../node_modules/@nestjs/core/constants.d.ts",
+      "../node_modules/@nestjs/core/discovery/discovery-module.d.ts",
+      "../node_modules/@nestjs/core/discovery/discovery-service.d.ts",
+      "../node_modules/@nestjs/core/discovery/index.d.ts",
+      "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts",
+      "../node_modules/@nestjs/core/exceptions/index.d.ts",
+      "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts",
+      "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts",
+      "../node_modules/@nestjs/core/helpers/index.d.ts",
+      "../node_modules/@nestjs/core/index.d.ts",
+      "../node_modules/@nestjs/core/injector/container.d.ts",
+      "../node_modules/@nestjs/core/injector/index.d.ts",
+      "../node_modules/@nestjs/core/injector/injector.d.ts",
+      "../node_modules/@nestjs/core/injector/inquirer/index.d.ts",
+      "../node_modules/@nestjs/core/injector/inquirer/inquirer-constants.d.ts",
+      "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+      "../node_modules/@nestjs/core/injector/module-ref.d.ts",
+      "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
+      "../node_modules/@nestjs/core/injector/module.d.ts",
+      "../node_modules/@nestjs/core/injector/modules-container.d.ts",
+      "../node_modules/@nestjs/core/metadata-scanner.d.ts",
+      "../node_modules/@nestjs/core/middleware/builder.d.ts",
+      "../node_modules/@nestjs/core/middleware/index.d.ts",
+      "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts",
+      "../node_modules/@nestjs/core/nest-application-context.d.ts",
+      "../node_modules/@nestjs/core/nest-application.d.ts",
+      "../node_modules/@nestjs/core/nest-factory.d.ts",
+      "../node_modules/@nestjs/core/router/index.d.ts",
+      "../node_modules/@nestjs/core/router/request/index.d.ts",
+      "../node_modules/@nestjs/core/router/request/request-constants.d.ts",
+      "../node_modules/@nestjs/core/services/index.d.ts",
+      "../node_modules/@nestjs/core/services/reflector.service.d.ts",
+      "../node_modules/@nestjs/jwt/dist/index.d.ts",
+      "../node_modules/@nestjs/jwt/dist/interfaces/index.d.ts",
+      "../node_modules/@nestjs/jwt/dist/interfaces/jwt-module-options.interface.d.ts",
+      "../node_modules/@nestjs/jwt/dist/jwt.module.d.ts",
+      "../node_modules/@nestjs/jwt/dist/jwt.service.d.ts",
+      "../node_modules/@nestjs/jwt/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/common/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/decorators/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/errors/cannot-determine-type.error.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/errors/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/factories/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/utils/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts",
+      "../node_modules/@nestjs/mongoose/index.d.ts",
+      "../node_modules/@nestjs/passport/dist/abstract.strategy.d.ts",
+      "../node_modules/@nestjs/passport/dist/auth.guard.d.ts",
+      "../node_modules/@nestjs/passport/dist/index.d.ts",
+      "../node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
+      "../node_modules/@nestjs/passport/dist/interfaces/index.d.ts",
+      "../node_modules/@nestjs/passport/dist/interfaces/type.interface.d.ts",
+      "../node_modules/@nestjs/passport/dist/passport.module.d.ts",
+      "../node_modules/@nestjs/passport/dist/passport/passport.serializer.d.ts",
+      "../node_modules/@nestjs/passport/dist/passport/passport.strategy.d.ts",
+      "../node_modules/@nestjs/passport/index.d.ts",
+      "../node_modules/@types/anymatch/index.d.ts",
+      "../node_modules/@types/body-parser/index.d.ts",
+      "../node_modules/@types/connect/index.d.ts",
+      "../node_modules/@types/cookiejar/index.d.ts",
+      "../node_modules/@types/eslint-scope/index.d.ts",
+      "../node_modules/@types/eslint/helpers.d.ts",
+      "../node_modules/@types/eslint/index.d.ts",
+      "../node_modules/@types/estree/index.d.ts",
+      "../node_modules/@types/express-serve-static-core/index.d.ts",
+      "../node_modules/@types/express/index.d.ts",
+      "../node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "../node_modules/@types/istanbul-lib-report/index.d.ts",
+      "../node_modules/@types/istanbul-reports/index.d.ts",
+      "../node_modules/@types/jest/index.d.ts",
+      "../node_modules/@types/json-schema/index.d.ts",
+      "../node_modules/@types/json5/index.d.ts",
+      "../node_modules/@types/jsonwebtoken/index.d.ts",
+      "../node_modules/@types/mime/index.d.ts",
+      "../node_modules/@types/node/assert.d.ts",
+      "../node_modules/@types/node/async_hooks.d.ts",
+      "../node_modules/@types/node/base.d.ts",
+      "../node_modules/@types/node/buffer.d.ts",
+      "../node_modules/@types/node/child_process.d.ts",
+      "../node_modules/@types/node/cluster.d.ts",
+      "../node_modules/@types/node/console.d.ts",
+      "../node_modules/@types/node/constants.d.ts",
+      "../node_modules/@types/node/crypto.d.ts",
+      "../node_modules/@types/node/dgram.d.ts",
+      "../node_modules/@types/node/dns.d.ts",
+      "../node_modules/@types/node/domain.d.ts",
+      "../node_modules/@types/node/events.d.ts",
+      "../node_modules/@types/node/fs.d.ts",
+      "../node_modules/@types/node/fs/promises.d.ts",
+      "../node_modules/@types/node/globals.d.ts",
+      "../node_modules/@types/node/globals.global.d.ts",
+      "../node_modules/@types/node/http.d.ts",
+      "../node_modules/@types/node/http2.d.ts",
+      "../node_modules/@types/node/https.d.ts",
+      "../node_modules/@types/node/index.d.ts",
+      "../node_modules/@types/node/inspector.d.ts",
+      "../node_modules/@types/node/module.d.ts",
+      "../node_modules/@types/node/net.d.ts",
+      "../node_modules/@types/node/os.d.ts",
+      "../node_modules/@types/node/path.d.ts",
+      "../node_modules/@types/node/perf_hooks.d.ts",
+      "../node_modules/@types/node/process.d.ts",
+      "../node_modules/@types/node/punycode.d.ts",
+      "../node_modules/@types/node/querystring.d.ts",
+      "../node_modules/@types/node/readline.d.ts",
+      "../node_modules/@types/node/repl.d.ts",
+      "../node_modules/@types/node/stream.d.ts",
+      "../node_modules/@types/node/string_decoder.d.ts",
+      "../node_modules/@types/node/timers.d.ts",
+      "../node_modules/@types/node/tls.d.ts",
+      "../node_modules/@types/node/trace_events.d.ts",
+      "../node_modules/@types/node/ts3.4/base.d.ts",
+      "../node_modules/@types/node/ts3.6/base.d.ts",
+      "../node_modules/@types/node/tty.d.ts",
+      "../node_modules/@types/node/url.d.ts",
+      "../node_modules/@types/node/util.d.ts",
+      "../node_modules/@types/node/v8.d.ts",
+      "../node_modules/@types/node/vm.d.ts",
+      "../node_modules/@types/node/wasi.d.ts",
+      "../node_modules/@types/node/worker_threads.d.ts",
+      "../node_modules/@types/node/zlib.d.ts",
+      "../node_modules/@types/parse-json/index.d.ts",
+      "../node_modules/@types/qs/index.d.ts",
+      "../node_modules/@types/range-parser/index.d.ts",
+      "../node_modules/@types/serve-static/index.d.ts",
+      "../node_modules/@types/source-list-map/index.d.ts",
+      "../node_modules/@types/superagent/index.d.ts",
+      "../node_modules/@types/supertest/index.d.ts",
+      "../node_modules/@types/tapable/index.d.ts",
+      "../node_modules/@types/uglify-js/index.d.ts",
+      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
+      "../node_modules/@types/validator/index.d.ts",
+      "../node_modules/@types/webpack-sources/index.d.ts",
+      "../node_modules/@types/webpack-sources/lib/cachedsource.d.ts",
+      "../node_modules/@types/webpack-sources/lib/compatsource.d.ts",
+      "../node_modules/@types/webpack-sources/lib/concatsource.d.ts",
+      "../node_modules/@types/webpack-sources/lib/index.d.ts",
+      "../node_modules/@types/webpack-sources/lib/originalsource.d.ts",
+      "../node_modules/@types/webpack-sources/lib/prefixsource.d.ts",
+      "../node_modules/@types/webpack-sources/lib/rawsource.d.ts",
+      "../node_modules/@types/webpack-sources/lib/replacesource.d.ts",
+      "../node_modules/@types/webpack-sources/lib/sizeonlysource.d.ts",
+      "../node_modules/@types/webpack-sources/lib/source.d.ts",
+      "../node_modules/@types/webpack-sources/lib/sourcemapsource.d.ts",
+      "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts",
+      "../node_modules/@types/webpack/index.d.ts",
+      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts",
+      "../node_modules/@types/yargs-parser/index.d.ts",
+      "../node_modules/@types/yargs/index.d.ts",
+      "../node_modules/ajv/lib/ajv.d.ts",
+      "../node_modules/anymatch/index.d.ts",
+      "../node_modules/axios/index.d.ts",
+      "../node_modules/chalk/index.d.ts",
+      "../node_modules/class-transformer/types/classtransformer.d.ts",
+      "../node_modules/class-transformer/types/decorators/exclude.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/expose.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/index.d.ts",
+      "../node_modules/class-transformer/types/decorators/transform-class-to-class.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/transform-class-to-plain.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/transform-plain-to-class.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/transform.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/type.decorator.d.ts",
+      "../node_modules/class-transformer/types/enums/index.d.ts",
+      "../node_modules/class-transformer/types/enums/transformation-type.enum.d.ts",
+      "../node_modules/class-transformer/types/index.d.ts",
+      "../node_modules/class-transformer/types/interfaces/class-constructor.type.d.ts",
+      "../node_modules/class-transformer/types/interfaces/class-transformer-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/exclude-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/expose-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/transform-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-discriminator-descriptor.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/index.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/exclude-metadata.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/expose-metadata.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-fn-params.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-metadata.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/type-metadata.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/target-map.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/type-help-options.interface.d.ts",
+      "../node_modules/class-validator/types/container.d.ts",
+      "../node_modules/class-validator/types/decorator/array/arraycontains.d.ts",
+      "../node_modules/class-validator/types/decorator/array/arraymaxsize.d.ts",
+      "../node_modules/class-validator/types/decorator/array/arrayminsize.d.ts",
+      "../node_modules/class-validator/types/decorator/array/arraynotcontains.d.ts",
+      "../node_modules/class-validator/types/decorator/array/arraynotempty.d.ts",
+      "../node_modules/class-validator/types/decorator/array/arrayunique.d.ts",
+      "../node_modules/class-validator/types/decorator/common/allow.d.ts",
+      "../node_modules/class-validator/types/decorator/common/equals.d.ts",
+      "../node_modules/class-validator/types/decorator/common/isdefined.d.ts",
+      "../node_modules/class-validator/types/decorator/common/isempty.d.ts",
+      "../node_modules/class-validator/types/decorator/common/isin.d.ts",
+      "../node_modules/class-validator/types/decorator/common/islatitude.d.ts",
+      "../node_modules/class-validator/types/decorator/common/islatlong.d.ts",
+      "../node_modules/class-validator/types/decorator/common/islongitude.d.ts",
+      "../node_modules/class-validator/types/decorator/common/isnotempty.d.ts",
+      "../node_modules/class-validator/types/decorator/common/isnotin.d.ts",
+      "../node_modules/class-validator/types/decorator/common/isoptional.d.ts",
+      "../node_modules/class-validator/types/decorator/common/notequals.d.ts",
+      "../node_modules/class-validator/types/decorator/common/validate.d.ts",
+      "../node_modules/class-validator/types/decorator/common/validateby.d.ts",
+      "../node_modules/class-validator/types/decorator/common/validateif.d.ts",
+      "../node_modules/class-validator/types/decorator/common/validatenested.d.ts",
+      "../node_modules/class-validator/types/decorator/common/validatepromise.d.ts",
+      "../node_modules/class-validator/types/decorator/date/maxdate.d.ts",
+      "../node_modules/class-validator/types/decorator/date/mindate.d.ts",
+      "../node_modules/class-validator/types/decorator/decorators.d.ts",
+      "../node_modules/class-validator/types/decorator/number/isdivisibleby.d.ts",
+      "../node_modules/class-validator/types/decorator/number/isnegative.d.ts",
+      "../node_modules/class-validator/types/decorator/number/ispositive.d.ts",
+      "../node_modules/class-validator/types/decorator/number/max.d.ts",
+      "../node_modules/class-validator/types/decorator/number/min.d.ts",
+      "../node_modules/class-validator/types/decorator/object/isinstance.d.ts",
+      "../node_modules/class-validator/types/decorator/object/isnotemptyobject.d.ts",
+      "../node_modules/class-validator/types/decorator/string/contains.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isalpha.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isalphanumeric.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isascii.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isbase32.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isbase64.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isbic.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isbooleanstring.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isbtcaddress.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isbytelength.d.ts",
+      "../node_modules/class-validator/types/decorator/string/iscreditcard.d.ts",
+      "../node_modules/class-validator/types/decorator/string/iscurrency.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isdatauri.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isdatestring.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isdecimal.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isean.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isemail.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isethereumaddress.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isfirebasepushid.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isfqdn.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isfullwidth.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ishalfwidth.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ishash.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ishexadecimal.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ishexcolor.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ishsl.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isiban.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isidentitycard.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isip.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isisbn.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isisin.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isiso31661alpha2.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isiso31661alpha3.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isiso8601.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isisrc.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isissn.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isjson.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isjwt.d.ts",
+      "../node_modules/class-validator/types/decorator/string/islocale.d.ts",
+      "../node_modules/class-validator/types/decorator/string/islowercase.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ismacaddress.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ismagneturi.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ismilitarytime.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ismimetype.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ismobilephone.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ismongoid.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ismultibyte.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isnumberstring.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isoctal.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ispassportnumber.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isphonenumber.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isport.d.ts",
+      "../node_modules/class-validator/types/decorator/string/ispostalcode.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isrfc3339.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isrgbcolor.d.ts",
+      "../node_modules/class-validator/types/decorator/string/issemver.d.ts",
+      "../node_modules/class-validator/types/decorator/string/issurrogatepair.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isuppercase.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isurl.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isuuid.d.ts",
+      "../node_modules/class-validator/types/decorator/string/isvariablewidth.d.ts",
+      "../node_modules/class-validator/types/decorator/string/length.d.ts",
+      "../node_modules/class-validator/types/decorator/string/matches.d.ts",
+      "../node_modules/class-validator/types/decorator/string/maxlength.d.ts",
+      "../node_modules/class-validator/types/decorator/string/minlength.d.ts",
+      "../node_modules/class-validator/types/decorator/string/notcontains.d.ts",
+      "../node_modules/class-validator/types/decorator/typechecker/isarray.d.ts",
+      "../node_modules/class-validator/types/decorator/typechecker/isboolean.d.ts",
+      "../node_modules/class-validator/types/decorator/typechecker/isdate.d.ts",
+      "../node_modules/class-validator/types/decorator/typechecker/isenum.d.ts",
+      "../node_modules/class-validator/types/decorator/typechecker/isint.d.ts",
+      "../node_modules/class-validator/types/decorator/typechecker/isnumber.d.ts",
+      "../node_modules/class-validator/types/decorator/typechecker/isobject.d.ts",
+      "../node_modules/class-validator/types/decorator/typechecker/isstring.d.ts",
+      "../node_modules/class-validator/types/decorator/validationoptions.d.ts",
+      "../node_modules/class-validator/types/index.d.ts",
+      "../node_modules/class-validator/types/metadata/constraintmetadata.d.ts",
+      "../node_modules/class-validator/types/metadata/metadatastorage.d.ts",
+      "../node_modules/class-validator/types/metadata/validationmetadata.d.ts",
+      "../node_modules/class-validator/types/metadata/validationmetadataargs.d.ts",
+      "../node_modules/class-validator/types/register-decorator.d.ts",
+      "../node_modules/class-validator/types/validation-schema/validationschema.d.ts",
+      "../node_modules/class-validator/types/validation/validationarguments.d.ts",
+      "../node_modules/class-validator/types/validation/validationerror.d.ts",
+      "../node_modules/class-validator/types/validation/validationtypes.d.ts",
+      "../node_modules/class-validator/types/validation/validator.d.ts",
+      "../node_modules/class-validator/types/validation/validatorconstraintinterface.d.ts",
+      "../node_modules/class-validator/types/validation/validatoroptions.d.ts",
+      "../node_modules/cli-table3/index.d.ts",
+      "../node_modules/db-errors/index.d.ts",
+      "../node_modules/helmet/dist/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/content-security-policy/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/expect-ct/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/origin-agent-cluster/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/referrer-policy/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/strict-transport-security/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/x-content-type-options/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/x-dns-prefetch-control/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/x-download-options/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/x-frame-options/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/x-powered-by/index.d.ts",
+      "../node_modules/helmet/dist/middlewares/x-xss-protection/index.d.ts",
+      "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+      "../node_modules/jest-diff/build/difflines.d.ts",
+      "../node_modules/jest-diff/build/index.d.ts",
+      "../node_modules/jest-diff/build/printdiffs.d.ts",
+      "../node_modules/jest-diff/build/types.d.ts",
+      "../node_modules/knex/types/index.d.ts",
+      "../node_modules/knex/types/result.d.ts",
+      "../node_modules/knex/types/tables.d.ts",
+      "../node_modules/moment/ts3.1-typings/moment.d.ts",
+      "../node_modules/objection/typings/objection/index.d.ts",
+      "../node_modules/pretty-format/build/index.d.ts",
+      "../node_modules/pretty-format/build/types.d.ts",
+      "../node_modules/query-string/index.d.ts",
+      "../node_modules/reflect-metadata/index.d.ts",
+      "../node_modules/rxjs/index.d.ts",
+      "../node_modules/rxjs/internal/asyncsubject.d.ts",
+      "../node_modules/rxjs/internal/behaviorsubject.d.ts",
+      "../node_modules/rxjs/internal/config.d.ts",
+      "../node_modules/rxjs/internal/innersubscribe.d.ts",
+      "../node_modules/rxjs/internal/innersubscriber.d.ts",
+      "../node_modules/rxjs/internal/notification.d.ts",
+      "../node_modules/rxjs/internal/observable.d.ts",
+      "../node_modules/rxjs/internal/observable/bindcallback.d.ts",
+      "../node_modules/rxjs/internal/observable/bindnodecallback.d.ts",
+      "../node_modules/rxjs/internal/observable/combinelatest.d.ts",
+      "../node_modules/rxjs/internal/observable/concat.d.ts",
+      "../node_modules/rxjs/internal/observable/connectableobservable.d.ts",
+      "../node_modules/rxjs/internal/observable/defer.d.ts",
+      "../node_modules/rxjs/internal/observable/empty.d.ts",
+      "../node_modules/rxjs/internal/observable/forkjoin.d.ts",
+      "../node_modules/rxjs/internal/observable/from.d.ts",
+      "../node_modules/rxjs/internal/observable/fromevent.d.ts",
+      "../node_modules/rxjs/internal/observable/fromeventpattern.d.ts",
+      "../node_modules/rxjs/internal/observable/generate.d.ts",
+      "../node_modules/rxjs/internal/observable/iif.d.ts",
+      "../node_modules/rxjs/internal/observable/interval.d.ts",
+      "../node_modules/rxjs/internal/observable/merge.d.ts",
+      "../node_modules/rxjs/internal/observable/never.d.ts",
+      "../node_modules/rxjs/internal/observable/of.d.ts",
+      "../node_modules/rxjs/internal/observable/onerrorresumenext.d.ts",
+      "../node_modules/rxjs/internal/observable/pairs.d.ts",
+      "../node_modules/rxjs/internal/observable/partition.d.ts",
+      "../node_modules/rxjs/internal/observable/race.d.ts",
+      "../node_modules/rxjs/internal/observable/range.d.ts",
+      "../node_modules/rxjs/internal/observable/throwerror.d.ts",
+      "../node_modules/rxjs/internal/observable/timer.d.ts",
+      "../node_modules/rxjs/internal/observable/using.d.ts",
+      "../node_modules/rxjs/internal/observable/zip.d.ts",
+      "../node_modules/rxjs/internal/operator.d.ts",
+      "../node_modules/rxjs/internal/operators/audit.d.ts",
+      "../node_modules/rxjs/internal/operators/audittime.d.ts",
+      "../node_modules/rxjs/internal/operators/buffer.d.ts",
+      "../node_modules/rxjs/internal/operators/buffercount.d.ts",
+      "../node_modules/rxjs/internal/operators/buffertime.d.ts",
+      "../node_modules/rxjs/internal/operators/buffertoggle.d.ts",
+      "../node_modules/rxjs/internal/operators/bufferwhen.d.ts",
+      "../node_modules/rxjs/internal/operators/catcherror.d.ts",
+      "../node_modules/rxjs/internal/operators/combineall.d.ts",
+      "../node_modules/rxjs/internal/operators/combinelatest.d.ts",
+      "../node_modules/rxjs/internal/operators/concat.d.ts",
+      "../node_modules/rxjs/internal/operators/concatall.d.ts",
+      "../node_modules/rxjs/internal/operators/concatmap.d.ts",
+      "../node_modules/rxjs/internal/operators/concatmapto.d.ts",
+      "../node_modules/rxjs/internal/operators/count.d.ts",
+      "../node_modules/rxjs/internal/operators/debounce.d.ts",
+      "../node_modules/rxjs/internal/operators/debouncetime.d.ts",
+      "../node_modules/rxjs/internal/operators/defaultifempty.d.ts",
+      "../node_modules/rxjs/internal/operators/delay.d.ts",
+      "../node_modules/rxjs/internal/operators/delaywhen.d.ts",
+      "../node_modules/rxjs/internal/operators/dematerialize.d.ts",
+      "../node_modules/rxjs/internal/operators/distinct.d.ts",
+      "../node_modules/rxjs/internal/operators/distinctuntilchanged.d.ts",
+      "../node_modules/rxjs/internal/operators/distinctuntilkeychanged.d.ts",
+      "../node_modules/rxjs/internal/operators/elementat.d.ts",
+      "../node_modules/rxjs/internal/operators/endwith.d.ts",
+      "../node_modules/rxjs/internal/operators/every.d.ts",
+      "../node_modules/rxjs/internal/operators/exhaust.d.ts",
+      "../node_modules/rxjs/internal/operators/exhaustmap.d.ts",
+      "../node_modules/rxjs/internal/operators/expand.d.ts",
+      "../node_modules/rxjs/internal/operators/filter.d.ts",
+      "../node_modules/rxjs/internal/operators/finalize.d.ts",
+      "../node_modules/rxjs/internal/operators/find.d.ts",
+      "../node_modules/rxjs/internal/operators/findindex.d.ts",
+      "../node_modules/rxjs/internal/operators/first.d.ts",
+      "../node_modules/rxjs/internal/operators/groupby.d.ts",
+      "../node_modules/rxjs/internal/operators/ignoreelements.d.ts",
+      "../node_modules/rxjs/internal/operators/isempty.d.ts",
+      "../node_modules/rxjs/internal/operators/last.d.ts",
+      "../node_modules/rxjs/internal/operators/map.d.ts",
+      "../node_modules/rxjs/internal/operators/mapto.d.ts",
+      "../node_modules/rxjs/internal/operators/materialize.d.ts",
+      "../node_modules/rxjs/internal/operators/max.d.ts",
+      "../node_modules/rxjs/internal/operators/merge.d.ts",
+      "../node_modules/rxjs/internal/operators/mergeall.d.ts",
+      "../node_modules/rxjs/internal/operators/mergemap.d.ts",
+      "../node_modules/rxjs/internal/operators/mergemapto.d.ts",
+      "../node_modules/rxjs/internal/operators/mergescan.d.ts",
+      "../node_modules/rxjs/internal/operators/min.d.ts",
+      "../node_modules/rxjs/internal/operators/multicast.d.ts",
+      "../node_modules/rxjs/internal/operators/observeon.d.ts",
+      "../node_modules/rxjs/internal/operators/onerrorresumenext.d.ts",
+      "../node_modules/rxjs/internal/operators/pairwise.d.ts",
+      "../node_modules/rxjs/internal/operators/partition.d.ts",
+      "../node_modules/rxjs/internal/operators/pluck.d.ts",
+      "../node_modules/rxjs/internal/operators/publish.d.ts",
+      "../node_modules/rxjs/internal/operators/publishbehavior.d.ts",
+      "../node_modules/rxjs/internal/operators/publishlast.d.ts",
+      "../node_modules/rxjs/internal/operators/publishreplay.d.ts",
+      "../node_modules/rxjs/internal/operators/race.d.ts",
+      "../node_modules/rxjs/internal/operators/reduce.d.ts",
+      "../node_modules/rxjs/internal/operators/refcount.d.ts",
+      "../node_modules/rxjs/internal/operators/repeat.d.ts",
+      "../node_modules/rxjs/internal/operators/repeatwhen.d.ts",
+      "../node_modules/rxjs/internal/operators/retry.d.ts",
+      "../node_modules/rxjs/internal/operators/retrywhen.d.ts",
+      "../node_modules/rxjs/internal/operators/sample.d.ts",
+      "../node_modules/rxjs/internal/operators/sampletime.d.ts",
+      "../node_modules/rxjs/internal/operators/scan.d.ts",
+      "../node_modules/rxjs/internal/operators/sequenceequal.d.ts",
+      "../node_modules/rxjs/internal/operators/share.d.ts",
+      "../node_modules/rxjs/internal/operators/sharereplay.d.ts",
+      "../node_modules/rxjs/internal/operators/single.d.ts",
+      "../node_modules/rxjs/internal/operators/skip.d.ts",
+      "../node_modules/rxjs/internal/operators/skiplast.d.ts",
+      "../node_modules/rxjs/internal/operators/skipuntil.d.ts",
+      "../node_modules/rxjs/internal/operators/skipwhile.d.ts",
+      "../node_modules/rxjs/internal/operators/startwith.d.ts",
+      "../node_modules/rxjs/internal/operators/subscribeon.d.ts",
+      "../node_modules/rxjs/internal/operators/switchall.d.ts",
+      "../node_modules/rxjs/internal/operators/switchmap.d.ts",
+      "../node_modules/rxjs/internal/operators/switchmapto.d.ts",
+      "../node_modules/rxjs/internal/operators/take.d.ts",
+      "../node_modules/rxjs/internal/operators/takelast.d.ts",
+      "../node_modules/rxjs/internal/operators/takeuntil.d.ts",
+      "../node_modules/rxjs/internal/operators/takewhile.d.ts",
+      "../node_modules/rxjs/internal/operators/tap.d.ts",
+      "../node_modules/rxjs/internal/operators/throttle.d.ts",
+      "../node_modules/rxjs/internal/operators/throttletime.d.ts",
+      "../node_modules/rxjs/internal/operators/throwifempty.d.ts",
+      "../node_modules/rxjs/internal/operators/timeinterval.d.ts",
+      "../node_modules/rxjs/internal/operators/timeout.d.ts",
+      "../node_modules/rxjs/internal/operators/timeoutwith.d.ts",
+      "../node_modules/rxjs/internal/operators/timestamp.d.ts",
+      "../node_modules/rxjs/internal/operators/toarray.d.ts",
+      "../node_modules/rxjs/internal/operators/window.d.ts",
+      "../node_modules/rxjs/internal/operators/windowcount.d.ts",
+      "../node_modules/rxjs/internal/operators/windowtime.d.ts",
+      "../node_modules/rxjs/internal/operators/windowtoggle.d.ts",
+      "../node_modules/rxjs/internal/operators/windowwhen.d.ts",
+      "../node_modules/rxjs/internal/operators/withlatestfrom.d.ts",
+      "../node_modules/rxjs/internal/operators/zip.d.ts",
+      "../node_modules/rxjs/internal/operators/zipall.d.ts",
+      "../node_modules/rxjs/internal/outersubscriber.d.ts",
+      "../node_modules/rxjs/internal/replaysubject.d.ts",
+      "../node_modules/rxjs/internal/scheduled/scheduled.d.ts",
+      "../node_modules/rxjs/internal/scheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/action.d.ts",
+      "../node_modules/rxjs/internal/scheduler/animationframe.d.ts",
+      "../node_modules/rxjs/internal/scheduler/animationframescheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/asap.d.ts",
+      "../node_modules/rxjs/internal/scheduler/asapscheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/async.d.ts",
+      "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
+      "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/queue.d.ts",
+      "../node_modules/rxjs/internal/scheduler/queuescheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/virtualtimescheduler.d.ts",
+      "../node_modules/rxjs/internal/subject.d.ts",
+      "../node_modules/rxjs/internal/subscriber.d.ts",
+      "../node_modules/rxjs/internal/subscription.d.ts",
+      "../node_modules/rxjs/internal/symbol/observable.d.ts",
+      "../node_modules/rxjs/internal/types.d.ts",
+      "../node_modules/rxjs/internal/util/argumentoutofrangeerror.d.ts",
+      "../node_modules/rxjs/internal/util/emptyerror.d.ts",
+      "../node_modules/rxjs/internal/util/identity.d.ts",
+      "../node_modules/rxjs/internal/util/isobservable.d.ts",
+      "../node_modules/rxjs/internal/util/noop.d.ts",
+      "../node_modules/rxjs/internal/util/objectunsubscribederror.d.ts",
+      "../node_modules/rxjs/internal/util/pipe.d.ts",
+      "../node_modules/rxjs/internal/util/timeouterror.d.ts",
+      "../node_modules/rxjs/internal/util/unsubscriptionerror.d.ts",
+      "../node_modules/rxjs/operators/index.d.ts",
+      "../node_modules/tarn/dist/pendingoperation.d.ts",
+      "../node_modules/tarn/dist/pool.d.ts",
+      "../node_modules/tarn/dist/promiseinspection.d.ts",
+      "../node_modules/tarn/dist/resource.d.ts",
+      "../node_modules/tarn/dist/tarn.d.ts",
+      "../node_modules/tarn/dist/timeouterror.d.ts",
+      "../node_modules/tarn/dist/utils.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
+      "../node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../src/app.ts",
+      "../src/auth/auth.controller.ts",
+      "../src/auth/auth.listener.ts",
+      "../src/auth/auth.service.ts",
+      "../src/auth/guards/canbeauthenticated.ts",
+      "../src/auth/guards/index.ts",
+      "../src/auth/guards/mustbeauthenticated.ts",
+      "../src/auth/guards/rolebasedauthentication.ts",
+      "../src/auth/index.ts",
+      "../src/auth/provider.ts",
+      "../src/auth/strategies/jwt.ts",
+      "../src/auth/utils/hash.ts",
+      "../src/auth/utils/index.ts",
+      "../src/auth/validators/consumerlogin.ts",
+      "../src/auth/validators/consumerregistration.ts",
+      "../src/auth/validators/index.ts",
+      "../src/cli.ts",
+      "../src/intro/controllers/index.ts",
+      "../src/intro/controllers/introcontroller.ts",
+      "../src/intro/index.ts",
+      "../src/intro/module.ts",
+      "../src/main.ts",
+      "../src/shortcut/controller/controller.ts",
+      "../src/shortcut/index.ts",
+      "../src/shortcut/models/index.ts",
+      "../src/shortcut/models/plugins/index.ts",
+      "../src/shortcut/models/plugins/queries.ts",
+      "../src/shortcut/models/plugins/relations.ts",
+      "../src/shortcut/models/shortcut/index.ts",
+      "../src/shortcut/models/shortcut/schema.ts",
+      "../src/shortcut/provider.map.ts",
+      "../src/shortcut/provider.ts",
+      "../src/shortcut/repositories/contracts/index.ts",
+      "../src/shortcut/repositories/contracts/shortcut.ts",
+      "../src/shortcut/repositories/database/index.ts",
+      "../src/shortcut/repositories/database/shortcut.ts",
+      "../src/shortcut/services/service.ts",
+      "../src/shortcut/transformer/detail.ts",
+      "../src/shortcut/transformer/index.ts",
+      "../src/shortcut/validator/addshortcut.ts",
+      "../src/shortcut/validator/index.ts",
+      "../src/shortcut/validator/removeshortcut.ts",
+      "../src/user/container.ts",
+      "../src/user/controllers/user.controller.ts",
+      "../src/user/index.ts",
+      "../src/user/listener.ts",
+      "../src/user/models/index.ts",
+      "../src/user/models/plugins/index.ts",
+      "../src/user/models/plugins/queries.ts",
+      "../src/user/models/plugins/relations.ts",
+      "../src/user/models/user/index.ts",
+      "../src/user/models/user/schema.ts",
+      "../src/user/module.ts",
+      "../src/user/provider.ts",
+      "../src/user/repositories/contracts/index.ts",
+      "../src/user/repositories/contracts/user.ts",
+      "../src/user/repositories/database/index.ts",
+      "../src/user/repositories/database/user.ts",
+      "../src/user/services/user.service.ts",
+      "../src/user/transformers/index.ts",
+      "../src/user/transformers/usertransformer.ts",
+      "../src/user/validator/createuser.ts",
+      "../src/user/validator/index.ts",
+      "../../../node_modules/@types/color-name/index.d.ts"
+    ]
   },
   "version": "4.1.3"
 }

@@ -22,12 +22,6 @@ let Listener = class Listener {
     async createUser(inputs) {
         return await this.users.createConsumer(inputs);
     }
-    async changePassword(user, inputs) {
-        return await this.users.changePassword(user, inputs);
-    }
-    async updateUser(conditions, inputs) {
-        return await this.users.update(conditions, inputs);
-    }
 };
 Listener = __decorate([
     common_1.Injectable(),

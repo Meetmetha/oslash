@@ -26,14 +26,6 @@ let UserController = class UserController extends controllers_1.ApiController {
     async getProfile(req, res) {
         return res.success(await this.transform(req.user, new Transformers_1.DetailTransformer, { req }));
     }
-    async deleteProfile(req, res) {
-        const user = await this.users.deleteProfile(req.user, req.all());
-        return res.success('Account Deleted! Thanks for testing reach me here https://miteshmetha.com');
-    }
-    async updateProfile(req, res) {
-        const user = await this.users.updateProfile(req.user, req.all());
-        return res.success(await this.transform(user, new Transformers_1.DetailTransformer, { req }));
-    }
 };
 __decorate([
     common_1.Get('/profile'),
@@ -44,24 +36,6 @@ __decorate([
     __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", Promise)
 ], UserController.prototype, "getProfile", null);
-__decorate([
-    common_1.Post('/delete-profile'),
-    common_1.UseGuards(guards_1.MustBeAuthenticated),
-    __param(0, common_1.Req()),
-    __param(1, common_1.Res()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
-    __metadata("design:returntype", Promise)
-], UserController.prototype, "deleteProfile", null);
-__decorate([
-    common_1.Put('/profile'),
-    common_1.UseGuards(guards_1.MustBeAuthenticated),
-    __param(0, common_1.Req()),
-    __param(1, common_1.Res()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
-    __metadata("design:returntype", Promise)
-], UserController.prototype, "updateProfile", null);
 UserController = __decorate([
     common_1.Controller(''),
     __metadata("design:paramtypes", [user_service_1.UserService])

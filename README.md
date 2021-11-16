@@ -1,15 +1,10 @@
-Mitesh Metha API
+Mitesh Metha Oslash Backend API Task
 
-1) GET / Introduction or Initial Landing
-2) GET /register - Guide user
-3) GET /login - Guide user
-4) POST /register - Register User
-5) POST /login - Login User
-6) POST /change-password - Change User Pass
-7) GET /profile - User Profile
-8) PUT /profile - Updating username
-9) POST user/delete-profile - Deleting Whole Profile 
-10) GET /wallet - Fetch User Wallet
-11) POST /wallet/credit - Add balance to Wallet
-12) POST /wallet/debit - Remove Balance from Wallet
-10) GET user/wallet - Get User wallet getdetails //TODO
+1) GET / Introduction -Default 
+2) POST /register - Register User
+3) POST /login - Login User
+4) POST /shortcut/create - Create Shortcut
+5) POST /shortcut/delete - Delete Shortcut
+5) GET /shortcut - Get All Shortcuts
+6) GET /shortcut/:shortcutID - Get Shortcut by ID
+8) GET /shortcut?search={searchquery}

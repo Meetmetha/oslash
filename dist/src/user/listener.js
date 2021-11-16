@@ -19,9 +19,6 @@ let UserListener = class UserListener {
     async fetchOne(inputs) {
         return await this.service.get(inputs, false);
     }
-    async changePassword(user, inputs) {
-        return await this.service.changePassword(user, inputs);
-    }
     async getWhere(inputs) {
         return await this.service.getWhere(inputs);
     }

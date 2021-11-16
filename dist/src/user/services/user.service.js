@@ -13,7 +13,6 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserService = void 0;
-const lodash_1 = require("lodash");
 const container_1 = require("../container");
 const common_1 = require("@nestjs/common");
 const validator_1 = require("../../../libs/core/src/validator");
@@ -21,7 +20,7 @@ const User_1 = require("../repositories/contracts/User");
 const validator_2 = require("../validator");
 const utils_1 = require("../../auth/utils");
 const exceptions_1 = require("../../../libs/core/src/exceptions");
-const service_1 = require("../../wallet/services/service");
+const service_1 = require("../../shortcut/services/service");
 let UserService = class UserService {
     constructor(validator, service, users) {
         this.validator = validator;
@@ -34,34 +33,7 @@ let UserService = class UserService {
     async createConsumer(inputs) {
         await this.validator.fire(inputs, validator_2.CreateUser);
         const user = await this.users.create(inputs);
-        console.log(user);
-        const wallet = await this.service.createWallet(user._id);
         return user;
-    }
-    async changePassword(user, inputs) {
-        const newpass = ['password'];
-        await this.users.update(user, lodash_1.pick(inputs, newpass));
-        return await this.users.refresh(user);
-    }
-    async updateProfile(user, inputs) {
-        await this.validator.fire(inputs, validator_2.UpdateProfile);
-        const selectedInputs = [
-            'username'
-        ];
-        await this.users.update(user, lodash_1.pick(inputs, selectedInputs));
-        return await this.users.refresh(user);
-    }
-    async deleteProfile(user, inputs) {
-        await this.validator.fire(inputs, validator_2.DeleteProfile);
-        if (!(await utils_1.Hash.match(inputs.password, user.password))) {
-            throw new exceptions_1.ValidationFailed({
-                password: ['Wrong password entered.'],
-            });
-        }
-        return await this.users.delete(user);
-    }
-    async update(condition, inputs) {
-        await this.users.updateWhere(condition, inputs);
     }
     async getWhere(inputs) {
         return await this.users.getWhere(inputs);
@@ -71,7 +43,7 @@ UserService = __decorate([
     common_1.Injectable(),
     __param(2, common_1.Inject(container_1.container.USER_REPOSITORY)),
     __metadata("design:paramtypes", [validator_1.BaseValidator,
-        service_1.WalletService, Object])
+        service_1.ShortcutService, Object])
 ], UserService);
 exports.UserService = UserService;
 //# sourceMappingURL=user.service.js.map

@@ -1,20 +1,18 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { UserModule } from './user';
 import { IntroModule } from './Intro'
 import config from '@config/index';
 import { CoreModule } from '@libs/core';
 import { MongooseModule } from '@nestjs/mongoose'
 import { AuthModule } from '@app/auth'
-import { WalletModule } from '@app/wallet'
+import { ShortcutModule } from '@app/shortcut'
 
 @Module({
   imports: [
     CoreModule,
     IntroModule,
-    UserModule,
     AuthModule,
-    WalletModule,
+    ShortcutModule,
     ConfigModule.forRoot({
       isGlobal: true,
       expandVariables: true,

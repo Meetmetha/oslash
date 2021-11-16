@@ -17,14 +17,14 @@ const container_1 = require("./container");
 const database_1 = require("./repositories/database");
 const listener_1 = require("./listener");
 const helpers_1 = require("../../libs/core/src/helpers");
-const Wallet_1 = require("../Wallet");
+const shortcut_1 = require("../shortcut");
 let UserModule = class UserModule {
 };
 UserModule = __decorate([
     common_1.Module({
         imports: [
             common_1.HttpModule,
-            Wallet_1.WalletModule,
+            shortcut_1.ShortcutModule,
             mongoose_1.MongooseModule.forFeature(models_1.getModels(), 'database')
         ],
         controllers: [user_controller_1.UserController],

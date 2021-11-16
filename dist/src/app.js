@@ -9,13 +9,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const config_1 = require("@nestjs/config");
-const user_1 = require("./user");
 const Intro_1 = require("./Intro");
 const index_1 = require("../config/index");
 const core_1 = require("../libs/core/src");
 const mongoose_1 = require("@nestjs/mongoose");
 const auth_1 = require("./auth");
-const Wallet_1 = require("./Wallet");
+const shortcut_1 = require("./shortcut");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -23,9 +22,8 @@ AppModule = __decorate([
         imports: [
             core_1.CoreModule,
             Intro_1.IntroModule,
-            user_1.UserModule,
             auth_1.AuthModule,
-            Wallet_1.WalletModule,
+            shortcut_1.ShortcutModule,
             config_1.ConfigModule.forRoot({
                 isGlobal: true,
                 expandVariables: true,

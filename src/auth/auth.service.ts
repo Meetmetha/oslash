@@ -11,7 +11,6 @@ import { BaseValidator } from '@libs/core/validator';
 import {
   ConsumerRegistration,
   ConsumerLogin,
-  ChangePassword
 } from './validators';
 import { JwtService } from '@nestjs/jwt';
 import { Hash } from './utils';
@@ -28,7 +27,7 @@ export class AuthService {
   ) {}
 
   /**
-   * Consumer registration
+   * User registration
    * @param inputs
    */
   async consumerRegistration(
@@ -42,27 +41,18 @@ export class AuthService {
     return user;
   }
 
-  async changePassword(
-    user: Record<string, any>,
-    inputs: Record<string, any>,
+  /**
+   * User Logout
+   * @param inputs
+   */
+   async consumerLogout(
+    inputs: Record<string, any>
   ): Promise<any> {
-    await this.validator.fire(inputs, ChangePassword);
-
-    // verify old password
-    if (!(await Hash.match(inputs.oldPassword, user.password))) {
-      throw new ValidationFailed({
-        oldPassword: ['Wrong password entered.'],
-      });
-    }
-
-    // assign new password
-    inputs.password = await Hash.make(inputs.newPassword);
-    await this.listener.changePassword(user, inputs);
-    return true;
+    return "ok";
   }
 
   /**
-   * Login as consumer
+   * Login as User
    * @param inputs
    */
   async consumerLogin(inputs: Record<string, any>): Promise<any> {

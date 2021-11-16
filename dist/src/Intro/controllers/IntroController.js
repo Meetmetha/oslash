@@ -17,13 +17,13 @@ const core_1 = require("../../../libs/core/src");
 const common_1 = require("@nestjs/common");
 let IntroController = class IntroController extends core_1.ApiController {
     myintro(req, res) {
-        return res.success("Hey! This is Mitesh Metha thanks for visiting :) follow the following to Tryout the API : https://miteshmetha.com/apiguide");
+        return res.success("Hey! This is Mitesh Metha building Oslash backend! Details here: https://github.com/Meetmetha/oslashtask");
     }
     loginget(req, res) {
-        return res.success("Login is a POST Request follow guide here: https://miteshmetha.com/apiguide");
+        return res.success("Login is a POST Request follow guide here: https://github.com/Meetmetha/oslashtask");
     }
     registerget(req, res) {
-        return res.success("Register is a POST Request follow guide here: https://miteshmetha.com/apiguide");
+        return res.success("Register is a POST Request follow guide here: https://github.com/Meetmetha/oslashtask");
     }
 };
 __decorate([
