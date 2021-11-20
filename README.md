@@ -3,7 +3,7 @@
 
 #### Oslash Backend Task in ExpressJS is Here: https://github.com/Meetmetha/oslash-expressjs 
 
-#### RestAPI Hosted Live Here: [Check in Action](https://oslash.miteshmetha.com) 🥳 
+#### RestAPI Hosted Live Here: [Check in Action](https://oslashnestjs.miteshmetha.com) 🥳 
 ### Technologies & Framework: NestJS - Mongodb - Meilisearch
 The Task is completed by using NestJS as framework for API,   
 MongoDB as Database and Meilisearch for Efficient search internally just like ElasticSearch   
@@ -37,7 +37,7 @@ npm run start:prod or npm run start
 visit your localhost:8000 and follow below documentation
 ```
 #### API Documentation: https://documenter.getpostman.com/view/14843355/UVCBC5Dz
-#### NestAPI Live Hosted URL : https://oslash.miteshmetha.com
+#### NestAPI Live Hosted URL : https://oslashnestjs.miteshmetha.com
 
 ### Core Reason & KeyHighlights of project using NestJS
 NestJS - framework based on typescript and its Moduler structure makes it easy maintainable code structure where multiple developers can simentenously code and merging is as easy as importing and adding module  
