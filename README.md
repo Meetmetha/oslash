@@ -12,7 +12,7 @@ Meilisearch is deployed here and requires APIKey for accsessing Data! [Check in 
 ### Steps to Setup
 Note: git init is required before npm install
 ```
-git clone https://github.com/Meetmetha/oslash
+git clone https://github.com/Meetmetha/oslash-nestjs
 cd oslash
 git init
 npm install
@@ -49,8 +49,6 @@ Meilisearch - This is the Key point which handles search and by using meilisearc
 Session management - This is done using JWT where since Jwt are stateless there exists central banned list of JWT tokens where tokens which are logged out are stored and middleware performs a check on it before executing authenticated routes  
 
 ### Troubleshooting 
-Husky Install Error :
-Use "git init" command again 
 Unable to fetch result :
 Use "npm run dev" and check stack trace of Error
 Getting Invalid Request in response :  
