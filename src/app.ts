@@ -7,7 +7,7 @@ import { CoreModule } from '@libs/core';
 import { MongooseModule } from '@nestjs/mongoose'
 import { AuthModule } from '@app/auth'
 import { ShortcutModule } from '@app/shortcut'
-import { SessionChecker } from './auth/sessionChecker';
+import { SessionChecker } from '@app/auth/sessionChecker';
 
 @Module({
   imports: [
