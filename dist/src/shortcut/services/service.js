@@ -54,6 +54,7 @@ let ShortcutService = class ShortcutService {
         const newShortcutArray = [];
         newShortcutArray.push(shortcutData);
         await utils_1.Meili.addShortcut(newShortcutArray);
+        return shortcutData;
     }
     async removeShortcut(user, inputs) {
         await this.validator.fire(inputs, removeShortcut_1.removeShortcut);

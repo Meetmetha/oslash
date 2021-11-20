@@ -7,6 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthModule = void 0;
+const container_1 = require("./container");
 const common_1 = require("@nestjs/common");
 const user_1 = require("../user");
 const auth_controller_1 = require("./auth.controller");
@@ -14,6 +15,10 @@ const jwt_1 = require("@nestjs/jwt");
 const config_1 = require("@nestjs/config");
 const passport_1 = require("@nestjs/passport");
 const provider_1 = require("./provider");
+const models_1 = require("./models");
+const mongoose_1 = require("@nestjs/mongoose");
+const database_1 = require("./repositories/database");
+const shortcut_1 = require("../shortcut");
 let AuthModule = class AuthModule {
 };
 AuthModule = __decorate([
@@ -30,9 +35,16 @@ AuthModule = __decorate([
                 }),
                 inject: [config_1.ConfigService],
             }),
+            mongoose_1.MongooseModule.forFeature(models_1.getModels(), 'database')
         ],
         controllers: [auth_controller_1.AuthController],
         providers: provider_1.getProviders(),
+        exports: [
+            {
+                provide: container_1.container.TOKEN_REPOSITORY,
+                useClass: database_1.TokenRepository,
+            },
+        ],
     })
 ], AuthModule);
 exports.AuthModule = AuthModule;

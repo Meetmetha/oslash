@@ -15,6 +15,7 @@ const passport_1 = require("@nestjs/passport");
 const common_1 = require("@nestjs/common");
 const config_1 = require("@nestjs/config");
 const auth_service_1 = require("../auth.service");
+const service_1 = require("../../shortcut/services/service");
 const exceptions_1 = require("../../../libs/core/src/exceptions");
 let JwtStrategy = class JwtStrategy extends passport_1.PassportStrategy(passport_jwt_1.Strategy) {
     constructor(config, service) {

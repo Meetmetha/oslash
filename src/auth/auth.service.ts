@@ -1,5 +1,7 @@
-import { Injectable, Inject, HttpService } from '@nestjs/common';
+import { Injectable, Inject, HttpService, BadRequestException } from '@nestjs/common';
 import { Listener } from './auth.listener';
+import { container } from '@app/auth/container';
+import { ExtractJwt, Strategy } from 'passport-jwt';
 import { randomToken } from '@libs/core/helpers';
 import {
   InvalidCredentials,
@@ -8,6 +10,7 @@ import {
   Unauthorized,
 } from '@libs/core/exceptions';
 import { BaseValidator } from '@libs/core/validator';
+import { TokenRepository } from '@app/auth/repositories/contracts';
 import {
   ConsumerRegistration,
   ConsumerLogin,
@@ -24,6 +27,7 @@ export class AuthService {
     private config: ConfigService,
     private validator: BaseValidator,
     private jwtService: JwtService,
+    @Inject(container.TOKEN_REPOSITORY) private tokens: TokenRepository,
   ) {}
 
   /**
@@ -43,12 +47,19 @@ export class AuthService {
 
   /**
    * User Logout
-   * @param inputs
+   * @param header
+   * @param user
    */
    async consumerLogout(
-    inputs: Record<string, any>
+    header: Record<string, any>,
+    user: Record<string, any>
   ): Promise<any> {
-    return "ok";
+    const jwt = header.replace('Bearer','').trim();
+    const alreadyLoggedOut = await this.tokens.getWhere({token:jwt});
+    if(alreadyLoggedOut.length >= 1){
+      throw new BadRequestException("You are already Logged Out of this Token Session");
+    }
+    return await this.tokens.create({user: user._id, token: jwt });
   }
 
   /**
@@ -84,4 +95,13 @@ export class AuthService {
   async getUserById(_id: string): Promise<any> {
     return await this.listener.usersSearchFirst({ _id });
   }
+
+  /**
+   * Check Session blacklist
+   * @param _id
+   */
+   async checkSessionblacklist(tokenvalue: string): Promise<any> {
+    return await this.tokens.getWhere({ token: tokenvalue }, false);
+  }
+
 }

@@ -3,6 +3,7 @@ import { PassportStrategy } from '@nestjs/passport';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { AuthService } from '../auth.service';
+import { ShortcutService } from '@app/shortcut/services/service';
 import { Unauthorized } from '@libs/core/exceptions';
 
 @Injectable()

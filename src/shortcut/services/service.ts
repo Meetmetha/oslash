@@ -1,7 +1,7 @@
 import { providerMap } from '../provider.map';
-import { Injectable, Inject, BadRequestException } from '@nestjs/common';
+import { Injectable, Inject, BadRequestException, NotFoundException } from '@nestjs/common';
 import {
-  ShortcutRepository,
+  ShortcutRepository
 } from '../repositories/contracts';
 import { get } from 'lodash';
 import { addShortcut } from '../Validator/addShortcut';
@@ -49,7 +49,7 @@ export class ShortcutService {
     const newShortcutArray = [];
     newShortcutArray.push(shortcutData);
     await Meili.addShortcut(newShortcutArray);
-    
+    return shortcutData;
 
   }
 

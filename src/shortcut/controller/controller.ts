@@ -4,8 +4,8 @@ import {
 } from '@app/shortcut/Transformer';
 import { Controller, Get, Res, Req, UseGuards, Post, Delete } from '@nestjs/common';
 import { ApiController } from '@libs/core';
-import { MustBeAuthenticated } from '@app/auth/guards';
-import { addShortcut, removeShortcut } from '../Validator'
+import { MustBeAuthenticated} from '@app/auth/guards';
+import { addShortcut, removeShortcut } from '../Validator';
 import { BaseValidator } from '@libs/core/validator';
 
 @Controller('/shortcut')
@@ -20,6 +20,7 @@ export class ShortcutController extends ApiController {
     @Req() req: any,
     @Res() res: any,
   ): Promise<Record<string, any>> {
+    
     const Shortcut = await this.service.getUserShortcut(req.user, req.all());
     return res.success(Shortcut);
   }
@@ -30,7 +31,7 @@ export class ShortcutController extends ApiController {
     @Res() res: any,
   ): Promise<Record<string, any>> {
     const Shortcut = await this.service.addShortcut(req.user, req.all());
-    return res.success("Shortcut Created");
+    return res.success(Shortcut);
   }
 
   @Post('/delete')

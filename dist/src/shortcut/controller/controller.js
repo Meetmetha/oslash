@@ -31,7 +31,7 @@ let ShortcutController = class ShortcutController extends core_1.ApiController {
     }
     async createShortcut(req, res) {
         const Shortcut = await this.service.addShortcut(req.user, req.all());
-        return res.success("Shortcut Created");
+        return res.success(Shortcut);
     }
     async debitfromShortcut(req, res) {
         const Shortcutdebit = await this.service.removeShortcut(req.user, req.all());

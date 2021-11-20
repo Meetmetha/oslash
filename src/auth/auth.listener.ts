@@ -4,7 +4,7 @@ import { UserService } from '../user/services/user.service';
 @Injectable()
 export class Listener {
   constructor(
-    private users: UserService
+    private users: UserService,
   ) {}
 
   async usersSearchFirst(

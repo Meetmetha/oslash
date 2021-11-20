@@ -15,7 +15,13 @@ const core_1 = require("../libs/core/src");
 const mongoose_1 = require("@nestjs/mongoose");
 const auth_1 = require("./auth");
 const shortcut_1 = require("./shortcut");
+const sessionChecker_1 = require("./auth/sessionChecker");
 let AppModule = class AppModule {
+    configure(consumer) {
+        consumer
+            .apply(sessionChecker_1.SessionChecker)
+            .forRoutes('shortcut');
+    }
 };
 AppModule = __decorate([
     common_1.Module({

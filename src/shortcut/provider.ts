@@ -1,4 +1,5 @@
 import { ShortcutService } from './services/service';
+import { AuthService } from '@app/auth/auth.service';
 import { providerMap } from './provider.map';
 import {
   ShortcutRepository,

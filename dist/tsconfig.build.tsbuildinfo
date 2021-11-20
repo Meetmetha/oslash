@@ -3631,6 +3631,11 @@
         "signature": "0fdabcaa6cff65e2905c4ecfc81ae01126bf39a7e3b62fef56a21cfce2f0b5e6",
         "affectsGlobalScope": false
       },
+      "../src/auth/container.ts": {
+        "version": "3aa687f2fa8f22803c7e0ca712b8bee5a32445d693430df321f138e7a8fe9541",
+        "signature": "10c041fc7d98e73dbe2d1beb18807a373f5bdf97f4e63713e23778a97a89101b",
+        "affectsGlobalScope": false
+      },
       "../src/user/container.ts": {
         "version": "3bcc53a5f33b948ab36bf7f2999205bc4d99d748f75c9654fcd3b19145fcfe08",
         "signature": "6ff5badd4feeb4d939d5b9a321863d0edaca8266e07a8c14318062814660183e",
@@ -3697,7 +3702,7 @@
         "affectsGlobalScope": false
       },
       "../src/shortcut/services/service.ts": {
-        "version": "9497e6616d8fddb41ad4590b52fd67770f95b530ec137e00d17c98fc40fc73f8",
+        "version": "16addd39011d3577ffddcf2874c3f11cf0454d66b52f171fa4fcf756091c8fa4",
         "signature": "0f3a2e3e1df212101d55516fc4e118db0488816959ad7f0ad5bc36d16ab7a14a",
         "affectsGlobalScope": false
       },
@@ -3811,119 +3816,19 @@
         "signature": "b32e940e4aa6dcbc0d5336aca83ed903fa32b146f4190cc96c0c3dca65aa9aa2",
         "affectsGlobalScope": false
       },
-      "../src/auth/guards/mustbeauthenticated.ts": {
-        "version": "fee4dbab958f2397f86a4d8f787e3242b73cea5cefe8327a89e1c29286c4dc63",
-        "signature": "dc23864b9c6fb9561d06ef81e26375fa32602398ba9f3fac7f204054fe7669e8",
-        "affectsGlobalScope": false
-      },
-      "../src/auth/guards/rolebasedauthentication.ts": {
-        "version": "7ee8040c4c0246d9c49d596b9fe0aa483aa0b0eb4df034133542782c61bf41df",
-        "signature": "7e9d087ed0764c4cc29cc60c33c81e97b0e320d7bcd9e35e84800dedf2a64bbf",
-        "affectsGlobalScope": false
-      },
-      "../src/auth/guards/index.ts": {
-        "version": "467ca2afe46a4098d931a5e015ecaa8cfa36f00a3928b594937f52e9d5bd8e09",
-        "signature": "df1408437827840604798bd12438e5a98d8a39ea12f2fff5cfd159b7ef1811e9",
-        "affectsGlobalScope": false
-      },
-      "../src/user/transformers/usertransformer.ts": {
-        "version": "1743c206f638f6c5788e3ca7367004cc50dd51ff06e8c10e863381e9721bcc82",
-        "signature": "e89f6e327d50393a98b80ab329a06b6878d7902c003e5ff8e9dae08f95bb57ae",
-        "affectsGlobalScope": false
-      },
-      "../src/user/transformers/index.ts": {
-        "version": "2e2a38eaafe6dd954941d2a20c95ba63e104ddc6fe6e189ba18a515f550e7c21",
-        "signature": "9641521456e96b5661697fe9c06cba950d560d78c3ac8358b623bd52ed44ae43",
-        "affectsGlobalScope": false
-      },
-      "../src/user/controllers/user.controller.ts": {
-        "version": "61adc77e5946518faf5ba965d8b0bfb7dd6bdf7fb5e5de95800ad2706e3e616c",
-        "signature": "7c6ed088c3a72130606f088887fd630388d55f724a9d6efb56394fb50442166b",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/repositories/database/shortcut.ts": {
-        "version": "dd6570488ddf27d5a0a158094a8de184bf6498bca8e929c50ec4aeae9c58ad90",
-        "signature": "2dd67010e992da4e5a665cb9af86fa8c10c1ea08ce493654c5fb350e8da4ce25",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/repositories/database/index.ts": {
-        "version": "4fcf0f6cdaf3f45d1591b546ae951bade889240274583a397428195899bdb38f",
-        "signature": "b0af1950c3d4b8d69d569b066c3254a2564ed3f25b192d066cbd02b3b74a5c4d",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/provider.ts": {
-        "version": "e56bef1e913dbdcf900aedd85a7180d6faf0793e7c7b2e294834b55837ca2297",
-        "signature": "0a185a159afe3ec689bef64b625a8a93b4fa14b82aeccece1dd60d9126ae8069",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/transformer/detail.ts": {
-        "version": "c23cb7e6f5a7d43249224d1eeca8c910ca300b6dda043dd436d9e957ae8909e4",
-        "signature": "25b04725db2867d25a53317bb58d3ae42c9d334d41b8d4d5e3bc6ca93107ed64",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/transformer/index.ts": {
-        "version": "2143ca5ff4be61cc27b3c179cb8bab4b3bd70552b2ff51659c8a00a0a2b18c11",
-        "signature": "4231575fd0669a6c280aced0f33dba67a90193577a07e8d0e26de79285b96326",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/validator/index.ts": {
-        "version": "021dd95f2bdef2eda4f8c853f815350ebdb3632549228c341f4975be04a0fd01",
-        "signature": "536e762015e427c5abfa5a52cf763342bb7c3f25fdc8adbabef7539fa757a134",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/controller/controller.ts": {
-        "version": "894e6eb52d6aa85ae23f550e758b8adddb6cde4bfc268d3d872472ff9731db0b",
-        "signature": "e30e0b24e69852813ae58726313b863d78341f28466aca6317a11046bbde043d",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/models/shortcut/schema.ts": {
-        "version": "6f7d1f4de39ddd13d95e08680ee8535648899b21cba91323d1609446a96c8b31",
-        "signature": "9012acf6dea957cacd6fdf7613077f80f3eea439eff6f8d66328f0bcbca158d6",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/models/plugins/relations.ts": {
-        "version": "c3ff2411a2731a138dde7ad8e5013b14294270865f59bd343d38c440380beeeb",
-        "signature": "ceb1d90316040974c9dc03217a053071cc1d8e46560643f309a27dc78f1a7b81",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/models/plugins/queries.ts": {
-        "version": "252bceb5a4b0c397cf9986e8e399f9a82975c4043ee2eb8f4b9118982c3b7f8e",
-        "signature": "0a17002bbe0ab53582775768f2ec538a5b7b7a4925fb0b66692f2a893cb3cd6f",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/models/plugins/index.ts": {
-        "version": "3ca698548d1204666655538461bdfc6ebf7c8c079cdf14b632b1c6e367f617c0",
-        "signature": "948bebe181ac7b4d699c36f445dc44d625c427020d36b3b9d24ba09b384393a2",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/models/shortcut/index.ts": {
-        "version": "cf4effeaddb1af9279e684f0d8e2139b23c6655f7811ce62629f733ad49a8795",
-        "signature": "13ad119869b231046a44d38a6479458dd8d6f25e4919d75d57df4ef9d79de758",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/models/index.ts": {
-        "version": "c75348eb785a69fbb0dfe3ca8a5c39363d5cbea0730637eb4bddd57054a43b9d",
-        "signature": "13b79e9f10b1adfc810d8478343db2e916c5285c326f6cf2297032b715266de0",
-        "affectsGlobalScope": false
-      },
-      "../src/shortcut/index.ts": {
-        "version": "69da007449fddac79a78ab7bd944089bd9278d5c61358051cb6818d09310c6c7",
-        "signature": "e1c854474a71fe1ff05e2e5b5c4ffe9d7d764578e6d3610e325e0d5653768414",
-        "affectsGlobalScope": false
-      },
-      "../src/user/module.ts": {
-        "version": "d1506ddfa78cba9d9694accc44f113bd23c3e8b3444ccb0a8c6f322dc1f69845",
-        "signature": "9e36626cb39f17790cf2403e2e54d8a74542da63e2a49aba7061133a1af26dcd",
-        "affectsGlobalScope": false
-      },
-      "../src/user/index.ts": {
-        "version": "ff9a7a7e875aa70ef25500638e8797f19994bbbfa7881a3fb65e8c606742a6ae",
-        "signature": "df963a928894bab7fc7b63b824dffb2110cf7e3a377a7cdb775f7f5941e44944",
-        "affectsGlobalScope": false
-      },
       "../src/auth/auth.listener.ts": {
-        "version": "17cf82c823ac67531e36c20afc13161798580dfb762e471b6e8ee9d88206151b",
+        "version": "f5d3843cb91d9f3be069971ddb8ae9928dc1cacb6f25d80a43d5eac6a15600a4",
         "signature": "75ce04fa642adf57c986e81a4ed0154f81511810cbbe8654365d66be46d9c4ae",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/repositories/contracts/token.ts": {
+        "version": "294de69d7e26fe0380b27906a71adc67209232e18b1b0105f882a285ae787f7d",
+        "signature": "7aded83931e80bbb9b1d95edb08b359b0742d1290d6680c4e1eb9af0a4318bcf",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/repositories/contracts/index.ts": {
+        "version": "9ce1ee8e3340c812e876e19699be1a56a5b268c1d0b421bf020a6ce93796dbe3",
+        "signature": "963b075e70e107016ae27d46f715f7bac0e1f465181b2ff4c2f5bc3ee7dbe11a",
         "affectsGlobalScope": false
       },
       "../src/auth/validators/consumerregistration.ts": {
@@ -3977,33 +3882,188 @@
         "affectsGlobalScope": false
       },
       "../src/auth/auth.service.ts": {
-        "version": "19ae776a1d625032802517a86dccb34a7137eec5bd6b8e5cff6418580d97eaed",
-        "signature": "04248b7186a4286913de6ecc17000cf48733cfc5a072b5950aa44f80264da6cf",
+        "version": "cbefdcc72b9cababe1845896e088c09a3095a3b877f908244743868c440afbf7",
+        "signature": "2521b362585e71477aa77959c7986da46b15f63a7c7bb24f04241488b77621db",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/guards/mustbeauthenticated.ts": {
+        "version": "d02433cdb37799b5cb12dee535e2b168edda40804f361d12a4ac5f740104387c",
+        "signature": "6f687b326f3e18642a0c882c02abcf886dc88e2ba4528d34027caf89437d864e",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/guards/rolebasedauthentication.ts": {
+        "version": "7ee8040c4c0246d9c49d596b9fe0aa483aa0b0eb4df034133542782c61bf41df",
+        "signature": "7e9d087ed0764c4cc29cc60c33c81e97b0e320d7bcd9e35e84800dedf2a64bbf",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/guards/index.ts": {
+        "version": "37d38fd22a0f240792694fa84dc8cbe57e8346f496addea202165f946f9af89d",
+        "signature": "df1408437827840604798bd12438e5a98d8a39ea12f2fff5cfd159b7ef1811e9",
+        "affectsGlobalScope": false
+      },
+      "../src/user/transformers/usertransformer.ts": {
+        "version": "1743c206f638f6c5788e3ca7367004cc50dd51ff06e8c10e863381e9721bcc82",
+        "signature": "e89f6e327d50393a98b80ab329a06b6878d7902c003e5ff8e9dae08f95bb57ae",
+        "affectsGlobalScope": false
+      },
+      "../src/user/transformers/index.ts": {
+        "version": "2e2a38eaafe6dd954941d2a20c95ba63e104ddc6fe6e189ba18a515f550e7c21",
+        "signature": "9641521456e96b5661697fe9c06cba950d560d78c3ac8358b623bd52ed44ae43",
+        "affectsGlobalScope": false
+      },
+      "../src/user/controllers/user.controller.ts": {
+        "version": "61adc77e5946518faf5ba965d8b0bfb7dd6bdf7fb5e5de95800ad2706e3e616c",
+        "signature": "7c6ed088c3a72130606f088887fd630388d55f724a9d6efb56394fb50442166b",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/repositories/database/shortcut.ts": {
+        "version": "dd6570488ddf27d5a0a158094a8de184bf6498bca8e929c50ec4aeae9c58ad90",
+        "signature": "2dd67010e992da4e5a665cb9af86fa8c10c1ea08ce493654c5fb350e8da4ce25",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/repositories/database/index.ts": {
+        "version": "4fcf0f6cdaf3f45d1591b546ae951bade889240274583a397428195899bdb38f",
+        "signature": "b0af1950c3d4b8d69d569b066c3254a2564ed3f25b192d066cbd02b3b74a5c4d",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/provider.ts": {
+        "version": "97a63fa4e6d39eac8aec94f76c1c869c5c772cf4a5a5e0e16762c79b805607b5",
+        "signature": "0a185a159afe3ec689bef64b625a8a93b4fa14b82aeccece1dd60d9126ae8069",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/transformer/detail.ts": {
+        "version": "c23cb7e6f5a7d43249224d1eeca8c910ca300b6dda043dd436d9e957ae8909e4",
+        "signature": "25b04725db2867d25a53317bb58d3ae42c9d334d41b8d4d5e3bc6ca93107ed64",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/transformer/index.ts": {
+        "version": "2143ca5ff4be61cc27b3c179cb8bab4b3bd70552b2ff51659c8a00a0a2b18c11",
+        "signature": "4231575fd0669a6c280aced0f33dba67a90193577a07e8d0e26de79285b96326",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/validator/index.ts": {
+        "version": "021dd95f2bdef2eda4f8c853f815350ebdb3632549228c341f4975be04a0fd01",
+        "signature": "536e762015e427c5abfa5a52cf763342bb7c3f25fdc8adbabef7539fa757a134",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/controller/controller.ts": {
+        "version": "417519e2a196f9021c9e9880184e4664ddaf5b8b248628b6c423da343b65ba6f",
+        "signature": "e30e0b24e69852813ae58726313b863d78341f28466aca6317a11046bbde043d",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/models/shortcut/schema.ts": {
+        "version": "6f7d1f4de39ddd13d95e08680ee8535648899b21cba91323d1609446a96c8b31",
+        "signature": "9012acf6dea957cacd6fdf7613077f80f3eea439eff6f8d66328f0bcbca158d6",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/models/plugins/relations.ts": {
+        "version": "c3ff2411a2731a138dde7ad8e5013b14294270865f59bd343d38c440380beeeb",
+        "signature": "ceb1d90316040974c9dc03217a053071cc1d8e46560643f309a27dc78f1a7b81",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/models/plugins/queries.ts": {
+        "version": "252bceb5a4b0c397cf9986e8e399f9a82975c4043ee2eb8f4b9118982c3b7f8e",
+        "signature": "0a17002bbe0ab53582775768f2ec538a5b7b7a4925fb0b66692f2a893cb3cd6f",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/models/plugins/index.ts": {
+        "version": "3ca698548d1204666655538461bdfc6ebf7c8c079cdf14b632b1c6e367f617c0",
+        "signature": "948bebe181ac7b4d699c36f445dc44d625c427020d36b3b9d24ba09b384393a2",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/models/shortcut/index.ts": {
+        "version": "cf4effeaddb1af9279e684f0d8e2139b23c6655f7811ce62629f733ad49a8795",
+        "signature": "13ad119869b231046a44d38a6479458dd8d6f25e4919d75d57df4ef9d79de758",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/models/index.ts": {
+        "version": "c75348eb785a69fbb0dfe3ca8a5c39363d5cbea0730637eb4bddd57054a43b9d",
+        "signature": "13b79e9f10b1adfc810d8478343db2e916c5285c326f6cf2297032b715266de0",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/sessionchecker.ts": {
+        "version": "13591fb3d5cebc5c273d53b3b76974f2c4f7a78e7af5a123e844a5eece575718",
+        "signature": "1dcd9c147d94179588445eae70a6e5fd7d95194eccaef244aa72ab87d4c44422",
+        "affectsGlobalScope": false
+      },
+      "../src/shortcut/index.ts": {
+        "version": "cc40f73e11245119c54c05bd9af56caf2b18b9667eed9d54d6e8734e137f1494",
+        "signature": "e1c854474a71fe1ff05e2e5b5c4ffe9d7d764578e6d3610e325e0d5653768414",
+        "affectsGlobalScope": false
+      },
+      "../src/user/module.ts": {
+        "version": "d1506ddfa78cba9d9694accc44f113bd23c3e8b3444ccb0a8c6f322dc1f69845",
+        "signature": "9e36626cb39f17790cf2403e2e54d8a74542da63e2a49aba7061133a1af26dcd",
+        "affectsGlobalScope": false
+      },
+      "../src/user/index.ts": {
+        "version": "ff9a7a7e875aa70ef25500638e8797f19994bbbfa7881a3fb65e8c606742a6ae",
+        "signature": "df963a928894bab7fc7b63b824dffb2110cf7e3a377a7cdb775f7f5941e44944",
         "affectsGlobalScope": false
       },
       "../src/auth/auth.controller.ts": {
-        "version": "e5a0cd48b2bbc50f754ee46b105dbd00940562a3092a57661476a78dfa89ecd5",
+        "version": "bb5580f16640298d1f69dfc53f0ddf5e7eebc4ca5cc8bee1114441e55228d84d",
         "signature": "08ea47ccfd1e9635c23139c7170959f9f9324c6eabbee6a06e371b04ea92625c",
         "affectsGlobalScope": false
       },
       "../src/auth/strategies/jwt.ts": {
-        "version": "77a79d495e7cfb255711549a2ed819add83fb2f71a696efb55c4801d40d5683f",
+        "version": "2e075b26ca30c29812783dcf97f1a532ac690aa793db82c147bef366841d2250",
         "signature": "66d2f0fda4153135f2cf3219ed4d65c7102c7ac96a209c6f520fcc1641b4d43f",
         "affectsGlobalScope": false
       },
+      "../src/auth/repositories/database/token.ts": {
+        "version": "cba1816b76eec5f11358510f6a0730a7939e0816509534549deeae8a0babbeab",
+        "signature": "55e753b9e12de6d18e30315365a4c20e25d7974ade906824052a19fe3980daa8",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/repositories/database/index.ts": {
+        "version": "9ce1ee8e3340c812e876e19699be1a56a5b268c1d0b421bf020a6ce93796dbe3",
+        "signature": "963b075e70e107016ae27d46f715f7bac0e1f465181b2ff4c2f5bc3ee7dbe11a",
+        "affectsGlobalScope": false
+      },
       "../src/auth/provider.ts": {
-        "version": "7164b85e57de54d68afc6c13d82732807ede3d58376f75bc16966e507564b843",
+        "version": "400c863dc26c4518fcab79a1affe630583aa9574b955f202089e8781056f47a9",
         "signature": "0a185a159afe3ec689bef64b625a8a93b4fa14b82aeccece1dd60d9126ae8069",
         "affectsGlobalScope": false
       },
+      "../src/auth/models/token/schema.ts": {
+        "version": "3c53b2b82066131be97d1231db73974247101dcb4a43b105cc1b31e8140514f7",
+        "signature": "48f641945078e9ae3450fd9e19faa502c69c5066a12f6287a8ebde30f443c55f",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/models/plugins/relations.ts": {
+        "version": "c3ff2411a2731a138dde7ad8e5013b14294270865f59bd343d38c440380beeeb",
+        "signature": "ceb1d90316040974c9dc03217a053071cc1d8e46560643f309a27dc78f1a7b81",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/models/plugins/queries.ts": {
+        "version": "252bceb5a4b0c397cf9986e8e399f9a82975c4043ee2eb8f4b9118982c3b7f8e",
+        "signature": "0a17002bbe0ab53582775768f2ec538a5b7b7a4925fb0b66692f2a893cb3cd6f",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/models/plugins/index.ts": {
+        "version": "3ca698548d1204666655538461bdfc6ebf7c8c079cdf14b632b1c6e367f617c0",
+        "signature": "948bebe181ac7b4d699c36f445dc44d625c427020d36b3b9d24ba09b384393a2",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/models/token/index.ts": {
+        "version": "8fc3d55816becde7024e81b876048d29fde697560757c4b5726f41a36d2af1de",
+        "signature": "13ad119869b231046a44d38a6479458dd8d6f25e4919d75d57df4ef9d79de758",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/models/index.ts": {
+        "version": "2cc67b1b8c238ba214515aa7cbb896f1c992521770cc3895c97d5110026db996",
+        "signature": "13b79e9f10b1adfc810d8478343db2e916c5285c326f6cf2297032b715266de0",
+        "affectsGlobalScope": false
+      },
       "../src/auth/index.ts": {
-        "version": "091880a98f85cbc697bc18c74dbf5218d95d5488fc800c09052e52cfb56fb6a2",
+        "version": "d06b267e379b1c39f8de6f1d7013fc1968981543ae9fbdc3342a49bf216af1d5",
         "signature": "2e5d258cf85349b02b015c3f1b8873c152d182c3819a7ccc3aff16fc3037a5fc",
         "affectsGlobalScope": false
       },
       "../src/app.ts": {
-        "version": "e39c04cd30b9a4863e576ad4cc97d9669abe972d9fe784ba3adcd2dfc97dcff4",
-        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
+        "version": "2c71f57b51f63f0e7be7115fe6ac05a353cf76f61320a623843431ebb9ee8694",
+        "signature": "9f78b3626b7b799cfce54f8a459a432584054fe4fe823f7a21cc91fb950c4c10",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/yargs-parser/index.d.ts": {
@@ -4089,6 +4149,11 @@
       "../src/main.ts": {
         "version": "3772c2e89037dc9f4022fdf8dea916b1dafe4e54a3df37562be1356039f9322f",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/constants.ts": {
+        "version": "4b0176750f2351d7ffc3aeffca5fa941ff0cc95664fa3bad39067ea38cf4a3e4",
+        "signature": "f89ab217a1d299b5f501c8f995bc1ad8566971be61e0112a92f2d6b9ef1ae510",
         "affectsGlobalScope": false
       },
       "../src/user/repositories/contracts/index.ts": {
@@ -7239,6 +7304,7 @@
         "../node_modules/@nestjs/mongoose/index.d.ts",
         "../node_modules/nestjs-meilisearch/lib/index.d.ts",
         "../src/auth/index.ts",
+        "../src/auth/sessionchecker.ts",
         "../src/intro/index.ts",
         "../src/shortcut/index.ts"
       ],
@@ -7261,6 +7327,8 @@
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/@nestjs/jwt/index.d.ts",
         "../src/auth/auth.listener.ts",
+        "../src/auth/container.ts",
+        "../src/auth/repositories/contracts/index.ts",
         "../src/auth/utils/index.ts",
         "../src/auth/validators/index.ts"
       ],
@@ -7275,7 +7343,8 @@
       ],
       "../src/auth/guards/mustbeauthenticated.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/passport/index.d.ts"
+        "../node_modules/@nestjs/passport/index.d.ts",
+        "../src/auth/auth.service.ts"
       ],
       "../src/auth/guards/rolebasedauthentication.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -7287,22 +7356,67 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/@nestjs/jwt/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
         "../node_modules/@nestjs/passport/index.d.ts",
         "../src/auth/auth.controller.ts",
+        "../src/auth/auth.service.ts",
+        "../src/auth/container.ts",
+        "../src/auth/models/index.ts",
         "../src/auth/provider.ts",
+        "../src/auth/repositories/database/index.ts",
+        "../src/auth/sessionchecker.ts",
+        "../src/shortcut/index.ts",
         "../src/user/index.ts"
+      ],
+      "../src/auth/models/index.ts": [
+        "../src/auth/models/token/index.ts"
+      ],
+      "../src/auth/models/plugins/index.ts": [
+        "../src/auth/models/plugins/queries.ts",
+        "../src/auth/models/plugins/relations.ts"
+      ],
+      "../src/auth/models/token/index.ts": [
+        "../src/auth/models/plugins/index.ts",
+        "../src/auth/models/token/schema.ts"
       ],
       "../src/auth/provider.ts": [
         "../src/auth/auth.listener.ts",
         "../src/auth/auth.service.ts",
+        "../src/auth/container.ts",
+        "../src/auth/repositories/database/index.ts",
+        "../src/auth/sessionchecker.ts",
         "../src/auth/strategies/jwt.ts"
+      ],
+      "../src/auth/repositories/contracts/index.ts": [
+        "../src/auth/repositories/contracts/token.ts"
+      ],
+      "../src/auth/repositories/contracts/token.ts": [
+        "../libs/core/src/index.ts"
+      ],
+      "../src/auth/repositories/database/index.ts": [
+        "../src/auth/repositories/database/token.ts"
+      ],
+      "../src/auth/repositories/database/token.ts": [
+        "../libs/core/src/helpers/index.ts",
+        "../libs/core/src/index.ts",
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../src/auth/repositories/contracts/index.ts"
+      ],
+      "../src/auth/sessionchecker.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/express/index.d.ts",
+        "../src/auth/auth.service.ts",
+        "../src/auth/container.ts",
+        "../src/auth/repositories/contracts/index.ts"
       ],
       "../src/auth/strategies/jwt.ts": [
         "../libs/core/src/exceptions/index.ts",
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/@nestjs/passport/index.d.ts",
-        "../src/auth/auth.service.ts"
+        "../src/auth/auth.service.ts",
+        "../src/shortcut/services/service.ts"
       ],
       "../src/auth/utils/index.ts": [
         "../src/auth/utils/hash.ts"
@@ -7358,6 +7472,9 @@
       "../src/shortcut/index.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../src/auth/auth.service.ts",
+        "../src/auth/index.ts",
+        "../src/auth/sessionchecker.ts",
         "../src/shortcut/controller/controller.ts",
         "../src/shortcut/models/index.ts",
         "../src/shortcut/provider.map.ts",
@@ -7377,6 +7494,7 @@
         "../src/shortcut/models/shortcut/schema.ts"
       ],
       "../src/shortcut/provider.ts": [
+        "../src/auth/auth.service.ts",
         "../src/shortcut/provider.map.ts",
         "../src/shortcut/repositories/database/index.ts",
         "../src/shortcut/services/service.ts"
@@ -10324,6 +10442,9 @@
       "../node_modules/tarn/dist/utils.d.ts": [
         "../node_modules/tarn/dist/promiseinspection.d.ts"
       ],
+      "../src/app.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
       "../src/auth/auth.controller.ts": [
         "../libs/core/src/controllers/index.ts",
         "../src/auth/auth.service.ts"
@@ -10336,7 +10457,8 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/@nestjs/jwt/index.d.ts",
-        "../src/auth/auth.listener.ts"
+        "../src/auth/auth.listener.ts",
+        "../src/auth/repositories/contracts/index.ts"
       ],
       "../src/auth/guards/canbeauthenticated.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -10351,13 +10473,36 @@
       "../src/auth/guards/mustbeauthenticated.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/passport/index.d.ts",
-        "../node_modules/rxjs/index.d.ts"
+        "../node_modules/rxjs/index.d.ts",
+        "../src/auth/auth.service.ts"
       ],
       "../src/auth/guards/rolebasedauthentication.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
         "../node_modules/@nestjs/passport/index.d.ts",
         "../node_modules/rxjs/index.d.ts"
+      ],
+      "../src/auth/models/plugins/index.ts": [
+        "../src/auth/models/plugins/queries.ts",
+        "../src/auth/models/plugins/relations.ts"
+      ],
+      "../src/auth/repositories/contracts/index.ts": [
+        "../src/auth/repositories/contracts/token.ts"
+      ],
+      "../src/auth/repositories/contracts/token.ts": [
+        "../libs/core/src/index.ts"
+      ],
+      "../src/auth/repositories/database/index.ts": [
+        "../src/auth/repositories/database/token.ts"
+      ],
+      "../src/auth/repositories/database/token.ts": [
+        "../libs/core/src/index.ts",
+        "../src/auth/repositories/contracts/index.ts"
+      ],
+      "../src/auth/sessionchecker.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/express/index.d.ts",
+        "../src/auth/repositories/contracts/index.ts"
       ],
       "../src/auth/strategies/jwt.ts": [
         "../node_modules/@nestjs/config/index.d.ts",
@@ -10410,6 +10555,9 @@
       ],
       "../src/shortcut/transformer/index.ts": [
         "../src/shortcut/transformer/detail.ts"
+      ],
+      "../src/shortcut/utils/index.ts": [
+        "../src/shortcut/utils/meili.ts"
       ],
       "../src/shortcut/validator/index.ts": [
         "../src/shortcut/validator/addshortcut.ts",
@@ -11262,12 +11410,25 @@
       "../src/auth/auth.controller.ts",
       "../src/auth/auth.listener.ts",
       "../src/auth/auth.service.ts",
+      "../src/auth/constants.ts",
+      "../src/auth/container.ts",
       "../src/auth/guards/canbeauthenticated.ts",
       "../src/auth/guards/index.ts",
       "../src/auth/guards/mustbeauthenticated.ts",
       "../src/auth/guards/rolebasedauthentication.ts",
       "../src/auth/index.ts",
+      "../src/auth/models/index.ts",
+      "../src/auth/models/plugins/index.ts",
+      "../src/auth/models/plugins/queries.ts",
+      "../src/auth/models/plugins/relations.ts",
+      "../src/auth/models/token/index.ts",
+      "../src/auth/models/token/schema.ts",
       "../src/auth/provider.ts",
+      "../src/auth/repositories/contracts/index.ts",
+      "../src/auth/repositories/contracts/token.ts",
+      "../src/auth/repositories/database/index.ts",
+      "../src/auth/repositories/database/token.ts",
+      "../src/auth/sessionchecker.ts",
       "../src/auth/strategies/jwt.ts",
       "../src/auth/utils/hash.ts",
       "../src/auth/utils/index.ts",

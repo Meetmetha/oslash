@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { MeiliSearchModule } from 'nestjs-meilisearch';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { IntroModule } from './Intro'
@@ -7,6 +7,7 @@ import { CoreModule } from '@libs/core';
 import { MongooseModule } from '@nestjs/mongoose'
 import { AuthModule } from '@app/auth'
 import { ShortcutModule } from '@app/shortcut'
+import { SessionChecker } from './auth/sessionChecker';
 
 @Module({
   imports: [
@@ -35,4 +36,10 @@ import { ShortcutModule } from '@app/shortcut'
   controllers: [],
   providers: [],
 })
-export class AppModule {}
+export class AppModule implements NestModule {
+  configure(consumer: MiddlewareConsumer) {
+    consumer
+      .apply(SessionChecker)
+      .forRoutes('shortcut');
+  }
+}

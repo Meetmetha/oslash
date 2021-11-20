@@ -15,6 +15,9 @@ const models_1 = require("./models");
 const service_1 = require("./services/service");
 const provider_map_1 = require("./provider.map");
 const database_1 = require("./repositories/database");
+const sessionChecker_1 = require("../auth/sessionChecker");
+const auth_service_1 = require("../auth/auth.service");
+const auth_1 = require("../auth");
 let ShortcutModule = class ShortcutModule {
 };
 ShortcutModule = __decorate([
@@ -23,11 +26,11 @@ ShortcutModule = __decorate([
         controllers: [controller_1.ShortcutController],
         providers: provider_1.getProviders(),
         exports: [
-            service_1.ShortcutService,
             {
                 provide: provider_map_1.providerMap.SHORTCUT_REPO,
                 useClass: database_1.ShortcutRepository,
             },
+            service_1.ShortcutService,
         ],
     })
 ], ShortcutModule);
