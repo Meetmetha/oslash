@@ -4,7 +4,7 @@ import { ApiController } from '@libs/core/controllers';
 import { DetailTransformer } from '../user/Transformers';
 import { MustBeAuthenticated} from './guards';
 
-@Controller('')
+@Controller('/auth')
 export class AuthController extends ApiController {
   constructor(private auth: AuthService) {
     super();
