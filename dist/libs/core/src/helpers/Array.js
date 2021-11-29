@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Helpers_1 = require("./Helpers");
 if (!Array.prototype.remove) {
     const func = function (elem) {
-        return this.filter((e) => e !== elem);
+        return this.filter(e => e !== elem);
     };
     Object.defineProperty(Array.prototype, 'remove', {
         value: func,
@@ -56,7 +56,7 @@ if (!Array.prototype.pluck) {
     const func = function (key) {
         const values = [];
         if (Helpers_1.isObject(this[0])) {
-            this.forEach((element) => {
+            this.forEach(element => {
                 values.push(element[key]);
             });
         }

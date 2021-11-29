@@ -21,7 +21,7 @@ class CustomQueryBuilder extends objection_1.QueryBuilder {
     }
     async onlyCount() {
         const result = await this.count({ c: '*' });
-        return result;
+        return result[0].c;
     }
     async exists() {
         const result = await this.onlyCount();

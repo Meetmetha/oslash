@@ -14,7 +14,7 @@ export interface RepositoryContract {
     deleteWhere(params: any): Promise<boolean>;
     stream(conditions: Record<string, any>, callback: Function): Promise<any>;
     aggregate(inputs: Array<Record<string, any>>): Promise<any>;
-    distinct(model: any): Promise<any>;
+    distinct(key: string, conditions: any): any;
     raiseError(): void;
     query(): any;
 }

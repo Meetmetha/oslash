@@ -24,8 +24,7 @@ let HttpExplorer = class HttpExplorer {
         this.metadataScanner = metadataScanner;
     }
     onModuleInit() {
-        const appUrl = this.config.get('app.url');
-        Metadata_1.HttpMetadata.setBaseUrl(appUrl);
+        Metadata_1.HttpMetadata.setBaseUrl(this.config.get('app.url'));
         const wrappers = this.discovery.getControllers();
         wrappers.forEach((w) => {
             const { instance, metatype } = w;
