@@ -49,8 +49,8 @@ export function randomString(length = 0) {
  * @param replace
  * @param object
  */
-export function renameObjectKeys(delimiter, replace, object) {
-  const objectClone = {};
+export function renameObjectKeys(delimiter: any, replace: any, object: any) {
+  const objectClone: {[index: string]:any} = {}
   const regex = delimiter === '.' ? /\./g : new RegExp(delimiter, 'g');
   for (const key in object) {
     const newKey = key.replace(regex, replace);
@@ -63,7 +63,7 @@ export function renameObjectKeys(delimiter, replace, object) {
 /**
  * Build URL with query params
  */
-export function httpBuildQuery(url, params = {}) {
+export function httpBuildQuery(url:string, params = {}) {
   return url + '?' + queryString.stringify(params, { arrayFormat: 'bracket' });
 }
 
@@ -170,7 +170,8 @@ export function pick(
   obj: Record<string, any>,
   keys: Array<string>,
 ): Record<string, any> {
-  const _obj = {};
+  const _obj: {[index: string]:any} = {}
+  
 
   for (const key of keys) {
     if (obj.hasOwnProperty(key)) {
@@ -190,7 +191,7 @@ export function except(
   obj: Record<string, any>,
   keys: Array<string>,
 ): Record<string, any> {
-  const _obj = {};
+  const _obj: {[index: string]:any} = {}
 
   for (const key of Object.keys(obj)) {
     if (keys.includes(key)) continue;
@@ -203,7 +204,7 @@ export function except(
 /**
  * Clone class instance
  */
-export function clone<T>(instance: T): T {
+export function clone<T>(instance: any): T {
   const copy = new (instance.constructor as { new (): T })();
   Object.assign(copy, instance);
   return copy;
@@ -216,7 +217,7 @@ export function groupBy(
   arr: Array<Record<string, any>>,
   key: string,
 ): Record<string, any> {
-  const obj = {};
+  const obj: {[index: string]:any} = {}
   arr.forEach((o) => {
     obj[o[key]] = o;
   });
@@ -227,7 +228,7 @@ export function groupBy(
 /**
  * Check if passed variable if a type of Function
  */
-export function isFunction(value) {
+export function isFunction(value:any) {
   return typeof value === 'function';
 }
 
@@ -248,7 +249,7 @@ export function throwIf(expression: boolean, exception: HttpException) {
 }
 
 export function invertObj(obj: Record<string, any>): Record<string, any> {
-  const newObj = {};
+  const newObj: {[index: string]:any} = {}
   for (const prop in obj) {
     if (obj.hasOwnProperty(prop)) {
       newObj[obj[prop]] = prop;
@@ -257,6 +258,6 @@ export function invertObj(obj: Record<string, any>): Record<string, any> {
   return newObj;
 }
 
-export function route(name: string, params?: Object): string {
+export function route(name: string, params?: Object): string | null{
   return HttpMetadata.getRoute(name, params);
 }

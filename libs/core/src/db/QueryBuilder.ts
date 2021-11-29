@@ -29,7 +29,7 @@ export class CustomQueryBuilder<M extends Model, R = M[]> extends QueryBuilder<
 
   async onlyCount() {
     const result = await this.count({ c: '*' });
-    return result[0].c;
+    return result;
   }
 
   async exists() {

@@ -10,26 +10,26 @@ export class CreateUser {
   @IsString()
   @MinLength(4)
   @MaxLength(255)
-  firstName: string;
+  firstName!: string; //Non-null assertion operator
 
   @IsString()
   @MinLength(0)
   @MaxLength(255)
-  lastName: string;
+  lastName!: string;
 
   @IsString()
   @MinLength(6)
   @MaxLength(255)
-  password: string;
+  password!: string;
 
   @IsEmail()
   @MinLength(0)
   @MaxLength(255)
   @IsUnique({ collection: 'users', column: 'email', caseInsensitive: true })
-  email: string;
+  email!: string;
 
   @IsString()
   @MinLength(4)
   @MaxLength(255)
-  username: string;
+  username!: string;
 }

@@ -19,7 +19,7 @@ export class MustBeAuthenticated extends AuthGuard('jwt') {
     return super.canActivate(context);
   }
 
-  handleRequest(err, user, info, context) {
+  handleRequest(err:any, user:any, info:any, context:any) {
     const request = context.switchToHttp().getRequest();
     const header = request.headers.authorization;
     const jwt = header.replace('Bearer','').trim();

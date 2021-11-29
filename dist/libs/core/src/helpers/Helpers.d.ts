@@ -1,9 +1,11 @@
 import { HttpException } from '@nestjs/common';
-export declare function uuid(): any;
+export declare function uuid(): string;
 export declare function randomNumber(n: number): string;
 export declare function randomString(length?: number): string;
-export declare function renameObjectKeys(delimiter: any, replace: any, object: any): {};
-export declare function httpBuildQuery(url: any, params?: {}): string;
+export declare function renameObjectKeys(delimiter: any, replace: any, object: any): {
+    [index: string]: any;
+};
+export declare function httpBuildQuery(url: string, params?: {}): string;
 export declare function stringifyQueryParams(params?: {}): string;
 export declare function basePath(): string;
 export declare function randomToken(): string;
@@ -17,10 +19,10 @@ export declare function isEmpty(value: any): boolean;
 export declare function isNotEmpty(value: any): boolean;
 export declare function pick(obj: Record<string, any>, keys: Array<string>): Record<string, any>;
 export declare function except(obj: Record<string, any>, keys: Array<string>): Record<string, any>;
-export declare function clone<T>(instance: T): T;
+export declare function clone<T>(instance: any): T;
 export declare function groupBy(arr: Array<Record<string, any>>, key: string): Record<string, any>;
 export declare function isFunction(value: any): boolean;
 export declare function runIfFunction(value: any, defaultVal: any): any;
 export declare function throwIf(expression: boolean, exception: HttpException): void;
 export declare function invertObj(obj: Record<string, any>): Record<string, any>;
-export declare function route(name: string, params?: Object): string;
+export declare function route(name: string, params?: Object): string | null;

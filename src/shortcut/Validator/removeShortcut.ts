@@ -14,6 +14,6 @@ import {
     @IsString()
     @MinLength(15)
     @MaxLength(30)
-    shortcutid: string;
+    shortcutid!: string;
 
   }

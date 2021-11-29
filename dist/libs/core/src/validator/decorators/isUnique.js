@@ -11,13 +11,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IsUnique = exports.IsUniqueConstraint = void 0;
 const class_validator_1 = require("class-validator");
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
-const mongoose_2 = require("mongoose");
 const helpers_1 = require("../../helpers");
 let IsUniqueConstraint = class IsUniqueConstraint {
     constructor(connection) {
@@ -34,7 +32,7 @@ let IsUniqueConstraint = class IsUniqueConstraint {
         return this.connection
             .collection(options.collection)
             .findOne(params)
-            .then(count => {
+            .then((count) => {
             return !!!count;
         });
     }
@@ -47,7 +45,7 @@ IsUniqueConstraint = __decorate([
     common_1.Injectable(),
     class_validator_1.ValidatorConstraint({ async: true }),
     __param(0, mongoose_1.InjectConnection('database')),
-    __metadata("design:paramtypes", [typeof (_a = typeof mongoose_2.Connection !== "undefined" && mongoose_2.Connection) === "function" ? _a : Object])
+    __metadata("design:paramtypes", [Object])
 ], IsUniqueConstraint);
 exports.IsUniqueConstraint = IsUniqueConstraint;
 function IsUnique(options, validationOptions) {

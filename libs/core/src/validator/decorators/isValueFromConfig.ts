@@ -6,7 +6,7 @@ import {
   ValidatorConstraintInterface,
 } from 'class-validator';
 import { isEmpty, isArray, isObject } from 'lodash';
-import { Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 
 @Injectable()
@@ -39,7 +39,7 @@ export class IsValueFromConfigConstraint
   }
 
   private getValues(key: string): any {
-    let validValues: Array<string> = this.config.get(key);
+    let validValues: Array<string> | undefined = this.config.get(key);
     if (isObject(validValues)) {
       validValues = Object.values(validValues);
     }

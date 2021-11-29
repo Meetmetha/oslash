@@ -6,8 +6,9 @@ class Context {
         this.req = req;
         return this;
     }
-    getRequest() {
-        return this.req;
+    getRequest(req) {
+        this.req = req;
+        return this;
     }
 }
 exports.Context = Context;

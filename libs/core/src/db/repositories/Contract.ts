@@ -73,21 +73,21 @@ export interface RepositoryContract {
    *
    * @param model
    */
-  refresh(model): any;
+  refresh(model: any): any;
 
   /**
    * Delete a model
    *
    * @param model
    */
-  delete(model): Promise<boolean>;
+  delete(model: any): Promise<boolean>;
 
   /**
    * Delete documents where query is matched.
    *
    * @param params
    */
-  deleteWhere(params): Promise<boolean>;
+  deleteWhere(params: any): Promise<boolean>;
 
   /**
    * Stream a model satisfying certain conditions
@@ -108,7 +108,7 @@ export interface RepositoryContract {
    * Get distinct values from a collection for a criteria
    * @param model
    */
-  distinct(key: string, conditions);
+  distinct(model: any): Promise<any>;
 
   /**
    * Throws model not found exception.

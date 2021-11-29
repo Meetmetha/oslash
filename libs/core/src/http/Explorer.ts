@@ -15,7 +15,8 @@ export class HttpExplorer {
   ) {}
 
   onModuleInit() {
-    HttpMetadata.setBaseUrl(this.config.get('app.url'));
+    const appUrl = this.config.get('app.url');
+    HttpMetadata.setBaseUrl(appUrl);
 
     const wrappers = this.discovery.getControllers();
 

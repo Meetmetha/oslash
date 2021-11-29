@@ -2,7 +2,7 @@ import { ValidationOptions, ValidationArguments, ValidatorConstraintInterface } 
 import { Connection } from 'mongoose';
 export declare class IsUniqueConstraint implements ValidatorConstraintInterface {
     private connection;
-    constructor(connection: Connection);
+    constructor(connection: typeof Connection);
     validate(value: string, args: ValidationArguments): Promise<boolean>;
     defaultMessage(args: ValidationArguments): string;
 }

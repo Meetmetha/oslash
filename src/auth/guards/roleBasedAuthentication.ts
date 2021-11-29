@@ -11,18 +11,18 @@ import { container as usercontainer } from '@app/user/container';
 @Injectable()
 export class RoleBasedAuthenticated extends AuthGuard('jwt') {
   constructor(
-    private readonly reflector: Reflector
+    private readonly reflector: Reflector,
   ) {
     super();
   }
-  private context_: ExecutionContext;
-  private grant: boolean;
+  private context_!: ExecutionContext;
+  private grant!: boolean;
   canActivate(context: ExecutionContext) {
     this.context_ = context;
     return super.canActivate(context);
   }
 
-  handleRequest(err, user, info) {
+  handleRequest(err:any, user:any, info:any) {
     const roles = this.reflector.get<string[]>(
       'roles',
       this.context_.getHandler(),

@@ -12,7 +12,7 @@ class HttpMetadata {
             return null;
         let notPathParams = null;
         if (params && Object.keys(params).length) {
-            notPathParams = {};
+            const notPathParams = {};
             for (const key in params) {
                 route.includes(`:${key}`)
                     ? (route = route.replace(`:${key}`, params[key]))

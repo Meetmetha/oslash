@@ -8,8 +8,5 @@ const Schema = new m.Schema(schema_1.schema, {
 });
 Schema.plugin(plugins_1.relations);
 Schema.plugin(plugins_1.queryHelpers);
-Schema.virtual('name').get(function () {
-    return this.firstName + ' ' + this.lastName;
-});
 exports.default = Schema;
 //# sourceMappingURL=index.js.map

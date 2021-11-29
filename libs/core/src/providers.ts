@@ -1,6 +1,6 @@
 import { ListCommands, InitApplicationSetup } from './console';
 import { HttpExplorer } from './http';
-import { BaseValidator, ExistsConstraint } from './validator';
+import { BaseValidator } from './validator';
 import { IsUniqueConstraint } from './validator/decorators/isUnique';
 import { IsValueFromConfigConstraint } from './validator/decorators/isValueFromConfig';
 
@@ -17,7 +17,6 @@ const providers = [
 
   // custom validator decorators
   IsUniqueConstraint,
-  ExistsConstraint,
   IsValueFromConfigConstraint,
 ];
 

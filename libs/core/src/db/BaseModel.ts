@@ -3,7 +3,7 @@ import { CustomQueryBuilder } from './QueryBuilder';
 import { basePath } from '../helpers';
 
 export class BaseModel extends Model {
-  readonly id: number;
+  readonly id: number | undefined;
 
   // custom query builder
   QueryBuilderType!: CustomQueryBuilder<this>;
@@ -13,7 +13,7 @@ export class BaseModel extends Model {
   static useLimitInFirst = true;
   static modulePaths = [];
 
-  static setModulePaths(modules: string[]) {
+  static setModulePaths(this:any,modules: string[]) {
     this.modulePaths = modules;
   }
 
@@ -22,7 +22,7 @@ export class BaseModel extends Model {
     return BaseModel.modulePaths.map(m => `${root}dist/src/${m}/models`);
   }
 
-  async fetchRelation(expression: RelationExpression<any>, options = {}) {
+  async fetchRelation(this: any, expression: RelationExpression<any>, options = {}) {
     if (this[expression.toString()]) return this;
     await this.$fetchGraph(expression, options);
     return this;

@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Transformer = void 0;
+const common_1 = require("@nestjs/common");
 const lodash_1 = require("lodash");
 const Context_1 = require("../utils/Context");
 class Transformer {
@@ -43,13 +44,16 @@ class Transformer {
             }
         }
         processedIncludes = lodash_1.uniq(processedIncludes.concat(this.defaultIncludes));
-        this.includes = processedIncludes;
-        return this;
+        return processedIncludes;
     }
     async work(data) {
         let result = {};
         if (data instanceof Object) {
-            result = await this.transform(data);
+            const transformedata = await this.transform(data);
+            if (transformedata == null) {
+                throw new common_1.BadRequestException();
+            }
+            result = transformedata;
         }
         for (const include of this.includes) {
             const map = await this.handleInclude(data, include);

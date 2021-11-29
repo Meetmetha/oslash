@@ -4,7 +4,7 @@ export declare abstract class BaseCommand {
     private validate;
     getRequiredOptions(): string[];
     setReceivedOptions(options: Record<string, any>): this;
-    value<T>(option: string): T;
+    value<T>(option: string): T | undefined;
     info(msg: string, color?: string): void;
     error(msg: string): void;
     success(msg: string): void;

@@ -37,7 +37,7 @@ export class ShortcutService {
     }
   }
 
-  async addShortcut(user,inputs: Record<string, any>): Promise<any> {
+  async addShortcut(user:Record<string, any>,inputs: Record<string, any>): Promise<any> {
     await this.validator.fire(inputs, addShortcut);
     const shortcutData = await this.Shortcuts.create({
       user: user._id,
@@ -53,7 +53,7 @@ export class ShortcutService {
 
   }
 
-  async removeShortcut(user,inputs: Record<string, any>): Promise<any> {
+  async removeShortcut(user: Record<string,any>,inputs: Record<string, any>): Promise<any> {
     await this.validator.fire(inputs, removeShortcut);
     const userShortcut = await this.Shortcuts.firstWhere({ user: user._id, _id: inputs.shortcutid });
     if(!userShortcut){

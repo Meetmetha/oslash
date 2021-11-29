@@ -9,7 +9,7 @@ declare global {
 }
 
 if (!String.prototype.before) {
-    const func = function (needle: string): string {
+    const func = function (this:typeof needle,needle: string): string | null {
         if (isEmpty(this)) return null;
         return this.split(needle)[0];
     };
@@ -21,7 +21,7 @@ if (!String.prototype.before) {
 }
 
 if (!String.prototype.after) {
-    const func = function (needle: string): string {
+    const func = function (this:typeof needle,needle: string): string | null{
         if (isEmpty(this)) return null;
         return this.split(needle)[1];
     };
@@ -33,7 +33,7 @@ if (!String.prototype.after) {
 }
 
 if (!String.prototype.truncate) {
-    const func = function (len: number): string {
+    const func = function (this: any, len: number): string {
         return this.length > len ? this.substr(0, len - 1) + '...' : this;
     };
 

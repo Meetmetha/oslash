@@ -1,7 +1,7 @@
 require('dotenv').config();
 import { MeiliSearch } from 'meilisearch'
 const meiliclient = new MeiliSearch({
-    host: process.env.MEILISEARCH_HOST,
+    host: process.env.MEILISEARCH_HOST as string,
     apiKey: process.env.MEILISEARCH_APIKEY,
 })
 const meiliSearchIndex = meiliclient.index('shortcuts')

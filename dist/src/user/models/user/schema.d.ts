@@ -1,24 +1,24 @@
 export declare const schema: {
     firstName: {
         type: StringConstructor;
-        default: any;
+        default: null;
     };
     lastName: {
         type: StringConstructor;
-        default: any;
+        default: null;
     };
     email: {
         type: StringConstructor;
-        default: any;
+        default: null;
         lowercase: boolean;
         index: boolean;
     };
     password: {
         type: StringConstructor;
-        default: any;
+        default: null;
     };
     username: {
         type: StringConstructor;
-        default: any;
+        default: null;
     };
 };

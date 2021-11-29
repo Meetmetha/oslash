@@ -62,7 +62,7 @@ export class DatabaseRepository {
    * Create a new model with given inputs
    * @param inputs
    */
-  async create(inputs: Record<string, any>): Promise<any> {
+  async create(this:any, inputs: Record<string, any>): Promise<any> {
     return await this.model.create(inputs);
   }
 
@@ -107,7 +107,7 @@ export class DatabaseRepository {
    * @param model
    * @param setValues
    */
-  async update(model: any, setValues: Record<string, any>): Promise<any> {
+  async update(this: typeof model, model: any, setValues: Record<string, any>): Promise<any> {
     return await this.model.findByIdAndUpdate(model._id, setValues);
   }
 
@@ -118,6 +118,7 @@ export class DatabaseRepository {
    * @param setValues
    */
   async updateWhere(
+    this:any,
     where: Record<string, any>,
     setValues: Record<string, any>,
   ): Promise<any> {
@@ -128,7 +129,7 @@ export class DatabaseRepository {
    * Get count of rows matching a criteria
    * @param params
    */
-  async count(params) {
+  async count(params:any) {
     return await this.query().countDocuments(params);
   }
 
@@ -145,7 +146,7 @@ export class DatabaseRepository {
    *
    * @param model
    */
-  async delete(model): Promise<boolean> {
+  async delete(this: typeof model,model: any): Promise<boolean> {
     return await this.model.deleteMany({ _id: model._id });
   }
 
@@ -154,7 +155,7 @@ export class DatabaseRepository {
    *
    * @param params
    */
-  async deleteWhere(params): Promise<boolean> {
+  async deleteWhere(this: any, params:any): Promise<boolean> {
     return await this.model.deleteMany(params);
   }
 
@@ -163,7 +164,7 @@ export class DatabaseRepository {
    *
    * @param model
    */
-  async refresh(model): Promise<any> {
+  async refresh(model:any): Promise<any> {
     return await this.query().findOne({ _id: model._id });
   }
 
@@ -195,7 +196,7 @@ export class DatabaseRepository {
    *
    * @param inputs
    */
-  async aggregate(inputs: Array<Record<string, any>>): Promise<any> {
+  async aggregate(this:any,inputs: Array<Record<string, any>>): Promise<any> {
     return await this.model.aggregate(inputs);
   }
 
@@ -204,7 +205,7 @@ export class DatabaseRepository {
    *
    * @throws ModelNotFoundException
    */
-  raiseError(): void {
+  raiseError(this:any): void {
     throw new ModelNotFoundException(
       this.model.collection.collectionName + ' not found',
     );
@@ -213,7 +214,7 @@ export class DatabaseRepository {
   /**
    * Returns new Query Builder Instance
    */
-  query() {
+  query(this:any) {
     return this.model.find();
   }
 }

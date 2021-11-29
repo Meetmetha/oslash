@@ -8,9 +8,4 @@ const Schema = new m.Schema(schema, {
 
 Schema.plugin(relations);
 Schema.plugin(queryHelpers);
-
-Schema.virtual('name').get(function() {
-  return this.firstName + ' ' + this.lastName;
-});
-
 export default Schema;

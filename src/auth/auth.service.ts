@@ -82,7 +82,7 @@ export class AuthService {
    * Get JWT Token for user
    * @param user
    */
-  private getToken(user): string {
+  private getToken(user:any): string {
     return this.jwtService.sign({
       sub: user._id,
     });

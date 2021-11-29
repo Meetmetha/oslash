@@ -14,21 +14,21 @@ import {
 
     @IsString()
     @MinLength(1)
-    shortlink: string;
+    shortlink!: string;
 
     @IsUrl()
     @MaxLength(500)
     @MinLength(1)
-    url: string;
+    url!: string;
 
     @IsString()
     @MaxLength(100)
     @IsOptional()
-    description: string;
+    description?: string;
 
     @IsArray()
     @IsOptional()
-    tags: [string];
+    tags!: [string];
 
 
   }

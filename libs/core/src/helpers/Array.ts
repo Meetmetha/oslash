@@ -19,8 +19,8 @@ declare global {
 }
 
 if (!Array.prototype.remove) {
-    const func = function <T>(elem: T): T[] {
-        return this.filter(e => e !== elem);
+    const func = function <T>(this: any, elem: T): T[] {
+        return this.filter((e: T) => e !== elem);
     };
 
     Object.defineProperty(Array.prototype, 'remove', {
@@ -31,7 +31,7 @@ if (!Array.prototype.remove) {
 
 
 if (!Array.prototype.fillWith) {
-    const func = function <T>(
+    const func = function <T>(this: any,
         value: Function | string | number | Record<string, any> | Array<any>,
     ): T[] {
         const length = this.length;
@@ -48,7 +48,7 @@ if (!Array.prototype.fillWith) {
 }
 
 if (!Array.prototype.init) {
-    const func = function <T>(length: number): T[] {
+    const func = function <T>(this: any, length: number): T[] {
         for (let i = 0; i < +length; i++) this.push(undefined);
         return this;
     };
@@ -60,7 +60,7 @@ if (!Array.prototype.init) {
 }
 
 if (!Array.prototype.first) {
-    const func = function <T>(): T {
+    const func = function <T>(this: any): T {
         return this[0];
     };
 
@@ -71,7 +71,7 @@ if (!Array.prototype.first) {
 }
 
 if (!Array.prototype.last) {
-    const func = function <T>(): T {
+    const func = function <T>(this: any): T {
         return this[this.length - 1];
     };
 
@@ -82,10 +82,10 @@ if (!Array.prototype.last) {
 }
 
 if (!Array.prototype.pluck) {
-    const func = function <T>(key: string): T[] {
-        const values = [];
+    const func = function <T>(this: any, key: string): T[] {
+        const values: any[] = [];
         if (isObject(this[0])) {
-            this.forEach(element => {
+            this.forEach((element: { [x: string]: any; }) => {
                 values.push(element[key]);
             });
         }
@@ -100,7 +100,7 @@ if (!Array.prototype.pluck) {
 }
 
 if (!Array.prototype.isNotEmpty) {
-    const func = function <T>(): boolean {
+    const func = function <T>(this: any): boolean {
         return this.length > 0;
     };
 
@@ -111,7 +111,7 @@ if (!Array.prototype.isNotEmpty) {
 }
 
 if (!Array.prototype.isEmpty) {
-    const func = function <T>(): boolean {
+    const func = function <T>(this: any): boolean {
         return this.length == 0;
     };
 
@@ -122,8 +122,8 @@ if (!Array.prototype.isEmpty) {
 }
 
 if (!Array.prototype.toObject) {
-    const func = function <T>(key: string): Record<string, any> {
-        const obj = {};
+    const func = function <T>(this: any, key: string): Record<string, any> {
+        const obj: {[index: string]:any} = {}
         if (isObject(this[0])) {
             for (const k of this) {
                 obj[k[key]] = k;
@@ -131,7 +131,7 @@ if (!Array.prototype.toObject) {
             return obj;
         }
 
-        this.array.forEach((element, i) => {
+        this.array.forEach((element:any, i:number) => {
             obj[i] = element;
         });
 

@@ -1,6 +1,6 @@
 import { Request } from '../http';
 export declare class Context {
-    req: Request;
+    req: Request | undefined;
     setRequest(req: Request): this;
-    getRequest(): Request;
+    getRequest(req: Request): this;
 }

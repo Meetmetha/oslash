@@ -1,3 +1,4 @@
+import { BadRequestException } from '@nestjs/common';
 import { compact, difference, uniq, camelCase, set } from 'lodash';
 import { Context } from '../utils/Context';
 
@@ -59,7 +60,7 @@ export abstract class Transformer {
     return result;
   }
 
-  parseIncludes(include = ''): this {
+  parseIncludes(include = ''): any {
     let includes = include.split(/,(?=(((?!\]).)*\[)|[^\[\]]*$)/);
     includes = compact(includes);
     const allIncludes = this.availableIncludes.concat(this.defaultIncludes);
@@ -74,16 +75,19 @@ export abstract class Transformer {
       }
     }
     processedIncludes = uniq(processedIncludes.concat(this.defaultIncludes));
-    this.includes = processedIncludes;
-    return this;
+    return processedIncludes;
   }
 
-  async work(data): Promise<Record<string, any> | Array<Record<string, any>>> {
-    let result = {};
-
+  async work(data: any): Promise<Record<string, any> | Array<Record<string, any>>> {
+    // let result: {[index: string]:any} = {}
+    let result: Record<string, any> = {};
     // transform data
     if (data instanceof Object) {
-      result = await this.transform(data);
+      const transformedata = await this.transform(data);
+      if(transformedata == null){
+        throw new BadRequestException()
+      }
+      result = transformedata;
     }
     // handle includes and nested includes
     for (const include of this.includes) {
@@ -103,7 +107,7 @@ export abstract class Transformer {
     include: string,
   ): Promise<Record<string, any>> {
     // check if include contains nested includes also
-    const includeMap = {};
+    const includeMap: {[index: string]:any} = {}
 
     const toInclude = include.split(/\.(?![^[]*\])/);
     await this.computeNestedInclude(toInclude, 0, includeMap, data, include);
@@ -115,7 +119,7 @@ export abstract class Transformer {
         const sameLvl = toInclude[i].split(',');
         for (let j = 0; j < sameLvl.length; j++) {
           if (sameLvl[j].split('.').length != 1) {
-            const nestMap = {};
+            const nestMap: {[index: string]:any} = {}
             const newArray = sameLvl[j].split('.');
             await this.computeNestedInclude(
               newArray,
@@ -142,6 +146,7 @@ export abstract class Transformer {
   }
 
   private async computeNestedInclude(
+    this: any,
     toInclude: string[],
     i: number,
     includeMap: Record<string, any>,
@@ -167,6 +172,7 @@ export abstract class Transformer {
   }
 
   private async fetchData(
+    this:any,
     name: string,
     data: Record<string, any>,
     include: string,

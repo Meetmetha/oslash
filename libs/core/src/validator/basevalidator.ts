@@ -6,7 +6,7 @@ import { ValidationFailed } from '../exceptions';
 
 @Injectable()
 export class BaseValidator {
-  async fire(inputs, schemaMeta): Promise<Record<string, any>> {
+  async fire(inputs:any, schemaMeta:any): Promise<Record<string, any>> {
     const schema = plainToClass(schemaMeta, inputs);
     const errors = await validate(schema);
 
@@ -18,7 +18,7 @@ export class BaseValidator {
     if (errors.length > 0) {
       for (const error of errors) {
         const errorsFromParser = this.parseError(error);
-        const childErrorBag = {};
+        const childErrorBag: {[index: string]:any} = {}
         for (const key in errorsFromParser) {
           if (!isEmpty(errorsFromParser[key])) {
             childErrorBag[key] = errorsFromParser[key];
@@ -37,7 +37,7 @@ export class BaseValidator {
     return inputs;
   }
 
-  parseError(error) {
+  parseError(error:any) {
     const children = [];
     for (const child of error.children || []) {
       children.push(this.parseError(child));
@@ -50,7 +50,7 @@ export class BaseValidator {
       messages.push(message);
     }
 
-    const errors = {};
+    const errors: {[index: string]:any} = {}
     if (!isEmpty(messages)) {
       errors[error.property] = messages;
     }

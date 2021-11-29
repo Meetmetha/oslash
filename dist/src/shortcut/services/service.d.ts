@@ -5,6 +5,6 @@ export declare class ShortcutService {
     private Shortcuts;
     constructor(validator: BaseValidator, Shortcuts: ShortcutRepository);
     getUserShortcut(user: Record<string, any>, inputs: Record<string, any>): Promise<Record<string, any>>;
-    addShortcut(user: any, inputs: Record<string, any>): Promise<any>;
-    removeShortcut(user: any, inputs: Record<string, any>): Promise<any>;
+    addShortcut(user: Record<string, any>, inputs: Record<string, any>): Promise<any>;
+    removeShortcut(user: Record<string, any>, inputs: Record<string, any>): Promise<any>;
 }

@@ -9,11 +9,12 @@ import { Injectable, Inject } from '@nestjs/common';
 import { InjectConnection } from '@nestjs/mongoose';
 import { Connection } from 'mongoose';
 import { isEmpty } from '@libs/core/helpers';
+import { number, string } from 'yargs';
 
 @Injectable()
 @ValidatorConstraint({ async: true })
 export class IsUniqueConstraint implements ValidatorConstraintInterface {
-  constructor(@InjectConnection('database') private connection: Connection) {}
+  constructor(@InjectConnection('database') private connection: typeof Connection) {}
 
   /*public async validate(
     value: string | string[],
@@ -43,7 +44,7 @@ export class IsUniqueConstraint implements ValidatorConstraintInterface {
   }*/
   public validate(value: string, args: ValidationArguments): Promise<boolean> {
     const [options] = args.constraints;
-    const params = {};
+    const params: {[index: string]:any} = {}
     params[options.column] = value;
 
     if (options.caseInsensitive) {
@@ -54,7 +55,7 @@ export class IsUniqueConstraint implements ValidatorConstraintInterface {
     return this.connection
       .collection(options.collection)
       .findOne(params)
-      .then(count => {
+      .then((count: any) => {
         return !!!count;
       });
   }

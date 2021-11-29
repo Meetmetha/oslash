@@ -12,7 +12,6 @@ const providers = [
     validator_1.BaseValidator,
     http_1.HttpExplorer,
     isUnique_1.IsUniqueConstraint,
-    validator_1.ExistsConstraint,
     isValueFromConfig_1.IsValueFromConfigConstraint,
 ];
 const getProviders = function () {

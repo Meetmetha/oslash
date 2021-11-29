@@ -1,3 +1,4 @@
+import { BadRequestException } from '@nestjs/common';
 import { get } from 'lodash';
 import { Transformer } from '../transformers';
 
@@ -14,7 +15,11 @@ export class ApiController {
     transformer: Transformer,
     options?: Record<string, any>,
   ): Promise<Record<string, any>> {
-    transformer = this.setTransformerContext(transformer, options);
+    if(!options){
+      transformer = this.setTransformerContext(transformer, {});
+    }else{
+      transformer = this.setTransformerContext(transformer, options);
+    }
 
     return await transformer
       .parseIncludes(this.getIncludes(options?.req))
@@ -33,8 +38,11 @@ export class ApiController {
     transformer: Transformer,
     options?: Record<string, any>,
   ): Promise<Array<Record<string, any>>> {
-    transformer = this.setTransformerContext(transformer, options);
-
+    if(!options){
+      transformer = this.setTransformerContext(transformer, {});
+    }else{
+      transformer = this.setTransformerContext(transformer, options);
+    }
     const collection = [];
     for (const o of collect) {
       collection.push(
@@ -56,6 +64,9 @@ export class ApiController {
     options?: Record<string, any>,
   ): Promise<Record<string, any>> {
     const collection = this.collection(obj.data, transformer, options);
+    if(!collection){
+      throw new BadRequestException();
+    }
 
     return {
       data: await collection,

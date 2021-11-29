@@ -9,7 +9,7 @@ export declare const schema: {
     };
     description: {
         type: StringConstructor;
-        default: any;
+        default: null;
     };
     url: {
         type: StringConstructor;
@@ -17,6 +17,6 @@ export declare const schema: {
     };
     tags: {
         type: ArrayConstructor;
-        default: any;
+        default: null;
     };
 };

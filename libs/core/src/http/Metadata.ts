@@ -7,13 +7,13 @@ export class HttpMetadata {
     HttpMetadata.store.routes[routeName] = path;
   }
 
-  static getRoute(routeName: string, params?: Object): string {
+  static getRoute(routeName: string, params: any ): string | null {
     let route = HttpMetadata.store.routes[routeName];
     if (!route) return null;
 
     let notPathParams = null;
     if (params && Object.keys(params).length) {
-      notPathParams = {};
+      const notPathParams: {[index: string]:any} = {}
       for (const key in params) {
         route.includes(`:${key}`)
           ? (route = route.replace(`:${key}`, params[key]))

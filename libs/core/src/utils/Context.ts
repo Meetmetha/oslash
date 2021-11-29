@@ -1,14 +1,15 @@
 import { Request } from '../http';
 
 export class Context {
-    req: Request;
+    req: Request | undefined;
 
     setRequest(req: Request): this {
         this.req = req;
         return this;
     }
 
-    getRequest(): Request {
-        return this.req;
+    getRequest(req: Request): this {
+        this.req = req;
+        return this;
     }
 }

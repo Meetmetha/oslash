@@ -1,4 +1,3 @@
-import { pick, get } from 'lodash';
 import { container } from '@app/user/container';
 import {
   Injectable,

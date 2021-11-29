@@ -12,29 +12,29 @@ export class ConsumerRegistration {
   @IsString()
   @MinLength(4)
   @MaxLength(255)
-  firstName: string;
+  firstName!: string;
 
   @IsString()
   @MinLength(4)
   @MaxLength(255)
-  lastName: string;
+  lastName!: string;
 
   @IsString()
   @MinLength(8)
   @MaxLength(30)
-  password: string;
+  password!: string;
 
   @IsString()
   @IsEqualToProp('password')
-  confirmPassword: string;
+  confirmPassword!: string;
 
   @IsEmail()
   @MinLength(4)
   @MaxLength(255)
-  email: string;
+  email!: string;
 
   @IsString()
   @MinLength(4)
   @MaxLength(255)
-  username: string;
+  username!: string;
 }

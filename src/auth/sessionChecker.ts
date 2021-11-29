@@ -10,6 +10,9 @@ export class SessionChecker implements NestMiddleware {
 
   async use(req: Request, res: Response, next: NextFunction) {
     const header = req.headers.authorization;
+    if(!header){
+      throw new  UnauthorizedException();
+    }
     const jwt = header.replace('Bearer','').trim();
     const sessionBlacklist = await this.tokens.getWhere({ token: jwt }, false);
     // const sessionBlacklist = await this.authService.checkSessionblacklist(jwt);

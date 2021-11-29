@@ -64,7 +64,7 @@ export abstract class BaseCommand {
    * @param option
    * @returns T
    */
-  public value<T>(option: string): T {
+  public value<T>(option: string): T | undefined {
     const definedOptions = this.options();
     if (!definedOptions[option]) {
       return undefined;
@@ -78,7 +78,7 @@ export abstract class BaseCommand {
    * @returns void
    */
   public info(msg: string, color?: string): void {
-    Logger.info(msg, color);
+    Logger.info(msg);
   }
 
   /**

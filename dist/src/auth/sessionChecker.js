@@ -22,6 +22,9 @@ let SessionChecker = class SessionChecker {
     }
     async use(req, res, next) {
         const header = req.headers.authorization;
+        if (!header) {
+            throw new common_1.UnauthorizedException();
+        }
         const jwt = header.replace('Bearer', '').trim();
         const sessionBlacklist = await this.tokens.getWhere({ token: jwt }, false);
         if (sessionBlacklist.length >= 1) {

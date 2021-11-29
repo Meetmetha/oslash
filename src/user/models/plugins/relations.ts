@@ -1,5 +1,5 @@
-export const plugin = function(schema) {
-  schema.method('rel', async function(name: string, force = false) {
+export const plugin = function(schema:any) {
+  schema.method('rel', async function(this:typeof schema, name: string, force = false) {
     if (this[name] && !force) {
       this[name];
     }

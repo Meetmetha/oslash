@@ -1,5 +1,4 @@
 import { Transformer } from '@libs/core/transformers';
-import { get, capitalize, startCase, toLower } from 'lodash';
 
 export class DetailTransformer extends Transformer {
   defaultIncludes = [];
@@ -9,8 +8,8 @@ export class DetailTransformer extends Transformer {
   ): Promise<Record<string, any> | null> {
     return {
       id: user.id,
-      firstName: startCase(toLower(user.firstName)),
-      lastName: capitalize(user.lastName),
+      firstName: user.firstName,
+      lastName: user.lastName,
       email: user.email,
       token: user.token,
       username: user.username

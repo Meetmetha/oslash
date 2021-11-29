@@ -48,7 +48,7 @@ class BaseCommand {
         return this.receivedOptions[option];
     }
     info(msg, color) {
-        Logger_1.Logger.info(msg, color);
+        Logger_1.Logger.info(msg);
     }
     error(msg) {
         Logger_1.Logger.error(msg);

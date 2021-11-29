@@ -8,9 +8,8 @@ export class Logger {
    * @param msg
    * @returns void
    */
-  public static info(msg: string, color?: string): void {
-    color = color || 'cyan';
-    console.log(chalk[color](msg));
+  public static info(msg: string): void {
+    console.log((chalk.bold.cyan)(msg));
   }
 
   /**
@@ -37,7 +36,7 @@ export class Logger {
    * @returns void
    */
   static success(msg: string) {
-    this.print(msg, 'green');
+    this.print(msg);
   }
 
   /**
@@ -47,7 +46,7 @@ export class Logger {
    * @returns void
    */
   static table(rows: Record<string, any>[]): void {
-    let columns = [];
+    let columns: any = [];
     for (const row of rows) {
       columns = columns.concat(Object.keys(row));
     }
@@ -59,7 +58,7 @@ export class Logger {
       );
     }
 
-    const pRows = [];
+    const pRows: any[][] = [];
     rows.forEach(r => pRows.push(Object.values(r)));
 
     const p = new Table({ head: uniqueCols });
@@ -68,7 +67,7 @@ export class Logger {
     console.log(p.toString());
   }
 
-  static print(msg: string, color) {
-    console.log(chalk[color](msg));
+  static print(msg: string) {
+    console.log(chalk.bold.green(msg));
   }
 }

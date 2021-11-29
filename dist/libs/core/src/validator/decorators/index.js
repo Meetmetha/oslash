@@ -20,5 +20,4 @@ Object.defineProperty(exports, "IsValueFromConfig", { enumerable: true, get: fun
 const valueIn_1 = require("./valueIn");
 Object.defineProperty(exports, "ValueIn", { enumerable: true, get: function () { return valueIn_1.ValueIn; } });
 __exportStar(require("./isDateInFormat"), exports);
-__exportStar(require("./exists"), exports);
 //# sourceMappingURL=index.js.map
