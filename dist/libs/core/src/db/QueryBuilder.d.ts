@@ -13,7 +13,7 @@ export declare class CustomQueryBuilder<M extends Model, R = M[]> extends QueryB
         };
         data: M[];
     }>;
-    onlyCount(): Promise<any>;
+    onlyCount(): Promise<R>;
     exists(): Promise<boolean>;
     chunk(cb: Function, size: number): Promise<void>;
 }

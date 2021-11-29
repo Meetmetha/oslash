@@ -4,9 +4,8 @@ exports.Logger = void 0;
 const chalk = require("chalk");
 const Table = require("cli-table3");
 class Logger {
-    static info(msg, color) {
-        color = color || 'cyan';
-        console.log(chalk[color](msg));
+    static info(msg) {
+        console.log((chalk.bold.cyan)(msg));
     }
     static error(msg) {
         console.log(chalk.bgRed.bold(msg));
@@ -15,7 +14,7 @@ class Logger {
         console.log(chalk.bgGray('-'.repeat(process.stdout.columns / 2)));
     }
     static success(msg) {
-        this.print(msg, 'green');
+        this.print(msg);
     }
     static table(rows) {
         let columns = [];
@@ -33,8 +32,8 @@ class Logger {
         p.push(...pRows);
         console.log(p.toString());
     }
-    static print(msg, color) {
-        console.log(chalk[color](msg));
+    static print(msg) {
+        console.log(chalk.bold.green(msg));
     }
 }
 exports.Logger = Logger;
