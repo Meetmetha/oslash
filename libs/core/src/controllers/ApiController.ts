@@ -20,7 +20,6 @@ export class ApiController {
     }else{
       transformer = this.setTransformerContext(transformer, options);
     }
-
     return await transformer
       .parseIncludes(this.getIncludes(options?.req))
       .work(obj);

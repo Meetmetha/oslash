@@ -75,8 +75,8 @@ export class AuthService {
     if (!(await Hash.match(inputs.password, user.password))) {
       throw new InvalidCredentials();
     }
-    user.token = this.getToken(user);
-    return user;
+    const token = this.getToken(user);
+    return token;
   }
   /**
    * Get JWT Token for user
