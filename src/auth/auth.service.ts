@@ -41,8 +41,8 @@ export class AuthService {
     inputs.password = await Hash.make(inputs.password);
     inputs.email = inputs.email.toLowerCase();
     const user = await this.listener.createUser(inputs);
-    user.token = this.getToken(user);
-    return user;
+    const token = this.getToken(user);
+    return { user, token };
   }
 
   /**
