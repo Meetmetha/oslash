@@ -78,12 +78,13 @@ export abstract class Transformer {
     return processedIncludes;
   }
 
-  async work(data: any): Promise<Record<string, any> | Array<Record<string, any>>> {
-    // let result: {[index: string]:any} = {}
-    let result: Record<string, any> = {};
+  async work(data:any): Promise<Record<string, any> | Array<Record<string, any>>> {
+    let result: {[index: string]:any} = {};
+
     // transform data
     if (data instanceof Object) {
       const transformedata = await this.transform(data);
+      console.log(transformedata);
       if(transformedata == null){
         throw new BadRequestException()
       }
@@ -145,8 +146,7 @@ export abstract class Transformer {
     return includeMap;
   }
 
-  private async computeNestedInclude(
-    this: any,
+  private async computeNestedInclude(this:any,
     toInclude: string[],
     i: number,
     includeMap: Record<string, any>,
@@ -171,8 +171,7 @@ export abstract class Transformer {
     }
   }
 
-  private async fetchData(
-    this:any,
+  private async fetchData(this:any,
     name: string,
     data: Record<string, any>,
     include: string,
