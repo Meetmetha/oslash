@@ -1,8 +1,8 @@
 declare const _default: (() => {
     name: string;
     env: string;
-    debug: string | number;
+    debug: number;
     url: string;
-    port: string | number;
+    port: number;
 }) & import("@nestjs/config").ConfigFactoryKeyHost;
 export default _default;
