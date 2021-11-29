@@ -13,13 +13,19 @@ export class AuthController extends ApiController {
   @Post('/login')
   async login(@Req() req: any, @Res() res: any): Promise<any> {
     const userToken = await this.auth.consumerLogin(req.all());
-    return res.success(userToken);
+    return res.success({
+      authToken: userToken
+    });
   }
 
   @Post('/register')
   async register(@Req() req: any, @Res() res: any): Promise<any> {
     const user = await this.auth.consumerRegistration(req.all());
-    return res.success(`${user.id} User Created Successfully` );
+    console.log(user);
+    return res.success({
+      user: `${user.user.id} User Created Successfully`,
+      authToken: user.token
+    });
   }
 
   @Get('/logout')
