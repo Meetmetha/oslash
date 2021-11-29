@@ -1,1 +1,0 @@
-{"version":3,"file":"provider.js","sourceRoot":"","sources":["../../../src/shortcut/provider.ts"],"names":[],"mappings":";;;AAAA,gDAAqD;AACrD,uDAAqD;AACrD,iDAA6C;AAC7C,sDAEiC;AAEjC,MAAM,SAAS,GAAG;IAChB;QACE,OAAO,EAAE,0BAAW,CAAC,aAAa;QAClC,QAAQ,EAAE,6BAAkB;KAC7B;IACD,yBAAe;CAChB,CAAC;AAEF,MAAM,YAAY,GAAG;IACnB,OAAO,SAAS,CAAC;AACnB,CAAC,CAAC;AAEO,oCAAY"}
