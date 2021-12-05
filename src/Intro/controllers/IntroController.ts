@@ -9,19 +9,19 @@ export class IntroController extends ApiController {
   myintro(
   @Req() req: Request,
   @Res() res: Response):Promise<Response>{
-    return res.success("Hey! This is Mitesh Metha building Oslash backend! Details here: https://github.com/Meetmetha/oslashtask")
+    return res.success("Hey! This is Mitesh Metha building Oslash backend! Details here: https://github.com/Meetmetha/oslash")
   }    
 
   @Get('/login')
   loginget(
   @Req() req: Request,
   @Res() res: Response):Promise<Response>{
-    return res.success("Login is a POST Request follow guide here: https://github.com/Meetmetha/oslashtask")
+    return res.success("Login is a POST Request follow guide here: https://github.com/Meetmetha/oslash")
   } 
   @Get('/register')
   registerget(
   @Req() req: Request,
   @Res() res: Response):Promise<Response>{
-    return res.success("Register is a POST Request follow guide here: https://github.com/Meetmetha/oslashtask")
+    return res.success("Register is a POST Request follow guide here: https://github.com/Meetmetha/oslash")
   } 
 }

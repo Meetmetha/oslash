@@ -6,7 +6,10 @@ export class Listener {
   constructor(
     private users: UserService,
   ) {}
-
+  /**
+   * Search For one User
+   * @param inputs
+   */
   async usersSearchFirst(
     inputs: Record<string, any>,
     error = true,
@@ -14,6 +17,10 @@ export class Listener {
     return this.users.get(inputs, error);
   }
 
+  /**
+   * Create New User
+   * @param inputs
+   */
   async createUser(inputs: Record<string, any>): Promise<any> {
     return await this.users.createConsumer(inputs);
   }

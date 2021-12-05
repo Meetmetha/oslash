@@ -8,6 +8,11 @@ import { AuthService} from './auth.service';
 export class SessionChecker implements NestMiddleware {
   constructor(@Inject(container.TOKEN_REPOSITORY) private tokens: TokenRepository) {}
 
+  /**
+   * Middleware function checking JWT Session Blacklist
+   * @param  req
+   * @param res
+   */
   async use(req: Request, res: Response, next: NextFunction) {
     const header = req.headers.authorization;
     if(!header){
