@@ -1,7 +1,6 @@
 import { Controller, Req, Res, Post, UseGuards, Get } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { ApiController } from '@libs/core/controllers';
-import { DetailTransformer } from '../user/Transformers';
 import { MustBeAuthenticated} from './guards';
 
 @Controller('/auth')

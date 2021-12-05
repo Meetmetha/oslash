@@ -10,9 +10,6 @@ import {
   Req,
   Res,
   UseGuards,
-  Put,
-  Delete,
-  Post
 } from '@nestjs/common';
 
 @Controller('')
@@ -20,7 +17,9 @@ export class UserController extends ApiController {
   constructor(private users: UserService) {
     super();
   }
-
+  /**
+ * Not used in Oslash Task but it fetches user profile and transformer in latest Build is not fixed so you may get an Error
+ */
   @Get('/profile')
   @UseGuards(MustBeAuthenticated)
   async getProfile(

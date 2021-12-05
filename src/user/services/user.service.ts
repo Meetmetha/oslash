@@ -8,8 +8,6 @@ import { UserRepository } from '@app/user/repositories/contracts/User';
 import {
   CreateUser
 } from '../validator';
-import { Hash } from '@app/auth/utils';
-import { ValidationFailed } from '@libs/core/exceptions';
 import { ShortcutService } from '@app/shortcut/services/service'
 
 @Injectable()

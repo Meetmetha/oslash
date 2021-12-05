@@ -1,5 +1,4 @@
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
-import { MeiliSearchModule } from 'nestjs-meilisearch';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { IntroModule } from './Intro'
 import config from '@config/index';
@@ -37,7 +36,7 @@ import { SessionChecker } from '@app/auth/sessionChecker';
   providers: [],
 })
 export class AppModule implements NestModule {
-  configure(consumer: MiddlewareConsumer) {
+  configure(consumer: MiddlewareConsumer) { // Middleware Checking SessionJWT against bannedTokens
     consumer
       .apply(SessionChecker)
       .forRoutes('shortcut');

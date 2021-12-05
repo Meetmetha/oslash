@@ -21,6 +21,12 @@ export class ShortcutService {
     private Shortcuts: ShortcutRepository,
   ) {}
 
+  /**
+   * Fetch User Shortcuts
+   * @param user 
+   * @param inputs 
+   * @returns 
+   */
   async getUserShortcut(user: Record<string, any>, inputs: Record<string, any>): Promise<Record<string, any>> {
     if (inputs.search == '' || inputs.search == undefined) {
       const usershortcuts = await this.Shortcuts.getWhere({ user: user._id }, false);
@@ -37,6 +43,12 @@ export class ShortcutService {
     }
   }
 
+  /**
+   * Create User Shortcut
+   * @param user 
+   * @param inputs 
+   * @returns 
+   */
   async addShortcut(user:Record<string, any>,inputs: Record<string, any>): Promise<any> {
     await this.validator.fire(inputs, addShortcut);
     const shortcutData = await this.Shortcuts.create({
@@ -48,11 +60,16 @@ export class ShortcutService {
     });
     const newShortcutArray = [];
     newShortcutArray.push(shortcutData);
-    await Meili.addShortcut(newShortcutArray);
+    await Meili.addShortcut(newShortcutArray); //Adding it to Meilisearch Index DB
     return shortcutData;
 
   }
-
+/**
+ * Remove a User Shortcut
+ * @param user 
+ * @param inputs 
+ * @returns 
+ */
   async removeShortcut(user: Record<string,any>,inputs: Record<string, any>): Promise<any> {
     await this.validator.fire(inputs, removeShortcut);
     const userShortcut = await this.Shortcuts.firstWhere({ user: user._id, _id: inputs.shortcutid });
@@ -60,7 +77,7 @@ export class ShortcutService {
       throw new BadRequestException("No shortcut Exists with this ID");
     }
     const Shortcutremoval = await this.Shortcuts.deleteWhere({_id: inputs.shortcutid});
-    await Meili.deleteShortcut(inputs.shortcutid);
+    await Meili.deleteShortcut(inputs.shortcutid); // Deleting it from MeilisearchDB
     return Shortcutremoval
   }
 }
