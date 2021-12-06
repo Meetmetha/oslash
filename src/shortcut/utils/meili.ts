@@ -1,5 +1,5 @@
 require('dotenv').config();
-import { MeiliSearch } from 'meilisearch'
+import { Hits, MeiliSearch, SearchResponse } from 'meilisearch'
 const meiliclient = new MeiliSearch({
     host: process.env.MEILISEARCH_HOST as string,
     apiKey: process.env.MEILISEARCH_APIKEY,
@@ -12,10 +12,11 @@ export class Meili {
    * @param searchQuery 
    * @param userid 
    */
-  static async searchShortcut(searchQuery: string, userid: string): Promise<any> {
-    return meiliSearchIndex.search(searchQuery, {
+  static async searchShortcut<T>(searchQuery: string, userid: string): Promise<Hits<T>> {
+    const result = meiliSearchIndex.search<T>(searchQuery, {
       filter: `user = ${userid}`
     })
+    return (await result).hits;
   }
 
   /**

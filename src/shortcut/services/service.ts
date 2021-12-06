@@ -12,6 +12,18 @@ import { HttpAdapterHost } from '@nestjs/core';
 import { Meili } from '../utils'
 require('dotenv').config();
 
+interface Shortcut {
+  description: string,
+  tags: string[],
+  _id: string,
+  user: string,
+  shortlink: string,
+  url: string,
+  createdAt: string,
+  uodatedAt: string,
+  __V: number;
+}
+
 @Injectable()
 export class ShortcutService {
   constructor(
@@ -35,11 +47,8 @@ export class ShortcutService {
       }
       return usershortcuts;
     }else{
-      const search = await Meili.searchShortcut(inputs.search, user._id);
-      if(search == '' || search == undefined){
-        return []
-      }
-      return search.hits;
+      const search = await Meili.searchShortcut<Shortcut>(inputs.search, user._id);
+      return search;
     }
   }
 
