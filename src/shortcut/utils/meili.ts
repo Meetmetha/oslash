@@ -14,6 +14,7 @@ export class Meili {
    */
   static async searchShortcut<T>(searchQuery: string, userid: string): Promise<Hits<T>> {
     const result = meiliSearchIndex.search<T>(searchQuery, {
+
       filter: `user = ${userid}`
     })
     return (await result).hits;
