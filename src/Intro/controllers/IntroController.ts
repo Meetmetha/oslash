@@ -1,4 +1,4 @@
-import { ApiController, Request, Response } from '@libs/core';
+import { ApiController, Request, Response } from '../../../libs/core/src';
 import { Controller, Get, Req, Res, UseGuards, Post, Patch} from '@nestjs/common';
 //import { MustBeAuthenticated } from '../guards'
 

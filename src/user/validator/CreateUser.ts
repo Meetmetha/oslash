@@ -3,7 +3,6 @@ import {
   IsString,
   MinLength,
   MaxLength,
-  IsUnique
 } from '@libs/core/validator';
 
 export class CreateUser {
@@ -25,7 +24,6 @@ export class CreateUser {
   @IsEmail()
   @MinLength(0)
   @MaxLength(255)
-  @IsUnique({ collection: 'users', column: 'email', caseInsensitive: true })
   email!: string;
 
   @IsString()

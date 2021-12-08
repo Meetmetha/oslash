@@ -1,4 +1,4 @@
-import { container } from '@app/user/container';
+import { container } from '../../user/container';
 import {
   Injectable,
   Inject

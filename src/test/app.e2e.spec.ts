@@ -1,18 +1,24 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ShortcutController } from '@app/shortcut/controller/controller';
+import { INestApplication } from '@nestjs/common';
+import * as request from 'supertest';
+import { AppModule } from '../app';
 
-describe('AppController', () => {
-  let controller: ShortcutController;
+describe('AppController (e2e)', () => {
+  let app: INestApplication;
 
   beforeEach(async () => {
-    const module: TestingModule = await Test.createTestingModule({
-      controllers: [ShortcutController],
+    const moduleFixture: TestingModule = await Test.createTestingModule({
+      imports: [AppModule],
     }).compile();
 
-    controller = module.get<ShortcutController>(ShortcutController);
+    app = moduleFixture.createNestApplication();
+    await app.init();
   });
 
-  it('should be defined', () => {
-    expect(controller).toBeDefined();
+  it('/ (GET)', () => {
+    return request(app.getHttpServer())
+      .get('/')
+      .expect(200)
+      .expect('All Good!');
   });
 });

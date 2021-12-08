@@ -1,14 +1,11 @@
 import {
-    IsEmail,
     IsString,
     MinLength,
     MaxLength,
-    IsNumber,
-    IsUnique,
     IsUrl,
     IsArray,
     IsOptional
-  } from '@libs/core/validator';
+  } from '../../../libs/core/src/validator';
 
   export class addShortcut{
 

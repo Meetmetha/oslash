@@ -6,9 +6,7 @@ import {
 import { get } from 'lodash';
 import { addShortcut } from '../Validator/addShortcut';
 import { removeShortcut } from '../Validator/removeShortcut';
-import { BaseValidator } from '@libs/core/validator';
-import { ValidationFailed } from '@libs/core/exceptions'
-import { HttpAdapterHost } from '@nestjs/core';
+import { BaseValidator } from '../../../libs/core/src/validator';
 import { Meili } from '../utils'
 require('dotenv').config();
 

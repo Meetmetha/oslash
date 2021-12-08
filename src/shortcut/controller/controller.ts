@@ -3,8 +3,8 @@ import {
   ShortcutTransformer,
 } from '@app/shortcut/Transformer';
 import { Controller, Get, Res, Req, UseGuards, Post, Delete } from '@nestjs/common';
-import { ApiController } from '@libs/core';
-import { MustBeAuthenticated} from '@app/auth/guards';
+import { ApiController } from '../../../libs/core/src/controllers';
+import { MustBeAuthenticated} from '../../auth/guards';
 import { addShortcut, removeShortcut } from '../Validator';
 import { BaseValidator } from '@libs/core/validator';
 

@@ -1,13 +1,8 @@
 import {
-    IsEmail,
     IsString,
     MinLength,
     MaxLength,
-    IsNumber,
-    IsUnique,
-    Max,
-    Min
-  } from '@libs/core/validator';
+  } from '../../../libs/core/src/validator';
 
   export class removeShortcut{
 
