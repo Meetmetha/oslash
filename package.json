@@ -86,7 +86,7 @@
     "eslint-plugin-import": "^2.22.1",
     "prettier": "^2.2.1",
     "supertest": "^6.0.1",
-    "ts-jest": "^27.1.0",
+    "ts-jest": "^27.1.1",
     "ts-loader": "^8.0.11",
     "ts-node": "^9.1.0",
     "tsconfig-paths": "^3.9.0",
@@ -108,17 +108,12 @@
     "transform": {
       "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/dist/index.js"
     },
-    "moduleNameMapper": {
-      "@libs": "<rootDir>/libs/$1",
-      "@libs/(.*)": "<rootDir>/libs"
-    },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node",
     "verbose": true,
     "roots": [
       "<rootDir>/src/",
       "<rootDir>/libs/"
-  ]
-
+    ]
   }
 }
